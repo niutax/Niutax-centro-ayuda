@@ -1,0 +1,64 @@
+{
+  "slug": "informe-guias",
+  "titulo": "Informe de guías",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Consultar los movimientos respaldados por guías en el período.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Bodega",
+    "Administración"
+  ],
+  "proposito": "Reúne los movimientos documentados con guías, con su centro de costo y su valorización, para revisar qué se movió en el período.",
+  "requisitos": [
+    "Guías registradas en el período"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Guías** y elige el **mes** y **año**.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-guias-01.jpg",
+        "alt": "Informe de guías del período",
+        "descripcion": "Informes → Guías."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el detalle",
+      "cuerpo": "Cada línea muestra **Fecha**, **N° guía**, **Centro de costo**, **Código**, **Descripción**, **Unidad de medida**, **Cantidad**, **Precio unitario** y **Total**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Cruzar con inventario",
+      "cuerpo": "Contrasta las guías del período con el informe de inventario cuando busques el origen de una diferencia de stock.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si el informe sale vacío, revisa que el período seleccionado sea el correcto antes de concluir que no hubo movimientos."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye las guías de entrada?",
+      "respuesta": "El informe reúne los movimientos del período respaldados por guías; revisa la fecha y el centro de costo de cada línea."
+    }
+  ],
+  "relacionados": [
+    "guias-de-entrada",
+    "informe-inventario"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/guias",
+    "capturadoEl": "2026-08-16"
+  }
+}

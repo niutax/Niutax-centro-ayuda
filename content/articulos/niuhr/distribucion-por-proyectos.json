@@ -1,0 +1,64 @@
+{
+  "slug": "distribucion-por-proyectos",
+  "titulo": "Distribución por proyectos y centros de costo",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Cuánto costó en personas cada proyecto o centro de costo.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Contador"
+  ],
+  "proposito": "Reparte el costo laboral entre proyectos y centros de costo según las horas registradas. Es lo que conecta RRHH con el análisis de gestión.",
+  "requisitos": [
+    "Control de horas con proyectos asignados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Distribución proyectos** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-distribucion-proyectos-01.png",
+        "alt": "Informe de distribución de costos por centro de costo con filtros de empleado, proyecto y centro de costo",
+        "descripcion": "Informes → Distribución proyectos. Muestra las horas trabajadas y el costo distribuido del período."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Analizar el reparto",
+      "cuerpo": "El informe muestra cuánto del costo laboral corresponde a cada proyecto o centro de costo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Llevarlo a gestión",
+      "cuerpo": "Estas cifras alimentan el estado de resultados de gestión en el módulo contable.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "La calidad de este informe depende por completo de que las horas se registren: sin horas, no hay distribución."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Y si alguien no registra horas?",
+      "respuesta": "Su costo queda en el centro por defecto de su ficha."
+    }
+  ],
+  "relacionados": [
+    "control-de-horas",
+    "cargos-y-departamentos"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/distribucion-centros-costo",
+    "capturadoEl": "2026-08-16"
+  }
+}

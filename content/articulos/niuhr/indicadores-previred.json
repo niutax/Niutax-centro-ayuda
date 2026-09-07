@@ -1,0 +1,62 @@
+{
+  "slug": "indicadores-previred",
+  "titulo": "Indicadores Previred",
+  "categoria": "niuhr",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Los valores previsionales del año con los que se calculan las liquidaciones.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Contador"
+  ],
+  "proposito": "Concentra los parámetros previsionales mensuales: UF, UTM, UTA, rentas mínimas imponibles y topes. Son los valores con los que el sistema calcula cada liquidación, así que deben estar al día antes de procesar el mes.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir los indicadores",
+      "cuerpo": "Entra a **Administración → Indicadores Previred** y elige el año. La tabla muestra cada indicador con su valor mes a mes.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-indicadores-previred-01.png",
+        "alt": "Tabla de indicadores Previred por mes del año: UF, UTM, UTA, rentas mínimas y topes imponibles",
+        "descripcion": "Administración → Indicadores Previred. Los valores se cargan mes a mes; los meses futuros aparecen con guion."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar antes de liquidar",
+      "cuerpo": "Verifica que el mes que vas a procesar tenga sus valores cargados: si faltan, el cálculo saldrá con parámetros del mes anterior.",
+      "nota": "Los valores se actualizan mensualmente según lo que publica Previred.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Conocer los principales",
+      "cuerpo": "**Valor UF**, **Valor UTM**, **Valor UTA**, las **rentas mínimas imponibles** según tipo de trabajador y la **renta tope imponible** son los que más inciden en el cálculo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa los indicadores el primer día hábil del mes: liquidar con valores desactualizados obliga a recalcular todo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se actualizan solos?",
+      "respuesta": "Se mantienen actualizados con los valores publicados; igualmente conviene verificarlos antes de cerrar el mes."
+    }
+  ],
+  "relacionados": [
+    "procesar-liquidaciones",
+    "feriados-y-documentos"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/administracion/indicadores-previred",
+    "capturadoEl": "2026-08-16"
+  }
+}

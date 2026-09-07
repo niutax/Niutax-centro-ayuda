@@ -1,0 +1,120 @@
+{
+  "slug": "timbraje-electronico-folios",
+  "titulo": "Timbraje electrónico: cargar y controlar folios CAF",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Autorizar los tipos de documento, cargar el archivo CAF del SII y controlar cuántos folios te quedan disponibles.",
+  "tiempoLectura": "7 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "El timbraje electrónico es lo que te habilita para emitir. El SII entrega rangos de folios autorizados en un archivo **CAF** (Código de Autorización de Folios, un .XML), y Niupos los administra por tipo de documento: cuántos tienes autorizados, cuántos quedan disponibles y cuál es el próximo folio que se va a usar. Sin folios disponibles, la emisión se detiene.",
+  "requisitos": [
+    "Certificado digital vigente cargado en **Configuración → Certificados**",
+    "Empresa autorizada por el SII para emitir documentos electrónicos",
+    "Acceso al sitio del SII con la clave de la empresa para solicitar los folios"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro de folios",
+      "cuerpo": "Entra a **Configuración → Folios**. Arriba a la derecha verás el **Certificado en uso** y su fecha de **Vencimiento**: si ese certificado está vencido no podrás obtener ni usar folios. Los dos botones de acción son **Documentos autorizados** y **Agregar folio CAF**.",
+      "nota": "Cuando el SII presenta intermitencias, Niupos muestra un aviso en esta pantalla: en ese caso los folios no se pueden traer automáticamente y hay que cargar el archivo CAF a mano.",
+      "captura": {
+        "archivo": "timbraje-electronico-folios-01.jpg",
+        "alt": "Pantalla Folios con el certificado en uso, el aviso del SII y los botones de acción",
+        "descripcion": "Configuración → Folios. Arriba, el certificado en uso y su vencimiento."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer la tabla de folios",
+      "cuerpo": "Cada fila es un tipo de documento con su código del SII: 33 Factura Electrónica, 34 Factura no Afecta o Exenta, 39 Boleta, 41 Boleta Exenta, 46 Factura Compra, 52 Guía de despacho, 56 Nota de Débito, 61 Nota de Crédito, y 110/111/112 para exportación. Las columnas son: **Siguiente** (el folio que se usará en la próxima emisión), **Disponibles** (cuántos quedan por usar), **Autorizados** (cuántos autorizó el SII) y el rango **Desde–Hasta**.",
+      "nota": "Si **Disponibles** llega a 0 para un tipo de documento, no podrás emitir ese documento hasta cargar un nuevo CAF.",
+      "captura": {
+        "archivo": "timbraje-electronico-folios-02.jpg",
+        "alt": "Tabla de folios con las columnas Siguiente, Disponibles y Autorizados",
+        "descripcion": "Un vistazo a esta tabla dice qué documentos puedes emitir hoy."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Definir los documentos autorizados",
+      "cuerpo": "El botón **Documentos autorizados** abre la lista completa de tipos de documento, con un filtro de búsqueda. Ahí marcas los que tu empresa está autorizada a emitir ante el SII. Solo esos aparecerán después como opción al emitir.",
+      "nota": null,
+      "captura": {
+        "archivo": "timbraje-electronico-folios-03.jpg",
+        "alt": "Ventana Seleccionar documentos autorizados con los tipos marcados en verde",
+        "descripcion": "Los tipos ya autorizados aparecen destacados en verde."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Solicitar el CAF en el SII y cargarlo",
+      "cuerpo": "Presiona **Agregar folio CAF**. La ventana explica que se requiere el archivo .XML que entrega el SII e incluye el enlace **Solicitar el archivo desde la página del SII**, que te lleva directo al trámite. Una vez descargado el .XML desde el Servicio, selecciónalo en **Archivo CAF** y presiona **Agregar**.",
+      "nota": "Solicita el timbraje en el SII por tipo de documento y por una cantidad razonable de folios: los folios no usados no caducan, pero un rango demasiado grande complica el control.",
+      "captura": {
+        "archivo": "timbraje-electronico-folios-04.jpg",
+        "alt": "Ventana Agregar un nuevo folio al sistema con el campo Archivo CAF",
+        "descripcion": "El CAF es un .XML que entrega el SII y se adjunta aquí."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Traer folios desde el SII",
+      "cuerpo": "Cada fila de la tabla tiene botones de acción. **Obtener folios desde el SII** trae los folios autorizados directamente del Servicio, y **Actualizar folios disponibles desde el SII** vuelve a sincronizar el saldo de esa fila. Son la alternativa automática a cargar el .XML a mano.",
+      "nota": "Si el SII está con intermitencias, estas acciones pueden fallar: en ese caso usa **Agregar folio CAF** con el archivo descargado.",
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Elegir el siguiente folio a emitir",
+      "cuerpo": "El primer botón de la fila, **Selecciona el siguiente folio a emitir**, permite indicar con qué folio continúa la numeración de ese tipo de documento. Se usa cuando tienes varios rangos cargados o cuando necesitas retomar la correlación en un folio específico.",
+      "nota": "Cambiar el siguiente folio afecta la correlación de tus documentos ante el SII. Úsalo solo si sabes exactamente qué rango debe seguir.",
+      "captura": null
+    },
+    {
+      "n": 7,
+      "titulo": "Controlar el saldo antes de que se acabe",
+      "cuerpo": "Revisa esta pantalla al menos una vez al mes y antes de períodos de alta emisión. Los dos números que importan son **Disponibles** por tipo de documento y la fecha de vencimiento del certificado: ambos detienen la facturación cuando se agotan.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Quedarse sin folios es la causa más frecuente de \"no puedo facturar\": revisa la columna **Disponibles** antes del cierre de mes.",
+    "El vencimiento del certificado digital aparece en esta misma pantalla. Renuévalo con anticipación en **Configuración → Certificados**.",
+    "Cada tipo de documento tiene su propio timbraje: tener folios de factura no significa tener folios de nota de crédito."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué es exactamente un CAF?",
+      "respuesta": "Es el Código de Autorización de Folios: un archivo .XML que entrega el SII y que contiene el rango de folios que tu empresa quedó autorizada a emitir para un tipo de documento."
+    },
+    {
+      "pregunta": "¿Los folios se vencen?",
+      "respuesta": "Los rangos autorizados no se consumen por tiempo, pero sí dependen del certificado digital vigente. Si el certificado vence, la emisión se detiene aunque tengas folios disponibles."
+    },
+    {
+      "pregunta": "¿Por qué no puedo traer los folios automáticamente?",
+      "respuesta": "Cuando el SII presenta intermitencias, la obtención automática falla y aparece un aviso en la pantalla. La alternativa es descargar el .XML desde el sitio del SII y cargarlo con **Agregar folio CAF**."
+    },
+    {
+      "pregunta": "El botón \"Ver detalles de folios\" no muestra información.",
+      "respuesta": "Esa vista está en desarrollo. Por ahora el control se hace con las columnas de la tabla: Siguiente, Disponibles, Autorizados y el rango Desde–Hasta."
+    }
+  ],
+  "relacionados": [
+    "configurar-empresas",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/folios",
+    "capturadoEl": "2026-08-16"
+  }
+}

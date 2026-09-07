@@ -1,0 +1,78 @@
+{
+  "slug": "panel-empresas-f22",
+  "titulo": "Seguir la renta de la cartera con el panel F22",
+  "categoria": "niutax",
+  "seccion": "Declaraciones de renta",
+  "tipo": "procedimiento",
+  "resumen": "Un panel anual con el régimen tributario, el plazo y el estado del F22 de cada empresa.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 401,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador",
+    "Administrador"
+  ],
+  "proposito": "Controlar la operación renta completa: qué empresas ya declararon, cuáles están en plazo y bajo qué régimen tributa cada una.",
+  "requisitos": [
+    "RUT registrados y con credenciales SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el panel del año",
+      "cuerpo": "Entra a **Declaraciones de renta → Panel empresas F22** y elige el año en el desplegable.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-panel-empresas-f22-01.png",
+        "alt": "Panel de empresas F22 con régimen tributario, plazo y estado de cada declaración",
+        "descripcion": "Declaraciones de renta → Panel empresas F22."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el régimen de cada empresa",
+      "cuerpo": "La columna **Régimen tributario** muestra el régimen vigente: **14 A Régimen General**, **14 D3 - Con contabilidad**, **14 D8 - Transparente**, **No Afecto ART 14** o **Renta presunta**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Controlar plazo y monto",
+      "cuerpo": "**Fecha plazo** indica hasta cuándo se puede declarar y **Monto** el resultado de la declaración; un monto en rojo es devolución. **Prioridad** repite la clasificación de Mis ruts.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Interpretar los semáforos",
+      "cuerpo": "Las dos columnas de puntos resumen el avance del F22: verde cuando el paso está resuelto, rojo cuando falta. El contador sobre la cabecera muestra cuántas empresas van sobre el total.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Filtrar y actuar en bloque",
+      "cuerpo": "Igual que en el panel mensual, **Filtrar ruts** acota por grupo y **Acciones masivas** opera sobre varias empresas a la vez.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Los paneles de renta están separados por naturaleza del contribuyente: **Panel empresas F22**, **Panel de personas** y **Panel empresas DJ** para las declaraciones juradas."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué significa 14 D8 - Transparente?",
+      "respuesta": "Es el régimen de transparencia tributaria, en el que la empresa no paga impuesto de primera categoría y el resultado se atribuye directamente a los socios."
+    }
+  ],
+  "relacionados": [
+    "declaraciones-juradas",
+    "que-es-niutax"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

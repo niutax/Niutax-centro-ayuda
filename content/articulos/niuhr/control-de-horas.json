@@ -1,0 +1,72 @@
+{
+  "slug": "control-de-horas",
+  "titulo": "Control de horas por proyecto",
+  "categoria": "niuhr",
+  "seccion": "Ciclo del trabajador",
+  "tipo": "procedimiento",
+  "resumen": "Registrar el tiempo trabajado y asignarlo a proyectos y centros de costo.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de operaciones",
+    "Jefe de RRHH"
+  ],
+  "proposito": "Registra el tiempo trabajado por cada persona y lo asocia a un proyecto y a un centro de costo. Es lo que después permite saber cuánto costó en horas cada iniciativa.",
+  "requisitos": [
+    "Proyectos creados",
+    "Personal registrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el control",
+      "cuerpo": "Entra a **Recursos humanos → Control de horas**. Verás **Fecha**, **Empleado**, **Proyecto**, **Centro de costo**, **Hora inicio**, **Hora término**, **Duración**, **Tareas** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "control-de-horas-01.jpg",
+        "alt": "Control de horas con filtros por empleado, proyecto y fechas",
+        "descripcion": "Los filtros permiten aislar a una persona o un proyecto en un rango de fechas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Registrar horas",
+      "cuerpo": "**Agregar** permite ingresar un registro con su fecha, proyecto, horas y tareas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Filtrar y totalizar",
+      "cuerpo": "Filtra por **Empleado**, **Proyecto** y rango de fechas. El **Total de horas** se recalcula con el filtro aplicado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Analizar por proyecto",
+      "cuerpo": "El informe **Distribución proyectos** convierte estos registros en costo por iniciativa.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si nadie registra horas, el costo por proyecto no existe: define desde el inicio quién carga y con qué frecuencia."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Sirve para control de asistencia?",
+      "respuesta": "Registra tiempo trabajado con hora de inicio y término, asociado a proyectos."
+    }
+  ],
+  "relacionados": [
+    "cargos-y-departamentos",
+    "distribucion-por-proyectos"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/control-horas",
+    "capturadoEl": "2026-08-16"
+  }
+}

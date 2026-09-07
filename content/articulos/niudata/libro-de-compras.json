@@ -1,0 +1,86 @@
+{
+  "slug": "libro-de-compras",
+  "titulo": "Libro de compras",
+  "categoria": "niudata",
+  "seccion": "Libros auxiliares",
+  "tipo": "procedimiento",
+  "resumen": "Sincronizar las compras desde el SII, revisarlas por período y exportarlas.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "El libro de compras reúne los documentos de compra del período, con su resumen por tipo de documento y el detalle documento por documento. Es la base del crédito fiscal y del F29.",
+  "requisitos": [
+    "Empresa conectada al SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el libro y elegir el período",
+      "cuerpo": "Entra a **Libros Auxiliares → Libro de Compras** y elige mes y año con el selector.",
+      "nota": null,
+      "captura": {
+        "archivo": "libro-de-compras-01.jpg",
+        "alt": "Libro de compras con el resumen por tipo de documento y el detalle",
+        "descripcion": "El resumen por serie arriba y el detalle documento a documento abajo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar con el SII",
+      "cuerpo": "**Sincronizar SII** trae los documentos que el Servicio tiene registrados para el período. Hazlo antes de cerrar el mes.",
+      "nota": "Los proveedores suelen emitir sobre la fecha de vencimiento: conviene sincronizar más de una vez en el mes.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Leer el resumen por tipo",
+      "cuerpo": "La tabla superior agrupa por serie —33 Factura Electrónica, 34 Exenta, 61 Nota de Crédito— con **Cant**, **Exento**, **Neto**, **IVA** y **Bruto**, y una fila de **Totales**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar el detalle",
+      "cuerpo": "Abajo, cada documento con su **Comprobante**, **Folio**, **Fecha**, **RUT Proveedor**, **Razón Social** y montos. Los botones de cada fila permiten ver el documento, editarlo o eliminarlo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Agregar un documento manual",
+      "cuerpo": "**Documento manual** permite incorporar una compra que no llegó por el SII, por ejemplo una boleta o un documento extranjero.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar** descarga el libro del período para cuadrarlo o entregarlo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El total bruto de este libro debe cuadrar con el crédito fiscal que declaras en el F29."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Por qué un documento no aparece?",
+      "respuesta": "Puede que el proveedor lo haya emitido después de tu última sincronización, o que sea un documento que no se informa al SII: en ese caso, cárgalo con **Documento manual**."
+    }
+  ],
+  "relacionados": [
+    "libro-de-ventas",
+    "acuses-de-recibo",
+    "cuentas-por-pagar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-auxiliares/libro-de-compras",
+    "capturadoEl": "2026-08-16"
+  }
+}

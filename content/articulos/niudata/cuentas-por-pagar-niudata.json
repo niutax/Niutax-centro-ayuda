@@ -1,0 +1,72 @@
+{
+  "slug": "cuentas-por-pagar-niudata",
+  "titulo": "Cuentas por pagar",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Controlar lo que debes, su vencimiento y preparar los pagos.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Administración"
+  ],
+  "proposito": "El espejo de cuentas por cobrar: cuánto debe la empresa, a quién y con qué antigüedad. Desde aquí se preparan las nóminas de pago.",
+  "requisitos": [
+    "Documentos de compra contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Tesorería → Cuentas por Pagar**. Arriba, **Saldo total a pagar**, **Por vencer** y **Vencido**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cuentas-por-pagar-niudata-01.jpg",
+        "alt": "Cuentas por pagar con distribución por antigüedad y filtros por proveedor",
+        "descripcion": "Mismos tramos de antigüedad que cuentas por cobrar, del lado de proveedores."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar la antigüedad",
+      "cuerpo": "Los tramos muestran qué tan atrasada está la deuda. **Principales acreedores** resume a quién se le debe más.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Filtrar",
+      "cuerpo": "Acota por **Proveedor**, **Cuenta contable**, **Tipo doc.**, **Antigüedad** y fechas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Pagar como nómina",
+      "cuerpo": "Selecciona los documentos a pagar y usa la acción **Pagar como nómina** para generar la nómina de transferencias.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Contrasta el vencido con el saldo bancario disponible antes de comprometer pagos."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Dónde veo las nóminas generadas?",
+      "respuesta": "En **Tesorería → Nómina de Pago**."
+    }
+  ],
+  "relacionados": [
+    "nomina-de-pago",
+    "flujo-de-caja",
+    "cuentas-por-cobrar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/cuentas-por-pagar",
+    "capturadoEl": "2026-08-16"
+  }
+}

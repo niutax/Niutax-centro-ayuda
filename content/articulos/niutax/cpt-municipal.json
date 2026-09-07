@@ -1,0 +1,58 @@
+{
+  "slug": "cpt-municipal",
+  "titulo": "Capital propio tributario y distribución de trabajadores",
+  "categoria": "niutax",
+  "seccion": "Impuestos municipales",
+  "tipo": "procedimiento",
+  "resumen": "Los dos datos con que la municipalidad calcula la patente: el CPT y cómo se reparte el personal entre comunas.",
+  "tiempoLectura": "4 min",
+  "estado": "borrador",
+  "orden": 502,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "La patente municipal se calcula sobre el capital propio tributario, repartido entre las comunas donde la empresa tiene trabajadores.",
+  "requisitos": [
+    "Patentes registradas en **Patente comercial**"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "CPT",
+      "cuerpo": "**Impuestos municipales → CPT** determina el capital propio tributario que sirve de base al cálculo.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-cpt-01.png",
+        "alt": "Pantalla de capital propio tributario con selector de RUT para generar y descargar el certificado",
+        "descripcion": "Impuestos municipales → CPT. Genera y descarga el certificado de capital propio tributario de la empresa elegida."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Distribución de trabajadores",
+      "cuerpo": "**Impuestos municipales → Distribución trabajadores** reparte el personal entre los distintos roles de patente; ese porcentaje define cuánto capital se asigna a cada municipalidad.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Certificado de rebaja",
+      "cuerpo": "**Impuestos municipales → Certificado rebaja inversión** emite el certificado que permite descontar del CPT las inversiones en otras sociedades, para no pagar patente dos veces por el mismo capital.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "La rebaja por inversiones es la que más se olvida: sin ella la empresa matriz paga patente sobre capital que ya tributó en sus filiales."
+  ],
+  "faq": [],
+  "relacionados": [
+    "patente-comercial",
+    "bienes-de-los-contribuyentes"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

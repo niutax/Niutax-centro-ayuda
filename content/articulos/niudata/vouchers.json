@@ -1,0 +1,71 @@
+{
+  "slug": "vouchers",
+  "titulo": "Vouchers contables",
+  "categoria": "niudata",
+  "seccion": "Ingreso contable",
+  "tipo": "procedimiento",
+  "resumen": "Consultar e ingresar comprobantes contables del período.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "El voucher es el comprobante contable: el asiento que registra una operación. Esta pantalla lista los del período y permite ingresar nuevos.",
+  "requisitos": [
+    "Plan de cuentas configurado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Ingreso Contable → Vouchers** y elige mes y año.",
+      "nota": null,
+      "captura": {
+        "archivo": "vouchers-01.jpg",
+        "alt": "Listado de vouchers del período",
+        "descripcion": "Columnas: comprobante, norma, origen, tipo, folio, fecha, glosa y valor."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "Cada voucher muestra **Comprobante**, **Norma**, **Origen** (de dónde nació el asiento), **Tipo**, **Folio**, **Fecha**, **Glosa** y **Valor**.",
+      "nota": "El **Origen** distingue los asientos automáticos de los ingresados a mano: es la primera pista al investigar un movimiento.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Ingresar un voucher",
+      "cuerpo": "**Ingresar Voucher** abre el formulario para registrar un asiento manual con sus cuentas, montos y glosa.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Buscar",
+      "cuerpo": "El buscador permite ubicar un comprobante por glosa, folio o monto dentro del período.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Escribe glosas que expliquen la operación, no que repitan la cuenta: es lo único que se entiende meses después."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo editar un voucher ya emitido?",
+      "respuesta": "Los movimientos se corrigen desde **Ingreso Contable → Editar movimientos**, según el estado del período."
+    }
+  ],
+  "relacionados": [
+    "editar-movimientos",
+    "libro-diario",
+    "apertura-contable"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/ingreso-contable/vouchers",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "mcp-consultar-contabilidad-con-ia",
+  "titulo": "Consultar la contabilidad con IA (servidor MCP)",
+  "categoria": "niudata",
+  "seccion": "Integraciones",
+  "tipo": "procedimiento",
+  "resumen": "Conectar Claude u otro asistente al servidor MCP de Niutax para preguntar por balances, flujo de caja y deudores.",
+  "tiempoLectura": "5 min",
+  "estado": "borrador",
+  "orden": 11,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Contador"
+  ],
+  "proposito": "El servidor MCP de Niutax expone los datos contables de la empresa a asistentes de IA compatibles. Sirve para preguntar en lenguaje natural por balances, estados de resultados, flujo de caja, cuentas por cobrar y por pagar.",
+  "requisitos": [
+    "Cuenta Niutax con acceso al módulo contable",
+    "Cliente compatible con MCP (Claude Code, claude.ai, Cursor)"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir el tipo de conexión",
+      "cuerpo": "Con autorización OAuth accedes a las empresas habilitadas de tu usuario; con token de empresa, solo a esa empresa.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-uso-mcp-01.png",
+        "alt": "Uso MCP: invocaciones en 30 días, servidores público y empresa, tasa de éxito, latencia y uso por herramienta",
+        "descripcion": "Plataforma → Uso MCP. Muestra cuánto se usa el canal de IA y qué herramientas se invocan."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar el servidor en tu cliente",
+      "cuerpo": "En Claude Code: `claude mcp add --transport http niutax-empresa https://fin.niu.tax/mcp/empresa`. En claude.ai: Ajustes → Conectores → Agregar conector personalizado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Autorizar el acceso",
+      "cuerpo": "Inicia sesión con tu cuenta Niutax y autoriza las empresas que quieres exponer.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Preguntar",
+      "cuerpo": "Consulta por balances, EERR, flujo de caja histórico, cuentas por cobrar/pagar, libros de ventas y compras.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Entender los límites de escritura",
+      "cuerpo": "La IA puede dejar comprobantes en borrador y dar de alta auxiliares, pero nada se contabiliza sin aprobación humana en el panel.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si tienes varias empresas, pide primero el listado de empresas para que el asistente sepa sobre cuál consultar."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La IA puede modificar mi contabilidad?",
+      "respuesta": "No sin aprobación. Los comprobantes que genera quedan pendientes de aprobación humana."
+    }
+  ],
+  "relacionados": [
+    "que-es-niudata"
+  ],
+  "fuente": null
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "notas-de-credito-y-debito",
+  "titulo": "Emitir notas de crédito y de débito",
+  "categoria": "niupos",
+  "seccion": "Emisión de documentos",
+  "tipo": "procedimiento",
+  "resumen": "Anular, corregir o aumentar un documento ya emitido, referenciando el original.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 8,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "Un documento enviado al SII no se puede anular ni editar: se corrige emitiendo otro que lo referencia. La **Nota de Crédito Electrónica** anula o rebaja; la **Nota de Débito Electrónica** aumenta. Ambas se emiten desde la misma ventana que una factura.",
+  "requisitos": [
+    "Documento original emitido y aceptado por el SII",
+    "Folios disponibles para nota de crédito o de débito, en **Configuración → Folios**"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la emisión",
+      "cuerpo": "Entra a **Doc. electrónicos → Emisión de documento** y presiona **Emitir documento**.",
+      "nota": null,
+      "captura": {
+        "archivo": "notas-de-credito-y-debito-01.jpg",
+        "alt": "Pantalla Emisión de documentos",
+        "descripcion": "Las notas se emiten desde la misma pantalla que las facturas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el tipo de nota",
+      "cuerpo": "En **Tipo de documento** selecciona **Nota de Crédito Electrónica** para anular o rebajar, o **Nota de Débito Electrónica** para aumentar el monto del documento original.",
+      "nota": null,
+      "captura": {
+        "archivo": "notas-de-credito-y-debito-02.jpg",
+        "alt": "Ventana Emitir un nuevo documento con el selector Tipo de documento",
+        "descripcion": "En **Tipo de documento** eliges Nota de Crédito o Nota de Débito Electrónica."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Indicar el receptor",
+      "cuerpo": "Selecciona el mismo receptor del documento original desde **Auxiliares registrados**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Referenciar el documento original",
+      "cuerpo": "En la sección **DETALLES**, usa **Agregar referencia** para apuntar al documento que estás corrigiendo. Sin esa referencia la nota no queda correctamente asociada.",
+      "nota": "La referencia es lo que le dice al SII qué documento se está modificando: es el paso que más se olvida.",
+      "captura": {
+        "archivo": "notas-de-credito-y-debito-04.jpg",
+        "alt": "Botón Agregar referencia en la sección Detalles",
+        "descripcion": "**Agregar referencia** es lo que vincula la nota con el documento que corrige."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Cargar el detalle y emitir",
+      "cuerpo": "Ingresa los productos y montos que se anulan o ajustan, revisa los totales y presiona **Emitir documento**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Verificar el efecto",
+      "cuerpo": "Confirma en el listado que la nota quedó aceptada por el SII y revisa que la venta del período refleje el ajuste.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Emite la nota en el mismo período tributario cuando sea posible: evita ajustes en el F29 del mes siguiente.",
+    "Las notas de crédito tienen su propio timbraje: tener folios de factura no significa tener folios de nota de crédito."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo anular una boleta del punto de venta?",
+      "respuesta": "Sí, con una nota de crédito que referencie la boleta."
+    },
+    {
+      "pregunta": "¿Y si el documento fue rechazado por el SII?",
+      "respuesta": "Un documento rechazado no tiene validez tributaria: no se anula con nota de crédito, se corrige y se emite de nuevo. Revisa el motivo en **Administración → Rechazos SII**."
+    }
+  ],
+  "relacionados": [
+    "emitir-factura-electronica",
+    "timbraje-electronico-folios",
+    "rechazos-sii"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/emision-de-documento",
+    "capturadoEl": "2026-08-16"
+  }
+}

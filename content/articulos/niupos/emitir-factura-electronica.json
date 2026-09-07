@@ -1,0 +1,137 @@
+{
+  "slug": "emitir-factura-electronica",
+  "titulo": "Emitir una factura electrónica",
+  "categoria": "niupos",
+  "seccion": "Emisión de documentos",
+  "tipo": "procedimiento",
+  "resumen": "Paso a paso de la emisión en Niupos, desde el listado de documentos hasta el envío al SII.",
+  "tiempoLectura": "6 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Vendedor",
+    "Administración"
+  ],
+  "proposito": "Es la operación más frecuente de Niupos: generar un documento tributario electrónico —factura afecta, exenta, guía de despacho, nota de crédito— y enviarlo al SII. Todo ocurre en una sola ventana: cabecera, emisor, receptor, detalle y totales.",
+  "requisitos": [
+    "Certificado digital vigente cargado en **Configuración → Certificados**",
+    "Folios CAF disponibles para el tipo de documento, en **Configuración → Folios**",
+    "Al menos una ubicación (bodega) creada en **Configuración → Ubicaciones**",
+    "El catálogo cargado en **Configuración → Productos y servicios**: sin productos no es posible completar el detalle del documento",
+    "El receptor registrado como auxiliar, o sus datos tributarios a mano"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla de emisión",
+      "cuerpo": "En el menú lateral entra a **Doc. electrónicos → Emisión de documento**. La pantalla muestra el listado de documentos emitidos del período y, arriba, los totales del mes: documentos, total neto, total exento, total IVA y total general. Verifica que el mes que aparece sea el que vas a facturar y que esté como **Mes abierto**.",
+      "nota": "El selector de mes y año está sobre la tabla. Si el mes aparece cerrado, no podrás emitir en ese período.",
+      "captura": {
+        "archivo": "emitir-factura-electronica-01.jpg",
+        "alt": "Pantalla Emisión de documentos con los totales del mes y el botón Emitir documento",
+        "descripcion": "Doc. electrónicos → Emisión de documento. El botón **Emitir documento** está arriba a la derecha."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Definir la cabecera del documento",
+      "cuerpo": "Haz clic en **Emitir documento**. Se abre la ventana *Emitir un nuevo documento*. Empieza por el **Tipo de documento**: Factura Electrónica, Factura no Afecta o Exenta Electrónica, Factura Compra Electrónica, Guía de despacho Electrónica, Nota de Crédito Electrónica o Factura de exportación Electrónica. Luego define la **Ubicación** (bodega desde la que se emite), la **Fecha de emisión** y la **Fecha de vencimiento**, el **Vendedor**, la **Forma de pago** (Contado, Crédito o Entrega Gratuita) y si hay **Transporte**.",
+      "nota": "Arriba a la derecha se muestran los valores del día de UF, USD y EUR, con el botón **Modificar divisas** para ajustarlos antes de emitir en moneda extranjera.",
+      "captura": {
+        "archivo": "emitir-factura-electronica-02.jpg",
+        "alt": "Ventana Emitir un nuevo documento con la cabecera y la información del emisor",
+        "descripcion": "La cabecera define el tipo de documento y las condiciones; más abajo viene la información del emisor."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar la información del emisor",
+      "cuerpo": "La sección **INFORMACIÓN DEL EMISOR** viene precargada con los datos de tu empresa: razón social (no editable), dirección, email, giro y teléfono. El campo que sí debes revisar en cada documento es **Tipo de venta**: *Del Giro*, *Ventas que no son del Giro (Activo Fijo y Otros)* o *Venta de Bienes inmuebles*. Ese dato define cómo se declara la venta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Buscar el receptor",
+      "cuerpo": "En **INFORMACIÓN DEL RECEPTOR**, haz clic en la lupa junto al campo **Rut** para abrir *Auxiliares registrados*. Escribe el RUT o el nombre en el filtro y selecciona el auxiliar de la lista. Si el receptor todavía no existe, usa el botón de agregar contacto que está al costado del campo Email para crearlo.",
+      "nota": null,
+      "captura": {
+        "archivo": "emitir-factura-electronica-04.jpg",
+        "alt": "Ventana Auxiliares registrados con el listado y su filtro",
+        "descripcion": "El filtro acota la lista por RUT o razón social."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Completar los datos del receptor",
+      "cuerpo": "Al seleccionar el auxiliar, el sistema completa RUT, razón social, dirección y giro. Revisa el **Tipo de compra** —*Del giro*, *Supermercados*, *Activo Fijo*, *IVA Uso Común*, *IVA no Recuperable*, *No Corresponde incluir* o *Venta de Bienes inmuebles*— porque determina el tratamiento del IVA para el receptor. Agrega el **Email** si quieres que el documento le llegue al emitir.",
+      "nota": "El botón circular junto al RUT limpia el receptor seleccionado si necesitas cambiarlo.",
+      "captura": {
+        "archivo": "emitir-factura-electronica-05.jpg",
+        "alt": "Datos del receptor completados tras elegir el auxiliar",
+        "descripcion": "Al elegir el auxiliar se completan RUT, razón social, dirección y giro."
+      }
+    },
+    {
+      "n": 6,
+      "titulo": "Agregar el detalle del documento",
+      "cuerpo": "En **DETALLES**, elige el **Producto o servicio** del desplegable e ingresa **Cantidad**, **Precio** y **Descuento** si corresponde; la **Unidad** y el **Subtotal** se completan solos. Usa **Agregar nuevo detalle** para sumar más líneas y **Agregar referencia** cuando el documento deba apuntar a otro (por ejemplo, una nota de crédito que referencia la factura que corrige).",
+      "nota": "El desplegable solo muestra productos ya creados en **Configuración → Productos y servicios**. Si aparece vacío, hay que cargar el catálogo antes de emitir.",
+      "captura": {
+        "archivo": "emitir-factura-electronica-06.jpg",
+        "alt": "Sección Detalles con la fila de producto y los botones Agregar referencia y Agregar nuevo detalle",
+        "descripcion": "En **DETALLES** se cargan los productos; **Agregar referencia** apunta a otro documento."
+      }
+    },
+    {
+      "n": 7,
+      "titulo": "Revisar totales y emitir",
+      "cuerpo": "Abajo se calculan **Descuento global**, **Monto exento**, **Monto neto**, **IVA** y **Total**. Cuando todo esté correcto, presiona **Emitir documento**: el sistema firma el documento y lo envía al SII. Si aún no quieres emitirlo, **Guardar borrador** deja el documento preparado para retomarlo después.",
+      "nota": "Emitir es irreversible: un documento enviado al SII solo se deja sin efecto con una nota de crédito.",
+      "captura": {
+        "archivo": "emitir-factura-electronica-07.jpg",
+        "alt": "Totales del documento y botones Emitir documento y Guardar borrador",
+        "descripcion": "Descuento global, monto exento, neto, IVA y total, con los botones de emisión."
+      }
+    },
+    {
+      "n": 8,
+      "titulo": "Verificar el estado del documento",
+      "cuerpo": "Vuelves al listado de **Emisión de documento**, donde el documento aparece con su folio, fecha, tipo, receptor, total y **estado**. Ahí confirmas que el SII lo aceptó. Los documentos rechazados se revisan en **Administración → Rechazos SII**, que muestra el motivo del rechazo.",
+      "nota": null,
+      "captura": {
+        "archivo": "emitir-factura-electronica-01.jpg",
+        "alt": "Listado de documentos emitidos con folio, receptor, total y estado",
+        "descripcion": "El documento emitido aparece en el listado con su estado ante el SII."
+      }
+    }
+  ],
+  "tips": [
+    "El tipo de documento se elige en la misma ventana: notas de crédito, guías de despacho y facturas de exportación se emiten con este mismo formulario.",
+    "Si el documento queda rechazado por el SII, el motivo casi siempre está en los datos del receptor o en los folios: revisa **Administración → Rechazos SII** antes de reintentar.",
+    "Antes de un mes de alta emisión, revisa el saldo de folios en **Configuración → Folios**."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo anular una factura ya emitida?",
+      "respuesta": "No se anula: se emite una Nota de Crédito Electrónica que la deja sin efecto, referenciando el documento original con **Agregar referencia**."
+    },
+    {
+      "pregunta": "¿Qué hago si el desplegable de productos aparece vacío?",
+      "respuesta": "Significa que la empresa no tiene catálogo cargado. Ve a **Configuración → Productos y servicios** y crea los productos o servicios que vas a facturar."
+    },
+    {
+      "pregunta": "¿La factura llega sola a la contabilidad?",
+      "respuesta": "Sí, las ventas emitidas alimentan el libro de ventas y la contabilización en Niudata."
+    }
+  ],
+  "relacionados": [
+    "timbraje-electronico-folios",
+    "notas-de-credito-y-debito"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/emision-de-documento",
+    "capturadoEl": "2026-08-16"
+  }
+}

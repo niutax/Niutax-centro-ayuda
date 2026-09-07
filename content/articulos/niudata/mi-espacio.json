@@ -1,0 +1,69 @@
+{
+  "slug": "mi-espacio",
+  "titulo": "Mi espacio: tareas, documentos y firmas",
+  "categoria": "niudata",
+  "seccion": "Mi espacio",
+  "tipo": "procedimiento",
+  "resumen": "El espacio personal de trabajo: tareas del cierre, documentos y firmas pendientes.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Estudio contable"
+  ],
+  "proposito": "Reúne lo que cada persona tiene pendiente: las tareas asignadas, los documentos del período, las solicitudes de documentos a clientes y las firmas por resolver.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Revisar tus tareas",
+      "cuerpo": "**Mi Espacio → Tareas** lista lo asignado, con su estado y vencimiento. Las plantillas de tareas generan estos checklists de cierre.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-tareas-01.png",
+        "alt": "Tareas de Mi Espacio en vista lista con título, prioridad, estado, vencimiento y asignación",
+        "descripcion": "Mi Espacio → Tareas. Se puede ver en lista, kanban o calendario, y aplicar plantillas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Consultar documentos",
+      "cuerpo": "**Documentos** guarda los archivos del período asociados a la empresa.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Solicitar documentos al cliente",
+      "cuerpo": "**Solicitudes de documentos** envía y hace seguimiento a lo que falta que el cliente entregue.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Resolver firmas",
+      "cuerpo": "**Firmas** concentra los documentos que esperan firma electrónica.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Usa las solicitudes de documentos en vez del correo: quedan con estado y no se pierden en la bandeja."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Las tareas son por empresa?",
+      "respuesta": "Se asignan en el contexto de la empresa en la que estás trabajando."
+    }
+  ],
+  "relacionados": [
+    "automatizaciones",
+    "panel-de-control-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/mi-espacio/tareas",
+    "capturadoEl": "2026-08-16"
+  }
+}

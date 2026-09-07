@@ -1,0 +1,65 @@
+{
+  "slug": "informe-movimientos-pmp",
+  "titulo": "Informe de movimientos PMP",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Seguir cómo cambia el precio medio ponderado de cada producto con cada movimiento.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 6,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "El PMP (precio medio ponderado) es el costo con el que se valoriza el inventario. Este informe muestra, movimiento a movimiento, cómo se recalcula ese costo y cómo queda el stock.",
+  "requisitos": [
+    "Movimientos de inventario con costo"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Movimientos PMP**. Filtra por **Producto**, por rango **Desde**–**Hasta** y por **Tipo** de movimiento, y presiona **Filtrar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-movimientos-pmp-01.jpg",
+        "alt": "Informe de movimientos con cálculo de promedio ponderado",
+        "descripcion": "Informes → Movimientos PMP: cómo evoluciona el costo del inventario."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el recálculo",
+      "cuerpo": "Cada línea muestra **Fecha**, **Tipo**, **Producto**, **Documento**, **Cantidad**, **Costo unitario**, **PMP anterior**, **PMP nuevo**, **Stock anterior** y **Stock nuevo**.",
+      "nota": "Comparar *PMP anterior* con *PMP nuevo* explica por qué subió o bajó el costo de un producto tras una compra.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usarlo para valorizar",
+      "cuerpo": "El PMP vigente es el que valoriza las existencias en el cierre contable y el que determina el costo de venta en el informe de ventas detalladas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Una compra a precio muy distinto del habitual mueve el PMP de todo el stock: este informe muestra exactamente cuánto."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Por qué mi margen cambió sin cambiar el precio de venta?",
+      "respuesta": "Porque cambió el costo: una compra más cara sube el PMP y con ello el costo de venta."
+    }
+  ],
+  "relacionados": [
+    "informe-inventario",
+    "informe-ventas-detalladas",
+    "catalogo-productos-y-servicios"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/movimientos-pmp",
+    "capturadoEl": "2026-08-16"
+  }
+}

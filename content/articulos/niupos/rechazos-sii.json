@@ -1,0 +1,71 @@
+{
+  "slug": "rechazos-sii",
+  "titulo": "Resolver rechazos y reparos del SII",
+  "categoria": "niupos",
+  "seccion": "Documentos recibidos y SII",
+  "tipo": "procedimiento",
+  "resumen": "Ver qué documentos rechazó el Servicio, por qué, y cuántos reintentos lleva cada uno.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "Cuando el SII rechaza un documento, este panel muestra cuál fue, de qué empresa, en qué estado quedó y cuántas veces se reintentó el envío. Es el primer lugar donde mirar cuando una factura “no llegó”.",
+  "requisitos": [
+    "Documentos emitidos"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el panel",
+      "cuerpo": "Entra a **Administración → Rechazos SII**. La tabla muestra **RUT empresa**, **Empresa**, **Folio**, **Tipo documento**, **Estado revisión SII**, **Estado DTE**, **Reintentos** y **Fecha recepción**.",
+      "nota": null,
+      "captura": {
+        "archivo": "rechazos-sii-01.jpg",
+        "alt": "Panel de rechazos y reparos informados por el SII",
+        "descripcion": "Administración → Rechazos SII, con el detalle por documento."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Entender el estado",
+      "cuerpo": "La etiqueta **DTE RECHAZADO** junto al estado de revisión indica que el Servicio no aceptó el documento. La columna **Reintentos** muestra cuántas veces se intentó reenviar.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Ver el detalle del rechazo",
+      "cuerpo": "El botón de la lupa en cada fila abre el detalle con el motivo informado por el SII. Ahí está la causa concreta a corregir.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Corregir y reemitir",
+      "cuerpo": "Las causas más frecuentes son datos del receptor mal ingresados y problemas de folios. Corrige el origen y vuelve a emitir el documento.",
+      "nota": "Si el documento rechazado ya fue enviado al cliente, avísale: el folio rechazado no tiene validez tributaria.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Un documento con varios reintentos y el mismo error no se arregla reintentando: revisa el motivo en el detalle."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Un documento rechazado consume folio?",
+      "respuesta": "El folio queda usado en el correlativo; el documento válido debe emitirse con uno nuevo."
+    }
+  ],
+  "relacionados": [
+    "emitir-factura-electronica",
+    "timbraje-electronico-folios"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/administracion/rechazos-sii",
+    "capturadoEl": "2026-08-16"
+  }
+}

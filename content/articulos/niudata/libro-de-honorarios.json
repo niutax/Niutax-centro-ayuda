@@ -1,0 +1,70 @@
+{
+  "slug": "libro-de-honorarios",
+  "titulo": "Libro de honorarios",
+  "categoria": "niudata",
+  "seccion": "Libros auxiliares",
+  "tipo": "procedimiento",
+  "resumen": "Controlar las boletas de honorarios recibidas y su retención.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Registra las boletas de honorarios recibidas, con el monto bruto, la retención y lo efectivamente pagado. Es lo que respalda la retención que la empresa debe enterar al SII.",
+  "requisitos": [
+    "Empresa conectada al SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el libro",
+      "cuerpo": "Entra a **Libros Auxiliares → Libro de Honorarios** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "libro-de-honorarios-01.jpg",
+        "alt": "Libro de honorarios con las columnas de bruto, retenido y pagado",
+        "descripcion": "Columnas propias del libro: tipo de boleta, estado, bruto, retenido y pagado."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar",
+      "cuerpo": "**Sincronizar SII** trae las boletas de honorarios emitidas a nombre de la empresa.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar retención y estado",
+      "cuerpo": "Cada línea muestra **Tipo Boleta**, **Estado**, **Bruto**, **Retenido** y **Pagado**. La retención es la que se declara y entera al Servicio.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Agregar boletas manuales",
+      "cuerpo": "Si una boleta no llegó por el SII, usa **Documento manual**.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El total retenido del período debe coincidir con lo que declaras como retenciones en el F29."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa con las boletas de terceros anuladas?",
+      "respuesta": "El estado de cada boleta indica su situación; revisa antes de declarar la retención."
+    }
+  ],
+  "relacionados": [
+    "retenciones-niudata",
+    "libro-de-compras"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-auxiliares/libro-de-honorarios",
+    "capturadoEl": "2026-08-16"
+  }
+}

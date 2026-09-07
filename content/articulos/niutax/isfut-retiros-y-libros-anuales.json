@@ -1,0 +1,61 @@
+{
+  "slug": "isfut-retiros-y-libros-anuales",
+  "titulo": "ISFUT, retiros y dividendos, arriendos y donaciones",
+  "categoria": "niutax",
+  "seccion": "Declaraciones de renta",
+  "tipo": "procedimiento",
+  "resumen": "Registros anuales complementarios al F22.",
+  "tiempoLectura": "3 min",
+  "estado": "borrador",
+  "orden": 405,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Llevar los registros anuales que el F22 y las declaraciones juradas necesitan como respaldo.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "ISFUT",
+      "cuerpo": "**Declaraciones de renta → ISFUT** administra el impuesto sustitutivo al FUT de las empresas acogidas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Retiros y dividendos",
+      "cuerpo": "**Retiros y dividendos** registra lo distribuido a los socios durante el ejercicio: es el insumo directo de la declaración jurada 1948.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-retiros-dividendos-01.png",
+        "alt": "Pantalla de retiros y dividendos con selector de RUT",
+        "descripcion": "Declaraciones de renta → Retiros y dividendos. Se elige el RUT para ver y registrar lo distribuido a los socios."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Libro de arriendos",
+      "cuerpo": "**Libro de arriendos** lleva las rentas de arrendamiento del contribuyente.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Libro de donaciones",
+      "cuerpo": "**Libro de donaciones** registra las donaciones con beneficio tributario.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "declaraciones-juradas",
+    "malla-societaria"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

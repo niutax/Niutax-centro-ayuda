@@ -1,0 +1,71 @@
+{
+  "slug": "estado-de-resultados-financiero",
+  "titulo": "Estado de resultados",
+  "categoria": "niudata",
+  "seccion": "Estados financieros",
+  "tipo": "procedimiento",
+  "resumen": "El resultado del período por función, con comparativo opcional.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "Muestra ingresos, costos y gastos del período y el resultado final. Puede emitirse por función y comparando con otro período.",
+  "requisitos": [
+    "Movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir el período",
+      "cuerpo": "Entra a **Estados Financieros → Estado de Resultados**. Puedes emitirlo **Anual**, **Mensual** o **Entre Fechas**.",
+      "nota": null,
+      "captura": {
+        "archivo": "estado-de-resultados-financiero-01.jpg",
+        "alt": "Estado de resultados con selector de período, agrupación y comparativo",
+        "descripcion": "**Por Función** define la agrupación; el interruptor activa el comparativo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Definir la agrupación",
+      "cuerpo": "El selector **Por Función** ordena el informe según la estructura de presentación.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Activar el comparativo",
+      "cuerpo": "El interruptor **Comparativo** agrega la columna del período anterior para ver la variación.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Generar y exportar",
+      "cuerpo": "Presiona **Generar informe** y exporta si necesitas trabajarlo fuera del sistema.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El comparativo es lo que convierte el informe en información: un resultado solo dice poco sin el período anterior al lado."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Es lo mismo que el estado de resultados de gestión?",
+      "respuesta": "No: el de gestión reordena las cifras según la estructura de análisis del negocio."
+    }
+  ],
+  "relacionados": [
+    "estado-de-resultados-gestion",
+    "balance-de-8-columnas"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/estados-financieros/estado-de-resultados",
+    "capturadoEl": "2026-08-16"
+  }
+}

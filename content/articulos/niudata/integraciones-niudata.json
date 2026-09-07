@@ -1,0 +1,65 @@
+{
+  "slug": "integraciones-niudata",
+  "titulo": "Integraciones y conexión con IA",
+  "categoria": "niudata",
+  "seccion": "Configuración",
+  "tipo": "procedimiento",
+  "resumen": "Conectar Niudata con otros sistemas, con el banco y con asistentes de IA.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador de la cuenta",
+    "Contador"
+  ],
+  "proposito": "Reúne las conexiones de la contabilidad con el exterior: integraciones por API, conexión bancaria automática y el servidor MCP que permite consultar los datos contables desde asistentes de IA.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir integraciones",
+      "cuerpo": "Entra a **Configuración → Integraciones** para ver y administrar las conexiones disponibles.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-integraciones-01.png",
+        "alt": "API e integraciones: listado de tokens con alcance, permisos, estado, último uso y vencimiento, y la guía Cómo integrar",
+        "descripcion": "Configuración → Integraciones. Los tokens se tratan como contraseñas; abajo está la referencia de la API."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Conectar el banco",
+      "cuerpo": "La conexión bancaria automática trae los movimientos sin cargar cartolas a mano; el estado de cada cuenta se ve en **Cuentas Bancarias**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Consultar con IA",
+      "cuerpo": "El servidor MCP expone los datos contables a asistentes compatibles para preguntar por balances, flujo de caja o deudores en lenguaje natural.",
+      "nota": "Las consultas son de solo lectura y las escrituras quedan siempre pendientes de aprobación humana.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa periódicamente qué integraciones siguen activas y revoca las que ya no se usan."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La IA puede modificar mi contabilidad?",
+      "respuesta": "No sin aprobación: lo que genera queda como comprobante pendiente de revisión."
+    }
+  ],
+  "relacionados": [
+    "mcp-consultar-contabilidad-con-ia",
+    "cuentas-bancarias",
+    "comprobantes-recibidos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/configuracion/integraciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

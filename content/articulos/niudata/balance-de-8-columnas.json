@@ -1,0 +1,83 @@
+{
+  "slug": "balance-de-8-columnas",
+  "titulo": "Balance de 8 columnas",
+  "categoria": "niudata",
+  "seccion": "Estados financieros",
+  "tipo": "procedimiento",
+  "resumen": "El balance tabulado con sumas, saldos, inventario y resultados.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "Es el informe de referencia del cierre: por cada cuenta muestra los valores acumulados (débitos y créditos), los saldos (deudor y acreedor), el inventario (activo y pasivo) y los resultados (pérdida y ganancia).",
+  "requisitos": [
+    "Balance de comprobación cuadrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir los parámetros",
+      "cuerpo": "Entra a **Estados Financieros → Balance de 8 Columnas**. Define **Anual** o **Mensual**, el año, el **Plan de cuentas** y la agrupación (*Financiero*).",
+      "nota": null,
+      "captura": {
+        "archivo": "balance-de-8-columnas-01.jpg",
+        "alt": "Selectores del balance de 8 columnas",
+        "descripcion": "El informe se construye según el período y la agrupación que elijas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Generar el informe",
+      "cuerpo": "Presiona **Generar informe**. El encabezado indica el tipo de informe, el año, la agrupación y cuántos registros incluye, con los totales de **Activo** y **Pasivo**.",
+      "nota": null,
+      "captura": {
+        "archivo": "balance-de-8-columnas-02.jpg",
+        "alt": "Balance de 8 columnas generado con sus cuatro bloques de columnas",
+        "descripcion": "Cuenta contable · Valores acumulados · Saldos · Inventario · Resultados."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Leer los bloques",
+      "cuerpo": "**Valores acumulados** trae débitos y créditos; **Saldos**, deudor y acreedor; **Inventario**, activo y pasivo; **Resultados**, pérdida y ganancia.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Verificar el cuadre",
+      "cuerpo": "Activo y Pasivo deben ser iguales en el encabezado. Si no lo son, falta cuadrar el balance de comprobación.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar** descarga el balance para análisis o presentación.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si el balance no cuadra, casi siempre hay comprobantes sin aprobar en el período."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cuál es la diferencia con el de 10 columnas?",
+      "respuesta": "El de 10 columnas agrega el desglose de ajustes; el de 8 es el formato clásico de cierre."
+    }
+  ],
+  "relacionados": [
+    "balance-de-comprobacion",
+    "balance-clasificado",
+    "estado-de-resultados-financiero"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/estados-financieros/balance-de-8-columnas",
+    "capturadoEl": "2026-08-16"
+  }
+}

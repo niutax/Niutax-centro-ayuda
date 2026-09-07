@@ -1,0 +1,63 @@
+{
+  "slug": "centros-de-costo-niudata",
+  "titulo": "Centros de costo",
+  "categoria": "niudata",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Definir las áreas o proyectos con los que se analiza la gestión.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "Los centros de costo permiten imputar ingresos y gastos a un área, sucursal o proyecto, y después analizar el resultado por cada uno.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Administración → Centros de Costo**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-centros-costo-01.png",
+        "alt": "Listado de centros de costo con agrupación por categoría y botones Crear Categoría y Crear Centro de Costo",
+        "descripcion": "Administración → Centros de costo. Primero se crean las categorías y luego los centros dentro de cada una."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear los centros",
+      "cuerpo": "Define la lista con la que trabajará la empresa: áreas, sucursales o proyectos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usarlos al contabilizar",
+      "cuerpo": "Al registrar un movimiento se indica el centro de costo, y así queda disponible en los informes de gestión.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Pocos centros bien usados valen más que muchos a medio llenar."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se pueden presupuestar?",
+      "respuesta": "Sí, los presupuestos admiten centro de costo."
+    }
+  ],
+  "relacionados": [
+    "presupuestos",
+    "estado-de-resultados-gestion",
+    "ingresos-y-egresos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/administracion/centros-de-costo",
+    "capturadoEl": "2026-08-16"
+  }
+}

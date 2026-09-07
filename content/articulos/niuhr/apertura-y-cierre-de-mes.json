@@ -1,0 +1,61 @@
+{
+  "slug": "apertura-y-cierre-de-mes",
+  "titulo": "Apertura y cierre del mes",
+  "categoria": "niuhr",
+  "seccion": "Proceso de remuneraciones",
+  "tipo": "procedimiento",
+  "resumen": "Controlar qué períodos están abiertos y quién los abrió.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "El mes de proceso se abre para trabajar y se cierra para consolidar. El historial registra cada apertura y cierre, con quién lo hizo y cuándo.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Ver el historial",
+      "cuerpo": "Entra a **Recursos humanos → Historial apertura mes** para ver qué períodos se abrieron y cerraron, y quién lo hizo.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-historial-apertura-01.png",
+        "alt": "Historial de aperturas de mes con columnas fecha, usuario, período, tipo y variables traspasadas",
+        "descripcion": "Recursos humanos → Historial apertura mes. Cada apertura o reversión queda registrada con quién la hizo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Entender el efecto",
+      "cuerpo": "Con el mes cerrado no se pueden modificar variables ni recalcular liquidaciones: es lo que protege un proceso ya consolidado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Reabrir con criterio",
+      "cuerpo": "Reabrir un mes permite corregir, pero obliga a revisar los informes ya emitidos con esas cifras.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cierra el mes apenas quede conforme: es la señal de que las cifras ya se pueden usar en contabilidad."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Quién puede reabrir un mes?",
+      "respuesta": "Depende del rol asignado en Administración → Roles."
+    }
+  ],
+  "relacionados": [
+    "procesar-liquidaciones",
+    "variables-del-mes"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/historial-apertura-mes",
+    "capturadoEl": "2026-08-16"
+  }
+}

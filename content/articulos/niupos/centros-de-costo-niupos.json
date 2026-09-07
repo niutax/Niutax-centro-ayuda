@@ -1,0 +1,55 @@
+{
+  "slug": "centros-de-costo-niupos",
+  "titulo": "Consultar los centros de costo",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Dónde se ven los centros de costo disponibles y para qué se usan en el módulo comercial.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 7,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "Los centros de costo permiten imputar la operación comercial a un área, proyecto o sector. En Niupos se consultan desde esta pantalla y se aplican al crear ubicaciones y al registrar consumos.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Configuración → Centros de costo**. Es una pantalla de consulta con buscador: muestra los centros disponibles para la empresa.",
+      "nota": "No tiene botón para crear: los centros de costo se administran desde el módulo de Contabilidad y Finanzas y aquí se consultan.",
+      "captura": {
+        "archivo": "centros-de-costo-niupos-01.jpg",
+        "alt": "Pantalla de consulta de centros de costo",
+        "descripcion": "Configuración → Centros de costo, solo lectura."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Usarlos en la operación",
+      "cuerpo": "Al crear una **Ubicación** puedes asociarle un centro de costo, y el **Informe de consumo** muestra los movimientos agrupados por centro.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si el listado está vacío, revisa la configuración de centros de costo en el módulo contable."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo crear un centro de costo desde aquí?",
+      "respuesta": "No. Esta pantalla es de consulta; los centros se definen en Contabilidad y Finanzas."
+    }
+  ],
+  "relacionados": [
+    "ubicaciones-y-bodegas",
+    "informe-consumo"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/centros-de-costo",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "vacaciones-tomadas",
+  "titulo": "Vacaciones tomadas",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Qué días de feriado se usaron efectivamente en el período.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "Muestra las vacaciones efectivamente tomadas por cada colaborador, que es lo que descuenta del saldo y de la provisión.",
+  "requisitos": [
+    "Solicitudes aprobadas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Vacaciones tomadas** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-vacaciones-tomadas-01.png",
+        "alt": "Informe de vacaciones tomadas del año con RUT, nombre, fechas, días hábiles y comentario",
+        "descripcion": "Informes → Vacaciones tomadas. Se filtra por año; los botones superiores exportan e imprimen."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cruzar con el saldo",
+      "cuerpo": "Contrasta con la provisión: los días tomados son los que reducen el pasivo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si alguien nunca aparece en este informe, probablemente está tomando vacaciones sin registrarlas."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿De dónde salen estos registros?",
+      "respuesta": "De las solicitudes de vacaciones aprobadas."
+    }
+  ],
+  "relacionados": [
+    "solicitudes-de-empleado",
+    "provision-de-vacaciones"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/vacaciones-tomadas",
+    "capturadoEl": "2026-08-16"
+  }
+}

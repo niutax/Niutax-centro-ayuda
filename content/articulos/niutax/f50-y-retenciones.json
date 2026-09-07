@@ -1,0 +1,54 @@
+{
+  "slug": "f50-y-retenciones",
+  "titulo": "F50, retenciones y contribuciones",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "Las tres declaraciones mensuales que acompañan al F29.",
+  "tiempoLectura": "4 min",
+  "estado": "borrador",
+  "orden": 306,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Cubrir las obligaciones mensuales que no van en el F29: impuestos adicionales, retenciones y contribuciones de bienes raíces.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "F50",
+      "cuerpo": "**Impuestos mensuales → F50** es el menú previsto para la declaración mensual de impuestos adicionales y de retención. Al 07-09-2026 la pantalla muestra **\"Menú en desarrollo — Próximamente\"**: el módulo todavía no permite trabajar el F50, así que por ahora esa declaración se prepara fuera de Niutax.",
+      "nota": "Cuando el menú se habilite, el flujo esperado es el mismo del F29: elegir el RUT, fijar el período y revisar la propuesta.",
+      "captura": {
+        "archivo": "niutax-f50-01.png",
+        "alt": "Pantalla F50 con el aviso Menú en desarrollo — Próximamente",
+        "descripcion": "Impuestos mensuales → F50. Hoy el menú está en desarrollo y muestra el aviso \"Próximamente\"."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Retenciones",
+      "cuerpo": "**Impuestos mensuales → Retenciones** muestra los registros de retenciones generadas por año para la empresa seleccionada.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Contribuciones",
+      "cuerpo": "**Impuestos mensuales → Contribuciones** trae las cuotas de contribuciones de los bienes raíces registrados en **Mis propiedades**.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "revisar-y-declarar-f29",
+    "bienes-de-los-contribuyentes"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

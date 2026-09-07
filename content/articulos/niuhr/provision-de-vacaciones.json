@@ -1,0 +1,64 @@
+{
+  "slug": "provision-de-vacaciones",
+  "titulo": "Provisión de vacaciones",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Cuánto vale el saldo de vacaciones pendiente de cada colaborador.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Jefe de RRHH"
+  ],
+  "proposito": "Calcula el saldo de días de feriado de cada persona y lo valoriza. Es el pasivo por vacaciones que debe reflejarse en la contabilidad.",
+  "requisitos": [
+    "Fichas con fecha de ingreso correcta"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Provisión de vacaciones** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "provision-de-vacaciones-01.jpg",
+        "alt": "Informe de provisión de vacaciones con saldo y monto por persona",
+        "descripcion": "Muestra días normales, progresivos, saldo y el monto provisionado."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "**RUT**, **Nombre**, **Fecha ingreso**, **Base vacaciones**, **Vac. normales**, **Vac. progresivas**, **Saldo vacaciones** y **Monto de provisión**, con el total al pie.",
+      "nota": "El feriado progresivo depende de la antigüedad: por eso la fecha de ingreso debe estar bien cargada.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Contabilizar la provisión",
+      "cuerpo": "El monto total es el que se provisiona en la contabilidad como pasivo por vacaciones.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Saldos acumulados altos son un pasivo real y creciente: revísalos cada trimestre, no solo al cierre."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Considera el feriado progresivo?",
+      "respuesta": "Sí, se calcula según la antigüedad registrada en cada ficha."
+    }
+  ],
+  "relacionados": [
+    "vacaciones-tomadas",
+    "solicitudes-de-empleado"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/provision-vacaciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

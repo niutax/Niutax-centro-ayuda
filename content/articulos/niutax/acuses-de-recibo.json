@@ -1,0 +1,49 @@
+{
+  "slug": "acuses-de-recibo",
+  "titulo": "Revisar los acuses de recibo",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "Lista los acuses obtenidos desde el SII, por empresa o para toda la cartera.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 304,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Controlar qué documentos recibidos tienen acuse dado, requisito para usar su crédito fiscal.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir el alcance",
+      "cuerpo": "Entra a **Impuestos mensuales → Acuses de recibo**. En el selector puedes elegir una empresa o la opción **Ver los acuses de todos los ruts**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-acuses-recibo-01.png",
+        "alt": "Pantalla de acuses de recibo con selector de RUT",
+        "descripcion": "Impuestos mensuales → Acuses de recibo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer la tabla",
+      "cuerpo": "Cada fila trae **RUT**, **Folio**, **Tipo documento**, **Razón social**, **Fecha** y **Total**. La casilla de la izquierda permite seleccionar varias filas a la vez.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El rol **Acuso de Recibo** existe para delegar esta tarea sin dar acceso al resto del módulo."
+  ],
+  "faq": [],
+  "relacionados": [
+    "libros-mensuales",
+    "usuarios-y-roles"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

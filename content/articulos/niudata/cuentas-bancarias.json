@@ -1,0 +1,64 @@
+{
+  "slug": "cuentas-bancarias",
+  "titulo": "Cuentas bancarias",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Registrar las cuentas de la empresa y vincularlas al plan de cuentas.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 9,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Contador"
+  ],
+  "proposito": "Cada cuenta bancaria de la empresa se registra aquí y se asocia a una cuenta del plan de cuentas. Sin ese vínculo, la conciliación no sabe contra qué cuenta contable cuadrar.",
+  "requisitos": [
+    "Plan de cuentas configurado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Tesorería → Cuentas Bancarias**. Verás **Banco**, **Rut**, **Moneda**, **N° Cuenta**, **Plan de Cuenta** y el estado de **Fintoc**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cuentas-bancarias-01.jpg",
+        "alt": "Listado de cuentas bancarias con su cuenta contable asociada",
+        "descripcion": "Cada cuenta bancaria queda asociada a una cuenta del plan de cuentas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear una cuenta",
+      "cuerpo": "**Crear Cuenta Bancaria** pide banco, RUT, moneda, número de cuenta y la cuenta contable con la que se relaciona.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar la conexión automática",
+      "cuerpo": "La columna **Fintoc** indica si la cuenta está conectada para traer movimientos automáticamente o si aparece como *No conectada*.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Usa una cuenta contable distinta por cada cuenta bancaria y moneda: mezclarlas hace imposible conciliar."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo tener cuentas en otra moneda?",
+      "respuesta": "Sí, la moneda se define al crear la cuenta; el ejemplo típico es una cuenta en dólares."
+    }
+  ],
+  "relacionados": [
+    "conciliacion-bancaria-niudata",
+    "plan-de-cuentas-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/cuentas-bancarias",
+    "capturadoEl": "2026-08-16"
+  }
+}

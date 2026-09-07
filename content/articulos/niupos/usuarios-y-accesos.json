@@ -1,0 +1,76 @@
+{
+  "slug": "usuarios-y-accesos",
+  "titulo": "Administrar usuarios y accesos",
+  "categoria": "niupos",
+  "seccion": "Administración y usuarios",
+  "tipo": "procedimiento",
+  "resumen": "Crear usuarios, asignarles rol y definir sobre qué empresas pueden operar.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "Cada persona que usa Niupos debe tener su propio usuario. Aquí se define quién entra, con qué rol y sobre qué empresas puede trabajar.",
+  "requisitos": [
+    "Perfil de administrador",
+    "Correo electrónico de cada persona"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Administración → Usuarios**. La tabla muestra **Foto**, **Nombre**, **Correo electrónico**, **Empresas** y **Rol** de cada usuario.",
+      "nota": null,
+      "captura": {
+        "archivo": "usuarios-y-accesos-01.jpg",
+        "alt": "Listado de usuarios del sistema con su rol y empresas",
+        "descripcion": "Administración → Usuarios."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un usuario",
+      "cuerpo": "Presiona **Agregar** e ingresa sus datos y su correo, que será su identificador de acceso.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Asignar rol y empresas",
+      "cuerpo": "El **Rol** define qué puede hacer; **Empresas** define sobre qué RUT. Un usuario puede tener acceso a *Todas las empresas* o a un conjunto acotado.",
+      "nota": "Para un vendedor de una sola sucursal, limita las empresas: reduce errores de emisión sobre el RUT equivocado.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Mantener la lista al día",
+      "cuerpo": "Cuando alguien deja la empresa, elimina o desactiva su usuario el mismo día. La trazabilidad de quién emitió cada documento depende de que cada persona tenga su propio acceso.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Nunca compartas un usuario entre varias personas: los documentos registran quién los emitió y esa trazabilidad se pierde."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cuántos usuarios puedo crear?",
+      "respuesta": "Depende del plan contratado; el límite se ve en **Administración → Planes**."
+    },
+    {
+      "pregunta": "¿Puedo restablecer la contraseña de alguien?",
+      "respuesta": "Sí, desde la edición del usuario."
+    }
+  ],
+  "relacionados": [
+    "roles-y-permisos",
+    "planes-y-limites",
+    "vendedores"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/administracion/usuarios",
+    "capturadoEl": "2026-08-16"
+  }
+}

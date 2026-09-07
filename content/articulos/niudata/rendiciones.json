@@ -1,0 +1,64 @@
+{
+  "slug": "rendiciones",
+  "titulo": "Rendiciones de fondos",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Rendir los gastos pagados con un fondo fijo o anticipo.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 6,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Administración"
+  ],
+  "proposito": "Permite rendir los gastos ejecutados contra un fondo entregado a una persona o área, y dejar el comprobante contable que descarga ese fondo.",
+  "requisitos": [
+    "Fondo a rendir creado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Tesorería → Rendiciones**.",
+      "nota": null,
+      "captura": {
+        "archivo": "rendiciones-01.jpg",
+        "alt": "Pantalla de rendiciones con el formulario de gasto y la generación del voucher",
+        "descripcion": "Cada gasto se agrega como detalle y luego se genera la rendición completa."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar cada gasto",
+      "cuerpo": "Indica **Cuenta**, **Centro de Costos**, **Monto** y **Glosa**, y presiona **Agregar Gasto**. Repite por cada comprobante rendido.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Generar la rendición",
+      "cuerpo": "Selecciona el **Fondo a Rendir** y la **Fecha del Voucher**, y presiona **Generar Rendición**.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Rinde por períodos cortos: acumular meses de boletas hace imposible cuadrar el fondo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si el gasto supera el fondo?",
+      "respuesta": "La diferencia queda como saldo a favor de quien rindió y se resuelve con un reembolso."
+    }
+  ],
+  "relacionados": [
+    "ingresos-y-egresos",
+    "cuentas-por-auxiliar"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/rendiciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

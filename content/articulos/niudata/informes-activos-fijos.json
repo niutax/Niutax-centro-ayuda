@@ -1,0 +1,57 @@
+{
+  "slug": "informes-activos-fijos",
+  "titulo": "Informes de activos fijos",
+  "categoria": "niudata",
+  "seccion": "Activos fijos",
+  "tipo": "procedimiento",
+  "resumen": "Emitir el detalle de bienes, su depreciación y su valor libro.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Entrega los informes del activo fijo: detalle de bienes, depreciación acumulada y valor libro, que es lo que respalda la partida en el balance.",
+  "requisitos": [
+    "Activos registrados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir informes",
+      "cuerpo": "Entra a **Activos Fijos → Informes** y elige el informe y el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-informes-activos-fijos-01.png",
+        "alt": "Informes de activos fijos por período, financiero o tributario, con costo histórico, depreciación acumulada, valor neto y vida útil",
+        "descripcion": "Activos Fijos → Informes. Se cambia entre vista financiera y tributaria y se exporta a Excel."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cuadrar con el balance",
+      "cuerpo": "El valor libro del informe debe coincidir con la cuenta de activo fijo del balance.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Emite este informe en cada cierre: es el respaldo de la partida de activo fijo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Sirve para la declaración de renta?",
+      "respuesta": "Es el respaldo del activo fijo y su depreciación, que se usa en la determinación de la renta."
+    }
+  ],
+  "relacionados": [
+    "activos-fijos",
+    "depreciaciones",
+    "balance-de-8-columnas"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/activos-fijos/informes",
+    "capturadoEl": "2026-08-16"
+  }
+}

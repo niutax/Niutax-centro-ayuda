@@ -1,0 +1,72 @@
+{
+  "slug": "presupuestos",
+  "titulo": "Presupuestos",
+  "categoria": "niudata",
+  "seccion": "Informes de gestión",
+  "tipo": "procedimiento",
+  "resumen": "Cargar el presupuesto anual por cuenta y compararlo con lo ejecutado.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Contador"
+  ],
+  "proposito": "Registra el presupuesto del año por cuenta y mes, y permite compararlo contra lo realmente ejecutado. Los presupuestos marcados para flujo también alimentan la proyección de caja.",
+  "requisitos": [
+    "Plan de cuentas configurado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir presupuestos",
+      "cuerpo": "Entra a **Informes de Gestión → Presupuestos**. Filtra por **Año**, **Centro de costo**, **Tipo de cuenta**, agrupación y orden.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-presupuestos-01.png",
+        "alt": "Presupuestos por cuenta y mes, agrupados por tipo de cuenta, con centro de costo y flujo de caja",
+        "descripcion": "Informes de Gestión → Presupuestos. Cada fila reparte el presupuesto anual de una cuenta por mes."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un presupuesto",
+      "cuerpo": "**Crear Presupuesto** permite definir la cuenta, el centro de costo y el monto de cada mes.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Marcar para flujo de caja",
+      "cuerpo": "La columna **FC** indica si ese presupuesto se considera en la proyección de flujo de caja.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Comparar contra lo real",
+      "cuerpo": "**Informe comparativo** muestra presupuesto contra ejecución, que es donde aparecen las desviaciones.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Un presupuesto sin revisión mensual es un documento muerto: la gracia está en el comparativo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo presupuestar por centro de costo?",
+      "respuesta": "Sí, cada línea admite su centro de costo."
+    }
+  ],
+  "relacionados": [
+    "flujo-de-caja",
+    "estado-de-resultados-gestion",
+    "centros-de-costo-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/informes-de-gestion/presupuestos",
+    "capturadoEl": "2026-08-16"
+  }
+}

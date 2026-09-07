@@ -1,0 +1,57 @@
+{
+  "slug": "informe-de-anticipos",
+  "titulo": "Informe de anticipos",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Los anticipos entregados en el período y su descuento.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Tesorería"
+  ],
+  "proposito": "Reúne los anticipos entregados a los colaboradores en el período, que después se descuentan en la liquidación.",
+  "requisitos": [
+    "Anticipos cargados como variable del mes"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Anticipos** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-informe-anticipos-01.png",
+        "alt": "Informe de anticipos del mes con columnas de identificación, banco, tipo y número de cuenta y montos",
+        "descripcion": "Informes → Anticipos. Se elige mes y año; el total del período aparece al pie."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cuadrar con las liquidaciones",
+      "cuerpo": "Cada anticipo debe aparecer descontado en la liquidación del mes correspondiente.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Un anticipo entregado y no descontado es dinero que la empresa no recupera: cuadra este informe cada mes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cómo se carga un anticipo?",
+      "respuesta": "Como variable del mes en **Recursos humanos → Variables mes**."
+    }
+  ],
+  "relacionados": [
+    "variables-del-mes",
+    "informe-de-remuneraciones"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/anticipos",
+    "capturadoEl": "2026-08-16"
+  }
+}

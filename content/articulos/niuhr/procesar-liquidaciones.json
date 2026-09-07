@@ -1,0 +1,85 @@
+{
+  "slug": "procesar-liquidaciones",
+  "titulo": "Procesar las liquidaciones de sueldo",
+  "categoria": "niuhr",
+  "seccion": "Proceso de remuneraciones",
+  "tipo": "procedimiento",
+  "resumen": "Generar, revisar y emitir las liquidaciones del mes.",
+  "tiempoLectura": "6 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Administración"
+  ],
+  "proposito": "Es el proceso central del módulo: calcular lo que se paga a cada colaborador del mes con sus haberes, descuentos, cotizaciones e impuesto, y emitir la liquidación.",
+  "requisitos": [
+    "Variables del mes cargadas",
+    "Indicadores Previred del período al día",
+    "Mes de proceso abierto"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el proceso del mes",
+      "cuerpo": "Entra a **Recursos humanos → Liquidaciones sueldo**. El encabezado indica el período —por ejemplo *Agosto, 2026*— y el botón muestra si el **mes está cerrado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "procesar-liquidaciones-01.jpg",
+        "alt": "Listado de liquidaciones del mes con el estado de generación por persona",
+        "descripcion": "La columna **Generada** indica quiénes ya tienen su liquidación calculada."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar la dotación",
+      "cuerpo": "La tabla lista a cada colaborador con **RUT**, **Nombre**, **Departamento**, **Cargo**, tipo de **Contrato** y si su liquidación está **generada** o no.",
+      "nota": "Compara la dotación con el mes anterior antes de generar: los ingresos y salidas no informados son el error más frecuente.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Generar las liquidaciones",
+      "cuerpo": "Con las variables cargadas, genera las liquidaciones. El sistema aplica sueldo base, haberes, cotizaciones previsionales e impuesto único.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar antes de emitir",
+      "cuerpo": "Revisa las liquidaciones con variaciones grandes respecto del mes anterior: casi siempre son una variable mal cargada.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Cerrar el mes",
+      "cuerpo": "Cuando todo está conforme, cierra el mes para consolidar el proceso. El historial de aperturas y cierres queda registrado.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Genera, revisa y recién después cierra: reabrir un mes cerrado deja rastro y obliga a rehacer informes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo recalcular una liquidación?",
+      "respuesta": "Sí, mientras el mes esté abierto."
+    },
+    {
+      "pregunta": "¿Dónde ve el trabajador su liquidación?",
+      "respuesta": "En el portal del trabajador, si tiene acceso habilitado desde el listado de personal."
+    }
+  ],
+  "relacionados": [
+    "variables-del-mes",
+    "apertura-y-cierre-de-mes",
+    "informe-de-remuneraciones"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/liquidaciones-de-sueldo",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "cobranzas-niudata",
+  "titulo": "Cobranzas automáticas",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Configurar y enviar recordatorios de cobro a los clientes.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 7,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Administración"
+  ],
+  "proposito": "Automatiza el envío de recordatorios de cobro. Muestra cuántos clientes están configurados con correo de contacto y cuántos avisos se han enviado.",
+  "requisitos": [
+    "Clientes con correo de contacto registrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir cobranzas",
+      "cuerpo": "Entra a **Tesorería → Cobranzas**. Arriba verás **Saldo total a cobrar**, **Vencido**, **Clientes configurados** y **Avisos enviados**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cobranzas-niudata-01.jpg",
+        "alt": "Pantalla de cobranzas con indicadores y filtros de clientes",
+        "descripcion": "**Clientes configurados** indica cuántos tienen email y contacto cargados."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Configurar el envío",
+      "cuerpo": "**Configuración** define el contenido y la frecuencia de los recordatorios.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Filtrar a quién cobrar",
+      "cuerpo": "Filtra por **Cliente**, **Cuenta contable**, **Antigüedad**, **Datos del cliente** (si tiene email y contacto) y **Sin aviso** (quienes aún no han recibido cobranza).",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar el historial",
+      "cuerpo": "**Historial** muestra los avisos ya enviados y a quién.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de activar el envío masivo, revisa el filtro *Datos del cliente*: sin correo cargado el aviso no llega a ninguna parte."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El cliente recibe el detalle de su deuda?",
+      "respuesta": "El recordatorio se arma con los documentos vencidos del cliente según la configuración definida."
+    }
+  ],
+  "relacionados": [
+    "cuentas-por-cobrar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/cobranzas",
+    "capturadoEl": "2026-08-16"
+  }
+}

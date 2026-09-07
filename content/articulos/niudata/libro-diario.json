@@ -1,0 +1,64 @@
+{
+  "slug": "libro-diario",
+  "titulo": "Libro diario",
+  "categoria": "niudata",
+  "seccion": "Libros contables",
+  "tipo": "procedimiento",
+  "resumen": "Generar el libro diario del período, anual o mensual.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "El libro diario lista todos los asientos del período en orden cronológico. Es uno de los libros obligatorios y el respaldo de la contabilidad ante una fiscalización.",
+  "requisitos": [
+    "Movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el libro",
+      "cuerpo": "Entra a **Libros Contables → Libro Diario**. Elige el tipo de período —**Anual** o **Mensual**—, el año y las opciones de agrupación, y presiona **Generar informe**. El informe se construye en pantalla y se puede **Exportar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "libro-diario-01.jpg",
+        "alt": "Pantalla del libro diario con los selectores de período",
+        "descripcion": "Los libros se generan bajo demanda: primero eliges el período, luego generas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir anual o mensual",
+      "cuerpo": "**Anual** entrega el ejercicio completo; **Mensual** permite emitir mes a mes, que es lo habitual para revisión.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar antes de imprimir",
+      "cuerpo": "Verifica que no queden comprobantes pendientes de aprobar: lo que no está aprobado no aparece en el libro.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Genera el libro después de cerrar el mes, no antes: así evitas versiones que no cuadran entre sí."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Es el libro foliado legal?",
+      "respuesta": "Es el libro contable del período; para su presentación formal usa **Impresión de libros**."
+    }
+  ],
+  "relacionados": [
+    "libro-mayor",
+    "impresion-de-libros",
+    "vouchers"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-contables/libro-diario",
+    "capturadoEl": "2026-08-16"
+  }
+}

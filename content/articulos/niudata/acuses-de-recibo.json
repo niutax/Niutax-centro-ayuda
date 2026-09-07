@@ -1,0 +1,71 @@
+{
+  "slug": "acuses-de-recibo",
+  "titulo": "Acuses de recibo",
+  "categoria": "niudata",
+  "seccion": "Libros auxiliares",
+  "tipo": "procedimiento",
+  "resumen": "Responder ante el SII por los documentos de compra recibidos.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "Muestra los documentos pendientes de acuse ante el SII y permite aceptarlos, de a uno o todos a la vez. El acuse confirma la recepción y habilita el uso del crédito fiscal.",
+  "requisitos": [
+    "Documentos de compra recibidos"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la bandeja",
+      "cuerpo": "Entra a **Libros Auxiliares → Acuses de Recibo**. Verás **Tipo Doc.**, **Folio**, **RUT Emisor**, **Razón Social**, **Fecha Recepción** y **Total**.",
+      "nota": null,
+      "captura": {
+        "archivo": "acuses-de-recibo-01.jpg",
+        "alt": "Bandeja de acuses de recibo pendientes",
+        "descripcion": "Cuando no hay pendientes, la pantalla lo indica explícitamente."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar",
+      "cuerpo": "**Sincronizar** actualiza la lista con lo que el SII tiene pendiente de respuesta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar antes de aceptar",
+      "cuerpo": "Contrasta cada documento con la recepción real de la mercadería o del servicio antes de acusarlo.",
+      "nota": "Dar acuse tiene efectos: confirma la operación ante el Servicio y corre los plazos para reclamar.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Aceptar",
+      "cuerpo": "Puedes aceptar documento por documento o usar **Aceptar todo** cuando ya revisaste el lote completo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa esta bandeja al menos una vez por semana: los plazos para reclamar son acotados."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si no acuso?",
+      "respuesta": "Transcurrido el plazo legal el documento se entiende aceptado."
+    }
+  ],
+  "relacionados": [
+    "libro-de-compras",
+    "cuentas-por-pagar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-auxiliares/acuses-de-recibo",
+    "capturadoEl": "2026-08-16"
+  }
+}

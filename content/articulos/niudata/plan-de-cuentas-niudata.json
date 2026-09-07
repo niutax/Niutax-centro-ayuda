@@ -1,0 +1,78 @@
+{
+  "slug": "plan-de-cuentas-niudata",
+  "titulo": "Plan de cuentas",
+  "categoria": "niudata",
+  "seccion": "Configuración",
+  "tipo": "procedimiento",
+  "resumen": "Crear y clasificar las cuentas contables de la empresa.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "El plan de cuentas define cómo se clasifica cada movimiento. Aquí se crean las cuentas, se agrupan por subtipo, se asocian a la cuenta del SII y se marca su comportamiento en cobros y pagos.",
+  "requisitos": [
+    "Perfil con permisos de configuración"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el plan",
+      "cuerpo": "Entra a **Configuración → Plan de Cuentas**. Puedes **Agrupar por** subtipo y ordenar el listado.",
+      "nota": null,
+      "captura": {
+        "archivo": "plan-de-cuentas-niudata-01.jpg",
+        "alt": "Plan de cuentas agrupado por subtipo con sus marcas de comportamiento",
+        "descripcion": "Cada cuenta muestra su código, nombre, cuenta SII y su uso en cobros y pagos."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "**Código**, **Nombre**, **Cuenta SII** y tres marcas: **x Cobrar**, **x Pagar** y **Disp. Pago**, que definen si la cuenta participa en cuentas por cobrar, por pagar y en el disponible.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Crear una cuenta",
+      "cuerpo": "**Crear Cuenta** pide el código, el nombre, el subtipo y la cuenta SII con la que se relaciona.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Gestionar subtipos",
+      "cuerpo": "**Gestionar Subtipos** administra los grupos con los que se arma el balance clasificado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar Excel** descarga el plan completo, útil para revisarlo o migrarlo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Las marcas x Cobrar y x Pagar son las que hacen que un movimiento aparezca en los informes de tesorería: revísalas al crear cuentas nuevas."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo cambiar una cuenta con movimientos?",
+      "respuesta": "El nombre sí; cambiar su clasificación afecta informes ya emitidos, revísalo antes."
+    }
+  ],
+  "relacionados": [
+    "balance-clasificado",
+    "cuentas-bancarias",
+    "auxiliares-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/configuracion/plan-de-cuentas",
+    "capturadoEl": "2026-08-16"
+  }
+}

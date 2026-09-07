@@ -1,0 +1,78 @@
+{
+  "slug": "que-es-niutax",
+  "titulo": "Qué es Niutax y cómo se organiza",
+  "categoria": "niutax",
+  "seccion": "Primeros pasos",
+  "tipo": "concepto",
+  "resumen": "El módulo tributario administra la cartera completa de RUT: F29 y F50 mensuales, renta anual, impuestos municipales y seguimiento ante el SII.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Administrador"
+  ],
+  "proposito": "Niutax es el módulo de **gestión tributaria** del ERP. A diferencia de los otros tres módulos, que trabajan sobre una empresa a la vez, Niutax es **multi-empresa por diseño**: el contador ve y opera toda su cartera de RUT desde un mismo panel.",
+  "requisitos": [
+    "Tener al menos un RUT registrado en **Administración → Mis ruts**",
+    "Credenciales del SII cargadas para ese RUT"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Cómo entrar",
+      "nota": "Ya no existe una pantalla de ingreso propia de este módulo: si abres su dirección sin sesión, te redirige a Central.",
+      "cuerpo": "El acceso a todos los módulos está centralizado en **https://central.niu.tax**. Inicia sesión ahí con tu cuenta de Niutax ERP y pulsa **Entrar** en la tarjeta **Gestión tributaria**: el módulo se abre en una pestaña nueva, ya autenticado.",
+      "captura": {
+        "archivo": "central-selector-productos-01.png",
+        "alt": "Pantalla Selecciona un producto de Niutax Central con las tarjetas Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH",
+        "descripcion": "central.niu.tax después de iniciar sesión: una tarjeta por módulo. Entrar abre el módulo en una pestaña nueva."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "El dashboard",
+      "cuerpo": "Al entrar verás el estado agregado de la cartera: **Formulario 22** del año (enviadas, pendientes, guardadas, aceptadas, con reparos y observadas, separando EMPRESAS de PERSONAS) y **Formulario 29** del mes (sin datos, pendientes, aceptadas). A la derecha, los próximos vencimientos y el calendario tributario.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-dashboard-01.png",
+        "alt": "Dashboard de Niutax con indicadores de F22 y F29",
+        "descripcion": "Los indicadores UF, USD y UTM del día se muestran siempre en la barra superior."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Los seis menús",
+      "cuerpo": "El sistema se organiza en **Administración** (la cartera de RUT y quién accede), **Mantenedores** (tablas maestras), **Impuestos mensuales** (F29, F50 y libros), **Declaraciones de renta** (F22 y declaraciones juradas), **Impuestos municipales** (patentes y CPT) y **Tickets** (seguimiento de casos ante el SII).",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Estados que verás en todo el módulo",
+      "cuerpo": "Las declaraciones se mueven entre estos estados: **Sin datos**, **Pendiente**, **Guardada**, **Enviada**, **Aceptada**, **Con reparos** y **Observada**. Aparecen igual en los paneles mensuales y en los de renta.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Los indicadores UF, USD y UTM de la barra superior se actualizan a diario: sirven para verificar que el sistema está sincronizado."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo ver una sola empresa?",
+      "respuesta": "Sí. Casi todas las pantallas tienen un selector **Seleccione un rut**, y los paneles tienen además el filtro **Filtrar ruts** por grupo."
+    }
+  ],
+  "relacionados": [
+    "ingresar-a-niupos",
+    "administrar-mis-ruts",
+    "panel-de-control-f29",
+    "panel-empresas-f22"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

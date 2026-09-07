@@ -1,0 +1,46 @@
+{
+  "slug": "base-de-conocimiento-normativa",
+  "titulo": "Consultar el contenido normativo",
+  "categoria": "niutax",
+  "seccion": "Tickets y normativa",
+  "tipo": "concepto",
+  "resumen": "Una base de conocimiento con la normativa tributaria vigente, dentro del propio módulo.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 602,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Tener a mano la normativa aplicable sin salir del sistema.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la base",
+      "cuerpo": "Entra a **Base Conocimiento → Contenido Normativo**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-contenido-normativo-01.png",
+        "alt": "Base de conocimiento con circulares y resoluciones del SII: documento, materia, resumen y vínculo",
+        "descripcion": "Base Conocimiento → Contenido Normativo. Cada norma trae un resumen y el enlace al documento; arriba hay un campo para preguntar en lenguaje natural."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Complementar con las noticias",
+      "cuerpo": "El dashboard incluye además un bloque de **Noticias SII** con las novedades del servicio.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "que-es-niutax"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

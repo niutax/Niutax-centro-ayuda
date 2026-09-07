@@ -1,0 +1,84 @@
+{
+  "slug": "ingresar-a-niupos",
+  "titulo": "Ingresar a Niutax ERP",
+  "categoria": "niupos",
+  "seccion": "Primeros pasos",
+  "tipo": "procedimiento",
+  "resumen": "Un solo inicio de sesión en central.niu.tax da acceso a los cuatro módulos; ya no existen logins directos por módulo.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 0,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Vendedor",
+    "Administración",
+    "Contador",
+    "Jefe de RRHH"
+  ],
+  "proposito": "Desde septiembre de 2026 el acceso a Niutax ERP está **centralizado en central.niu.tax**. Se inicia sesión una sola vez y desde ahí se entra a Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH. **Ya no existen pantallas de ingreso propias de cada módulo**: todas pasan por Central.",
+  "requisitos": [
+    "Una cuenta de Niutax ERP con acceso activo a al menos un módulo (la asigna el administrador de la cuenta en Central)"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir Central",
+      "nota": "Si tenías guardada la dirección de un módulo (por ejemplo la de Gestión Comercial), al abrirla te redirige a Central para iniciar sesión. Guarda mejor **central.niu.tax** como acceso directo.",
+      "cuerpo": "Entra a **https://central.niu.tax** en tu navegador e inicia sesión con tu cuenta de Niutax ERP. Es la misma cuenta para todos los módulos.",
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el módulo",
+      "nota": null,
+      "cuerpo": "Tras iniciar sesión aparece **Selecciona un producto**: una tarjeta por módulo — **Contabilidad y Finanzas**, **Gestión tributaria**, **Gestión Comercial** y **Gestión RRHH**. Cada tarjeta indica si tu cuenta tiene **Acceso activo** a ese módulo.",
+      "captura": {
+        "archivo": "central-selector-productos-01.png",
+        "alt": "Pantalla Selecciona un producto de Niutax Central con las tarjetas Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH",
+        "descripcion": "central.niu.tax después de iniciar sesión: una tarjeta por módulo. Entrar abre el módulo en una pestaña nueva."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Entrar al módulo",
+      "nota": null,
+      "cuerpo": "Pulsa **Entrar** en la tarjeta. El módulo se abre **en una pestaña nueva**, ya autenticado: no vuelve a pedir usuario ni contraseña. Puedes tener varios módulos abiertos a la vez, cada uno en su pestaña, y volver a la de Central para abrir otro.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Si la sesión se cierra sola",
+      "nota": "Cuando trabajes en un documento largo, guarda borrador cada cierto rato para no depender de que la sesión siga viva.",
+      "cuerpo": "Por seguridad la sesión expira tras un tiempo de inactividad y el módulo te devuelve a Central. No pierdes nada de lo que ya guardaste: vuelve a iniciar sesión y entra otra vez al módulo. Si estabas completando un documento sin guardar, tendrás que rehacerlo.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cada persona debe tener su propio usuario: los documentos registran quién los emitió o aprobó, y con usuarios compartidos esa trazabilidad se pierde.",
+    "Si una tarjeta no muestra **Acceso activo**, no es un problema de contraseña: pídele al administrador de la cuenta que te asigne ese módulo en Central.",
+    "Si olvidaste la contraseña, usa la opción de recuperación de la pantalla de ingreso de Central; ya no se restablece desde dentro de cada módulo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Necesito instalar algo?",
+      "respuesta": "No. Todo funciona en el navegador: basta con central.niu.tax y tu cuenta."
+    },
+    {
+      "pregunta": "¿Puedo seguir entrando por la dirección de cada módulo?",
+      "respuesta": "Las direcciones siguen existiendo, pero ya no tienen pantalla de ingreso propia: te redirigen a Central. Lo práctico es partir siempre desde central.niu.tax."
+    },
+    {
+      "pregunta": "¿Por qué el módulo se abre en otra pestaña?",
+      "respuesta": "Para que Central quede disponible y puedas abrir otro módulo sin volver a iniciar sesión."
+    }
+  ],
+  "relacionados": [
+    "que-es-niupos",
+    "configurar-empresas",
+    "usuarios-y-accesos"
+  ],
+  "fuente": {
+    "url": "https://central.niu.tax",
+    "capturadoEl": "2026-09-07"
+  }
+}

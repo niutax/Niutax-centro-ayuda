@@ -1,0 +1,72 @@
+{
+  "slug": "administrar-mis-ruts",
+  "titulo": "Registrar y administrar los RUT de la cartera",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Mis ruts es el registro maestro: qué empresas administras, con qué sistema contable y con qué prioridad.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 101,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Administrador",
+    "Contador"
+  ],
+  "proposito": "Todo el módulo trabaja sobre los RUT registrados aquí. Si una empresa no está en esta lista, no aparece en ningún panel ni declaración.",
+  "requisitos": [
+    "Perfil con permiso de administración"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro",
+      "cuerpo": "Entra a **Administración → Mis ruts**. La tabla muestra **RUT**, **Razón social / Nombre**, **Fecha inicio**, **S.Contable**, **S.RRHH**, **Configuración SII** y **Prioridad**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-mis-ruts-01.png",
+        "alt": "Listado Mis ruts con sistema contable y prioridad por empresa",
+        "descripcion": "Administración → Mis ruts."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Entender las columnas de sistema",
+      "cuerpo": "**S.Contable** y **S.RRHH** indican de dónde vienen los datos de cada empresa: **Niudata** (el módulo contable del propio ERP), **Externo** (otro sistema), **Ninguno** o **No definido**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usar la prioridad",
+      "cuerpo": "La columna **Prioridad** clasifica el trabajo de la cartera: **URGENTE**, **ALTA**, **NORMAL**, **TG EN PROCESO** y **NO VIGENTE**. Los paneles mensuales y de renta permiten ordenar por ella.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Agregar empresas",
+      "cuerpo": "Usa **Agregar** para una empresa, o **Importar** para cargar varias de una vez. Cada fila tiene además la fila de acciones para configurar credenciales y accesos SII de ese RUT.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Marca como **NO VIGENTE** las empresas que dejaste de atender en vez de borrarlas: conservas su historial y desaparecen del trabajo del mes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué significa TG EN PROCESO?",
+      "respuesta": "Es un estado de prioridad que el equipo usa para las empresas cuyo trámite de término de giro está en curso."
+    }
+  ],
+  "relacionados": [
+    "que-es-niutax",
+    "usuarios-y-roles",
+    "malla-societaria"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

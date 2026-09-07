@@ -1,0 +1,53 @@
+{
+  "slug": "etiquetas-de-liquidacion",
+  "titulo": "Etiquetas de liquidación",
+  "categoria": "niuhr",
+  "seccion": "Proceso de remuneraciones",
+  "tipo": "procedimiento",
+  "resumen": "Personalizar cómo se nombran los conceptos en la liquidación.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "Permite definir con qué nombre aparece cada concepto en la liquidación impresa, para que el documento hable el lenguaje de la empresa.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir las etiquetas",
+      "cuerpo": "Entra a **Recursos humanos → Etiquetas liquidación**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-etiquetas-liquidacion-01.png",
+        "alt": "Etiquetas de liquidación agrupadas por haberes imponibles, con código y nombre de cada una",
+        "descripcion": "Recursos humanos → Etiquetas liquidación. Cada concepto tiene un código fijo (H0001, H0002…) y un nombre editable."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Ajustar los nombres",
+      "cuerpo": "Cambia el texto con el que se muestra cada haber o descuento en el documento que recibe el colaborador.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Nombres claros en la liquidación reducen las consultas a RRHH cada fin de mes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cambia el cálculo?",
+      "respuesta": "No: solo cambia cómo se muestra el concepto."
+    }
+  ],
+  "relacionados": [
+    "procesar-liquidaciones"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/etiquetas-liquidacion",
+    "capturadoEl": "2026-08-16"
+  }
+}

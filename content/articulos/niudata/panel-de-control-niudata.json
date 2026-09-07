@@ -1,0 +1,55 @@
+{
+  "slug": "panel-de-control-niudata",
+  "titulo": "Panel de control",
+  "categoria": "niudata",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Seguir el estado de los períodos y las tareas de cierre.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Estudio contable"
+  ],
+  "proposito": "Concentra el estado de avance de la contabilidad: qué períodos están cerrados, qué quedó pendiente y en qué situación está cada empresa.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el panel",
+      "cuerpo": "Entra a **Administración → Panel de Control**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-panel-control-01.png",
+        "alt": "Panel de control multiempresa: filtros por holding, usuario, estado del mes y automatizaciones, y una fila por empresa con el estado de cada proceso",
+        "descripcion": "Administración → Panel de control. Cada fila es una empresa; los iconos indican sincronización, contabilización, pagos y conciliación."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar el avance",
+      "cuerpo": "Identifica los períodos incompletos y lo que falta para cerrarlos.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa el panel al inicio de cada mes: es la lista de lo que quedó pendiente del anterior."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Sirve para varias empresas?",
+      "respuesta": "Es la vista de control del avance contable; para operar cada empresa se usa el selector del encabezado."
+    }
+  ],
+  "relacionados": [
+    "dashboard-niudata",
+    "vouchers"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/administracion/panel-de-control",
+    "capturadoEl": "2026-08-16"
+  }
+}

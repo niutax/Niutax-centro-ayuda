@@ -1,0 +1,71 @@
+{
+  "slug": "acuse-de-recibo",
+  "titulo": "Dar acuse de recibo a los documentos de compra",
+  "categoria": "niupos",
+  "seccion": "Documentos recibidos y SII",
+  "tipo": "procedimiento",
+  "resumen": "Responder formalmente ante el SII por los documentos que emiten tus proveedores.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "El acuse de recibo es la respuesta formal del receptor ante un documento tributario electrónico. Es lo que confirma la recepción de la mercadería o del servicio y habilita el uso del crédito fiscal.",
+  "requisitos": [
+    "Documentos de compra sincronizados desde el SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro",
+      "cuerpo": "Entra a **Doc. electrónicos → Acuse de recibo**. La tabla muestra **RUT**, **Folio**, **Tipo documento**, **Razón social**, **Fecha** y **Total**.",
+      "nota": null,
+      "captura": {
+        "archivo": "acuse-de-recibo-01.jpg",
+        "alt": "Pantalla de acuse de recibo de documentos",
+        "descripcion": "Doc. electrónicos → Acuse de recibo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar",
+      "cuerpo": "El botón **Sincronizar** actualiza el listado con los documentos pendientes de respuesta según el SII.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar antes de acusar",
+      "cuerpo": "Contrasta cada documento con la recepción real —guía de entrada u orden de compra— antes de darle acuse.",
+      "nota": "Dar acuse de recibo tiene efectos: confirma la operación ante el Servicio y corre los plazos para reclamar.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Responder el documento",
+      "cuerpo": "Desde el listado se da el acuse a los documentos revisados. Los que presenten diferencias deben reclamarse dentro del plazo legal en vez de acusarse.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa este listado semanalmente: los plazos para reclamar un documento son acotados y se cuentan desde su recepción."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si no doy acuse?",
+      "respuesta": "Transcurrido el plazo legal el documento se entiende aceptado, aunque no lo hayas respondido."
+    }
+  ],
+  "relacionados": [
+    "documentos-recibidos",
+    "cesiones-de-documentos"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/acuse-de-recibo",
+    "capturadoEl": "2026-08-16"
+  }
+}

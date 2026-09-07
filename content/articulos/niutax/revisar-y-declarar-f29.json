@@ -1,0 +1,81 @@
+{
+  "slug": "revisar-y-declarar-f29",
+  "titulo": "Revisar la propuesta de F29 de una empresa",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "El sistema arma una propuesta de F29 por período a partir de los libros, y la muestra con el formato del formulario del SII.",
+  "tiempoLectura": "7 min",
+  "estado": "revisado",
+  "orden": 302,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Revisar código por código el F29 que se va a declarar, antes de guardarlo o enviarlo al SII.",
+  "requisitos": [
+    "Libros de compras y ventas sincronizados desde el SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir la empresa",
+      "cuerpo": "Entra a **Impuestos mensuales → F29**, selecciona el RUT y pulsa **Aceptar**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Ver los períodos del año",
+      "cuerpo": "Aparece un período por fila con **Base PPM**, **Impuesto único**, **Retención** y **Pago total**. El desplegable de año cambia el ejercicio.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-f29-listado-01.png",
+        "alt": "Listado de períodos del F29 con base PPM, impuesto único, retención y pago total",
+        "descripcion": "Impuestos mensuales → F29, con el RUT ya seleccionado."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Leer los botones de cada fila",
+      "cuerpo": "El botón verde de la izquierda es un **indicador de estado**, no una acción: informa que el formulario ya fue guardado en el SII. Los demás son **Ver formulario F29**, **Descargar excel con los libros**, **Editar** y **Eliminar**.",
+      "nota": "El indicador verde no se pulsa. Para abrir la declaración usa **Ver formulario F29**.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Abrir el formulario",
+      "cuerpo": "Con **Ver formulario F29** se despliega la declaración con el formato oficial del SII: período tributario, RUT, folio, y las secciones **Débitos y ventas** y **Créditos y compras** con cada código numerado.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-f29-formulario-01.png",
+        "alt": "Formulario 29 con los códigos del SII, débitos y ventas, créditos y compras",
+        "descripcion": "El formulario replica la estructura oficial: cada línea lleva su código del SII."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Descargar el respaldo",
+      "cuerpo": "El botón de excel entrega los libros que sustentan ese período, para archivar o para cuadrar contra la contabilidad.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Los códigos del formulario son los mismos del SII (503 facturas emitidas, 511 IVA por documentos electrónicos, 538 total débitos): puedes cuadrarlos directamente contra la declaración oficial."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Desde dónde salen los montos?",
+      "respuesta": "De los libros de compras y ventas que el módulo sincroniza con el SII. Si un monto no cuadra, revisa primero el libro del período."
+    }
+  ],
+  "relacionados": [
+    "panel-de-control-f29",
+    "libros-mensuales"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

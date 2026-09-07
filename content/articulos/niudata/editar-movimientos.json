@@ -1,0 +1,63 @@
+{
+  "slug": "editar-movimientos",
+  "titulo": "Editar movimientos",
+  "categoria": "niudata",
+  "seccion": "Ingreso contable",
+  "tipo": "procedimiento",
+  "resumen": "Corregir asientos ya registrados de forma masiva o puntual.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Permite corregir movimientos contabilizados: reclasificar una cuenta, ajustar una glosa o corregir un centro de costo, sin rehacer el comprobante completo.",
+  "requisitos": [
+    "Período contable abierto"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Ingreso Contable → Editar movimientos**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-editar-movimientos-01.png",
+        "alt": "Editar movimientos: filtros por cuenta, centro de costo, tipo y documento, y tarjetas de edición masiva",
+        "descripcion": "Ingreso Contable → Editar movimientos. Se filtran movimientos, se marcan y se les aplica una acción en bloque."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Ubicar los movimientos",
+      "cuerpo": "Filtra por cuenta, período o glosa para encontrar lo que necesitas corregir.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Aplicar la corrección",
+      "cuerpo": "Modifica lo que corresponda y guarda. Los cambios se reflejan de inmediato en balances e informes.",
+      "nota": "Toda corrección queda registrada: revisa **Plataforma → Auditoría** si necesitas saber quién cambió qué.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de una corrección masiva, exporta el balance: es tu punto de retorno si algo sale distinto de lo esperado."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo editar un período cerrado?",
+      "respuesta": "No mientras esté cerrado; primero hay que reabrirlo con los permisos correspondientes."
+    }
+  ],
+  "relacionados": [
+    "vouchers",
+    "libro-mayor"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/ingreso-contable/editar-movimientos",
+    "capturadoEl": "2026-08-16"
+  }
+}

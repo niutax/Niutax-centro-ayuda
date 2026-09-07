@@ -1,0 +1,57 @@
+{
+  "slug": "flujo-de-caja-historico",
+  "titulo": "Flujo de caja histórico",
+  "categoria": "niudata",
+  "seccion": "Informes de gestión",
+  "tipo": "procedimiento",
+  "resumen": "Ver cómo se movió la caja realmente en los períodos anteriores.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Tesorería"
+  ],
+  "proposito": "Muestra los flujos de entrada y salida efectivamente ocurridos, período por período. Es el contraste entre lo proyectado y lo que realmente pasó.",
+  "requisitos": [
+    "Movimientos de caja y banco contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes de Gestión → Flujo de Caja Histórico** y define el rango de períodos.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-flujo-caja-historico-01.png",
+        "alt": "Flujo de caja histórico: año, centro de costo y botón Generar informe",
+        "descripcion": "Informes de Gestión → Flujo de Caja Histórico."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Comparar con la proyección",
+      "cuerpo": "Contrasta este informe con el flujo proyectado: la diferencia sistemática indica que la proyección necesita ajuste.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si la caja histórica siempre queda bajo la proyección, el problema está en los supuestos de cobranza."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye movimientos no bancarios?",
+      "respuesta": "Refleja los movimientos de caja y banco registrados en la contabilidad."
+    }
+  ],
+  "relacionados": [
+    "flujo-de-caja",
+    "estado-de-resultados-gestion"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/informes-de-gestion/flujo-de-caja-historico",
+    "capturadoEl": "2026-08-16"
+  }
+}

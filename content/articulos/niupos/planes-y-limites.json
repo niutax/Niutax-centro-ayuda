@@ -1,0 +1,70 @@
+{
+  "slug": "planes-y-limites",
+  "titulo": "Revisar el plan y sus límites",
+  "categoria": "niupos",
+  "seccion": "Administración y usuarios",
+  "tipo": "procedimiento",
+  "resumen": "Ver qué incluye cada plan: documentos, usuarios, empresas y ubicaciones.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "El plan define los límites con los que opera la cuenta: cuántos documentos se pueden emitir, cuántos usuarios, cuántas empresas y cuántas ubicaciones. Cuando algo “no deja agregar más”, la respuesta suele estar aquí.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la gestión de planes",
+      "cuerpo": "Entra a **Administración → Planes**. La tabla muestra el **Plan**, su **Slug**, la cantidad de **Permisos**, cuántos **Usuarios** lo tienen y los **Límites**.",
+      "nota": null,
+      "captura": {
+        "archivo": "planes-y-limites-01.jpg",
+        "alt": "Pantalla de planes y permisos con los límites de cada plan",
+        "descripcion": "Administración → Planes: cada plan define qué menús incluye y sus límites."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer los límites",
+      "cuerpo": "Los límites se expresan como **Doc.** (documentos), **Usr** (usuarios), **Emp.** (empresas) y **Ubi.** (ubicaciones). Un plan Free parte con límites bajos y los planes para contadores admiten decenas de empresas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Entender los permisos",
+      "cuerpo": "Cada plan define qué menús incluye. Si a un usuario no le aparece una sección, revisa tanto su rol como el plan de la cuenta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Cambiar de plan",
+      "cuerpo": "Solo se pueden eliminar planes sin usuarios asignados. Para subir de plan, contacta a soporte comercial.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si estás cerca del límite mensual de documentos, revísalo antes del cierre de mes y no el día que necesitas facturar."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si llego al límite de documentos?",
+      "respuesta": "No podrás emitir más en el período hasta ampliar el plan."
+    }
+  ],
+  "relacionados": [
+    "usuarios-y-accesos",
+    "roles-y-permisos"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/administracion/planes",
+    "capturadoEl": "2026-08-16"
+  }
+}

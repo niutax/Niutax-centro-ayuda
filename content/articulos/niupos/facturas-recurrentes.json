@@ -1,0 +1,71 @@
+{
+  "slug": "facturas-recurrentes",
+  "titulo": "Programar facturas recurrentes",
+  "categoria": "niupos",
+  "seccion": "Emisión de documentos",
+  "tipo": "procedimiento",
+  "resumen": "Configurar la emisión automática de facturas periódicas para contratos y suscripciones.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 7,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración"
+  ],
+  "proposito": "Para clientes con cobro periódico, esta pantalla configura las facturas que el sistema emitirá de forma automática, sin que nadie tenga que acordarse cada mes.",
+  "requisitos": [
+    "Cliente registrado",
+    "Folios disponibles para el tipo de documento"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Facturas recurrentes**. La tabla muestra **RUT**, **Nombre**, **Tipo documento**, **Periodo**, **Días**, **Inicio**, **Fin** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "facturas-recurrentes-01.jpg",
+        "alt": "Listado de facturas recurrentes programadas",
+        "descripcion": "Doc. electrónicos → Facturas recurrentes."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Programar una factura",
+      "cuerpo": "Presiona **Agregar factura** y define el cliente, el detalle a facturar, el **periodo** de emisión y las fechas de **inicio** y **fin** de la programación.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Programar facturas de exportación",
+      "cuerpo": "Si el cobro recurrente es a un cliente del exterior, usa **Agregar fact. exportación**, que emite el documento de exportación correspondiente.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Controlar la vigencia",
+      "cuerpo": "La columna **Fin** y el **Estado** determinan hasta cuándo se emite. Revisa la programación al cierre de mes: un contrato terminado que sigue emitiendo obliga a emitir notas de crédito.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de cada cierre, contrasta las recurrentes activas con los contratos vigentes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo suspender temporalmente una programación?",
+      "respuesta": "Sí, gestionando su estado desde el listado, sin perder el historial."
+    }
+  ],
+  "relacionados": [
+    "emitir-factura-electronica",
+    "timbraje-electronico-folios"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/facturas-recurrentes",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "deudas-vigentes",
+  "titulo": "Consultar las deudas vigentes de la cartera",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "Consolida en una sola pantalla toda la deuda fiscal vigente de las empresas administradas.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 305,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador",
+    "Administrador"
+  ],
+  "proposito": "Ver de una vez cuánto debe la cartera al fisco y qué empresas concentran esa deuda.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el consolidado",
+      "cuerpo": "Entra a **Impuestos mensuales → Deudas vigentes**. Arriba se muestran **Total deudas**, **Cantidad** de deudas y **Ruts con deudas**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-deudas-vigentes-01.png",
+        "alt": "Consolidado de deudas vigentes con totales y detalle por empresa",
+        "descripcion": "Impuestos mensuales → Deudas vigentes."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar el detalle",
+      "cuerpo": "La tabla lista **RUT**, **Empresa**, **Form** (el formulario que originó la deuda, por ejemplo 21), **Emisión**, **Vencimiento**, **Monto** y **Estado**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Ver el origen",
+      "cuerpo": "La lupa de cada fila abre el detalle del giro o formulario que generó esa deuda.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Ordena por **Monto** para atacar primero las deudas grandes, y por **Vencimiento** para las que están por caducar."
+  ],
+  "faq": [],
+  "relacionados": [
+    "panel-de-control-f29"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

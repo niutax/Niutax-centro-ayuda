@@ -1,0 +1,71 @@
+{
+  "slug": "activos-fijos",
+  "titulo": "Activos fijos",
+  "categoria": "niudata",
+  "seccion": "Activos fijos",
+  "tipo": "procedimiento",
+  "resumen": "Registrar los bienes de la empresa y su ubicación.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "Mantiene el registro de los bienes del activo fijo con su costo, ubicación, si son depreciables y cuánta depreciación llevan contabilizada.",
+  "requisitos": [
+    "Plan de cuentas configurado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Activos Fijos → Activos**. Verás **Código**, **Descripción**, **Ubicación**, **Depreciable**, **Costo**, **Dep. contabilizada** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "activos-fijos-01.jpg",
+        "alt": "Listado de activos fijos con su estado y depreciación",
+        "descripcion": "El filtro por estado permite ver solo los activos vigentes."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un activo",
+      "cuerpo": "**Crear Activo Fijo** pide los datos del bien, su costo, su ubicación y si corresponde depreciarlo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Administrar ubicaciones",
+      "cuerpo": "**Ubicaciones** define los lugares físicos donde están los bienes.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Filtrar por estado",
+      "cuerpo": "Por defecto se muestran los **Vigentes**; el filtro permite ver también los dados de baja.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Mantén la ubicación al día: es lo que hace posible una toma de inventario de activo fijo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si doy de baja un activo?",
+      "respuesta": "Deja de depreciarse y cambia de estado, pero conserva su historial."
+    }
+  ],
+  "relacionados": [
+    "depreciaciones",
+    "informes-activos-fijos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/activos-fijos/activos",
+    "capturadoEl": "2026-08-16"
+  }
+}

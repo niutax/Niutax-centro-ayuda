@@ -1,0 +1,80 @@
+{
+  "slug": "cuentas-por-cobrar-niudata",
+  "titulo": "Cuentas por cobrar",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Ver quién te debe, con qué antigüedad y priorizar la cobranza.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "Muestra los saldos pendientes de cobro con su antigüedad, para saber cuánto está vencido y desde cuándo. Es la herramienta de priorización de la cobranza.",
+  "requisitos": [
+    "Documentos de venta contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Tesorería → Cuentas por Cobrar**. Arriba verás **Saldo total**, **Por vencer** y **Vencido**, cada uno con su cantidad de documentos.",
+      "nota": null,
+      "captura": {
+        "archivo": "cuentas-por-cobrar-niudata-01.jpg",
+        "alt": "Cuentas por cobrar con distribución por antigüedad y filtros",
+        "descripcion": "El tramo de antigüedad es lo que ordena la gestión de cobranza."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer la distribución por antigüedad",
+      "cuerpo": "Los tramos **Por vencer**, **1-30**, **31-60**, **61-90** y **90+ días** muestran monto y cantidad de documentos. El tramo de 90+ días es el que exige acción inmediata.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Ver los principales deudores",
+      "cuerpo": "El bloque **Principales deudores** concentra quiénes explican la mayor parte del saldo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Filtrar",
+      "cuerpo": "Puedes acotar por **Auxiliar**, **Cuenta contable**, **Antigüedad** y rango de fechas del documento.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar Excel** descarga el detalle para trabajarlo con el equipo comercial.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cruza este informe con las ventas del período: vender mucho a quien no paga no es una buena venta."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye documentos no contabilizados?",
+      "respuesta": "No. El informe se construye sobre los movimientos ya registrados en la contabilidad."
+    }
+  ],
+  "relacionados": [
+    "cobranzas-niudata",
+    "cuentas-por-pagar-niudata",
+    "cuentas-por-auxiliar"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/cuentas-por-cobrar",
+    "capturadoEl": "2026-08-16"
+  }
+}

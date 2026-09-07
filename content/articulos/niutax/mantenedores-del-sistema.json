@@ -1,0 +1,73 @@
+{
+  "slug": "mantenedores-del-sistema",
+  "titulo": "Las tablas maestras del módulo",
+  "categoria": "niutax",
+  "seccion": "Mantenedores",
+  "tipo": "concepto",
+  "resumen": "Siete tablas que parametrizan cómo el sistema clasifica y calcula: tipos y tamaños de empresa, régimen, corrección monetaria, factores de renta, socios y convenios.",
+  "tiempoLectura": "4 min",
+  "estado": "borrador",
+  "orden": 201,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador",
+    "Contador"
+  ],
+  "proposito": "Los mantenedores definen los valores con los que trabajan el resto de las pantallas. Cambiar uno afecta a toda la cartera, no a una empresa.",
+  "requisitos": [
+    "Perfil Administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Tipos y tamaños de empresa",
+      "cuerpo": "**Mantenedores → Tipos de empresa** y **Tamaños de empresa** clasifican a los contribuyentes; esa clasificación se usa después para filtrar y para aplicar tratamientos distintos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Régimen tributario",
+      "cuerpo": "**Mantenedores → Regimen tributario** mantiene el catálogo de regímenes (14 A, 14 D3, 14 D8, No afecto ART 14, renta presunta) que aparece en el panel F22.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-regimen-tributario-01.png",
+        "alt": "Catálogo de regímenes tributarios: renta presunta, 14 D8 transparente, 14 D3 con y sin contabilidad, 14 A régimen general, no aplica, no afecto ART 14 y término de giro",
+        "descripcion": "Mantenedores → Régimen tributario. Los ocho regímenes que el panel F22 puede asignar a una empresa."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Corrección monetaria y factores de renta",
+      "cuerpo": "**Corrección monetaria** guarda los factores de actualización y **Factores de renta** los coeficientes usados en el cálculo anual.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Calendario tributario",
+      "cuerpo": "**Calendario tributario** concentra los vencimientos legales; tiene su propio artículo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Maestro de socios y convenios",
+      "cuerpo": "**Maestro de socios** centraliza las personas que participan en varias empresas de la cartera, y **Convenios** los acuerdos de pago vigentes.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de la operación renta conviene revisar que corrección monetaria y factores de renta estén actualizados al año que se va a declarar."
+  ],
+  "faq": [],
+  "relacionados": [
+    "calendario-tributario",
+    "panel-empresas-f22"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

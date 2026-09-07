@@ -1,0 +1,62 @@
+{
+  "slug": "planes-cupones-y-facturacion",
+  "titulo": "Planes, cupones y valor de actividades",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "concepto",
+  "resumen": "La parte comercial del módulo: qué plan tiene cada cliente, descuentos y tarifas por actividad.",
+  "tiempoLectura": "3 min",
+  "estado": "borrador",
+  "orden": 106,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador"
+  ],
+  "proposito": "Administrar la relación comercial con los clientes de la cartera desde el mismo sistema.",
+  "requisitos": [
+    "Perfil Administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Planes",
+      "cuerpo": "**Administración → Planes** define los planes de servicio disponibles y cuál tiene contratado cada cliente.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-planes-01.png",
+        "alt": "Matriz de planes y características: para cada plan, valor en UF, permisos y límites de contadores, clientes, empresas, personas y documentos",
+        "descripcion": "Administración → Planes. Cada columna es un plan; las filas definen sus límites y qué funciones incluye."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cupones",
+      "cuerpo": "**Administración → Cupones** administra los códigos de descuento aplicables a esos planes.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Valor actividades",
+      "cuerpo": "**Administración → Valor actividades** fija la tarifa de cada actividad, base para cobrar el trabajo realizado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Control de horas",
+      "cuerpo": "**Administración → Control de horas** registra el tiempo dedicado, que junto con el valor de actividades permite medir la rentabilidad de cada cliente.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "administrar-mis-ruts"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

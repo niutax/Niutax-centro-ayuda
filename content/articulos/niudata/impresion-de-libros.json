@@ -1,0 +1,63 @@
+{
+  "slug": "impresion-de-libros",
+  "titulo": "Impresión de libros",
+  "categoria": "niudata",
+  "seccion": "Libros contables",
+  "tipo": "procedimiento",
+  "resumen": "Emitir los libros foliados para su presentación y archivo.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Genera los libros contables en su formato de presentación, foliados y listos para firmar o archivar como respaldo legal.",
+  "requisitos": [
+    "Período cerrado y cuadrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Libros Contables → Impresión de Libros**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-impresion-libros-01.png",
+        "alt": "Impresión de libros: libros auxiliares, libro diario, libro mayor y balance de 8 columnas con opción de foliado y Generar PDF",
+        "descripcion": "Libros Contables → Impresión de libros. Cada bloque genera el PDF del libro elegido, con foliado opcional."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir libro y período",
+      "cuerpo": "Selecciona qué libro emitir y el rango de fechas que corresponde.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Emitir y archivar",
+      "cuerpo": "Genera el documento y archívalo junto al resto del respaldo del ejercicio.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Emite los libros una vez cerrado el ejercicio: reimprimir tras una corrección obliga a reemplazar todo el archivo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cuándo debo emitirlos?",
+      "respuesta": "Al cierre de cada ejercicio, o cuando el SII los requiera en una fiscalización."
+    }
+  ],
+  "relacionados": [
+    "libro-diario",
+    "libro-mayor"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-contables/impresion-de-libros",
+    "capturadoEl": "2026-08-16"
+  }
+}

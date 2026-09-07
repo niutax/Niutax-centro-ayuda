@@ -1,0 +1,88 @@
+{
+  "slug": "que-es-niudata",
+  "titulo": "¿Qué es Niudata y para qué sirve?",
+  "categoria": "niudata",
+  "seccion": "Primeros pasos",
+  "tipo": "concepto",
+  "resumen": "Panorama del módulo de contabilidad y finanzas: qué resuelve, qué necesitas para partir y cómo se conecta con el resto del ERP.",
+  "tiempoLectura": "4 min",
+  "estado": "borrador",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Jefe de administración y finanzas",
+    "Dueño de PyME"
+  ],
+  "proposito": "Niudata es el módulo contable y financiero de Niutax ERP. Toma los documentos tributarios de la empresa (los que emites en Niupos y los que recibes desde el SII), genera los asientos contables y entrega los reportes financieros del período: balance de 8 columnas, estado de resultados, libros diario y mayor foliados, cuentas por cobrar y por pagar, y flujo de caja.",
+  "requisitos": [
+    "Empresa creada en Niutax ERP",
+    "Conexión al SII activa"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Cómo entrar",
+      "cuerpo": "El acceso a todos los módulos está centralizado en **https://central.niu.tax**. Inicia sesión ahí con tu cuenta de Niutax ERP y pulsa **Entrar** en la tarjeta **Contabilidad y Finanzas**: el módulo se abre en una pestaña nueva, ya autenticado.",
+      "nota": "Ya no existe una pantalla de ingreso propia de este módulo: si abres su dirección sin sesión, te redirige a Central.",
+      "captura": {
+        "archivo": "central-selector-productos-01.png",
+        "alt": "Pantalla Selecciona un producto de Niutax Central con las tarjetas Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH",
+        "descripcion": "central.niu.tax después de iniciar sesión: una tarjeta por módulo. Entrar abre el módulo en una pestaña nueva."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Qué hace por ti",
+      "cuerpo": "Contabiliza automáticamente los documentos tributarios del período según las reglas que definas, sin digitar asientos uno por uno.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-dashboard-01.png",
+        "alt": "Dashboard de Niudata con el resumen del mes, saldos bancarios y cuentas por cobrar y pagar",
+        "descripcion": "La pantalla de inicio de Niudata: todo lo que el módulo hace se resume aquí, mes a mes."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Qué sigues haciendo tú",
+      "cuerpo": "Revisar y aprobar: los comprobantes quedan en estado pendiente hasta que alguien con permiso los aprueba. Nada se contabiliza a ciegas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Cómo se conecta con los otros módulos",
+      "cuerpo": "Las ventas y compras llegan desde Gestión Comercial y desde el SII; las remuneraciones llegan desde NiuHR; los resultados alimentan la Gestión Tributaria (F29, F22, DDJJ).",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Dónde encuentras cada cosa",
+      "cuerpo": "El módulo agrupa la operación diaria (documentos, conciliación, cuentas por cobrar/pagar) y los reportes de cierre (balances, EERR, libros).",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si administras varias empresas, revisa el selector multi-RUT: todos los reportes se emiten por empresa y período."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Necesito cargar mi contabilidad histórica?",
+      "respuesta": "No es obligatorio para empezar, pero sí recomendable si quieres comparativos de años anteriores. Se puede cargar el saldo inicial del plan de cuentas."
+    },
+    {
+      "pregunta": "¿Puedo exportar los reportes?",
+      "respuesta": "Sí, todos los reportes se exportan a Excel y a PDF listos para firmar."
+    }
+  ],
+  "relacionados": [
+    "ingresar-a-niupos",
+    "que-es-niutax"
+  ],
+  "fuente": {
+    "url": "",
+    "capturadoEl": "2026-09-07"
+  }
+}

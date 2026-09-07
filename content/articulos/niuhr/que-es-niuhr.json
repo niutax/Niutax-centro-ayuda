@@ -1,0 +1,92 @@
+{
+  "slug": "que-es-niuhr",
+  "titulo": "¿Qué es NiuHR y para qué sirve?",
+  "categoria": "niuhr",
+  "seccion": "Primeros pasos",
+  "tipo": "concepto",
+  "resumen": "Los tres menús del módulo de personas y el orden en que conviene configurarlo.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "NiuHR es el módulo de gestión de personas: mantiene la ficha de cada colaborador, procesa las liquidaciones de sueldo, controla vacaciones y horas, y entrega los informes laborales. Se organiza en tres menús: **Administración**, **Recursos humanos** e **Informes**.",
+  "requisitos": [
+    "Usuario con acceso al módulo"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Cómo entrar",
+      "nota": "Ya no existe una pantalla de ingreso propia de este módulo: si abres su dirección sin sesión, te redirige a Central.",
+      "cuerpo": "El acceso a todos los módulos está centralizado en **https://central.niu.tax**. Inicia sesión ahí con tu cuenta de Niutax ERP y pulsa **Entrar** en la tarjeta **Gestión RRHH**: el módulo se abre en una pestaña nueva, ya autenticado.",
+      "captura": {
+        "archivo": "central-selector-productos-01.png",
+        "alt": "Pantalla Selecciona un producto de Niutax Central con las tarjetas Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH",
+        "descripcion": "central.niu.tax después de iniciar sesión: una tarjeta por módulo. Entrar abre el módulo en una pestaña nueva."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "El panel de inicio",
+      "cuerpo": "Al entrar verás los indicadores de dotación —**Contratos indefinidos**, **Nuevos empleados** y **Total colaboradores**—, el **costo empresa** comparado con el año anterior y la composición del equipo por género y nacionalidad.",
+      "nota": null,
+      "captura": {
+        "archivo": "que-es-niuhr-01.jpg",
+        "alt": "Panel de inicio de NiuHR con indicadores de dotación y costo empresa",
+        "descripcion": "El dashboard resume dotación, costo y composición del equipo."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Administración",
+      "cuerpo": "Define el marco: **Usuarios**, **Roles**, **Empresas**, **Feriados**, **Documentos tipo**, **Indicadores Previred**, **Planes**, **Importar Datos** e **Historial de correos**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Recursos humanos",
+      "cuerpo": "La operación diaria: **Listado personal**, **Solicitudes**, **Liquidaciones sueldo**, **Cargos**, **Departamentos**, **Variables mes**, **Proyectos**, **Control de horas**, **Etiquetas liquidación**, **Historial apertura mes** e **Historial de firmas**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Informes",
+      "cuerpo": "El análisis y el cumplimiento: **Remuneraciones**, **Anticipos**, **Provisión de vacaciones**, **Distribución proyectos**, **Vacaciones tomadas** y **Movimientos de personal**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "El orden para partir",
+      "cuerpo": "Configura primero **Cargos** y **Departamentos**, luego carga el **Listado personal**, revisa los **Indicadores Previred** del año y recién entonces procesa la primera liquidación.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El costo empresa del dashboard es el número que more importa en la conversación con gerencia: incluye lo que la empresa paga, no solo el líquido."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se conecta con la contabilidad?",
+      "respuesta": "Sí: el libro de remuneraciones se importa y contabiliza desde el módulo de Contabilidad y Finanzas."
+    }
+  ],
+  "relacionados": [
+    "ingresar-a-niupos",
+    "listado-de-personal",
+    "procesar-liquidaciones",
+    "indicadores-previred"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/dashboard",
+    "capturadoEl": "2026-08-16"
+  }
+}

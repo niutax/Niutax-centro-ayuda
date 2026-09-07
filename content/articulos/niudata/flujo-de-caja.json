@@ -1,0 +1,80 @@
+{
+  "slug": "flujo-de-caja",
+  "titulo": "Flujo de caja proyectado",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Proyectar la caja a partir del saldo disponible, las cobranzas y los pagos por vencer.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 10,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Tesorería"
+  ],
+  "proposito": "Proyecta cómo evoluciona la caja desde hoy: parte del saldo disponible y suma lo por cobrar y resta lo por pagar según sus vencimientos, más los presupuestos marcados para flujo.",
+  "requisitos": [
+    "Cuentas por cobrar y pagar al día",
+    "Saldos bancarios actualizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el flujo",
+      "cuerpo": "Entra a **Tesorería → Flujo de Caja**. Arriba verás **Disponible hoy**, **Por cobrar vigente**, **Por pagar vigente** y el **Saldo proyectado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "flujo-de-caja-01.jpg",
+        "alt": "Flujo de caja con proyección semanal y saldo acumulado",
+        "descripcion": "La proyección arranca hoy y avanza por semanas según el horizonte elegido."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el horizonte",
+      "cuerpo": "El selector **Horizonte** define cuántos meses proyectar: lo que queda del mes en curso más los meses que elijas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Leer la proyección",
+      "cuerpo": "El gráfico muestra el saldo proyectado acumulado y la tabla lo abre por semana, comparando **Saldo proyectado** con **Saldo vigente**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Incorporar presupuestos",
+      "cuerpo": "Los presupuestos marcados para flujo de caja se suman a la proyección, para anticipar gastos comprometidos que aún no tienen documento.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar** descarga la proyección para presentarla o trabajarla aparte.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si la proyección se ve mejor que la realidad, revisa la antigüedad de las cuentas por cobrar: lo vencido hace 90 días rara vez entra cuando se proyecta."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿De dónde sale el disponible de hoy?",
+      "respuesta": "De los saldos de las cuentas bancarias registradas."
+    }
+  ],
+  "relacionados": [
+    "cuentas-por-cobrar-niudata",
+    "cuentas-por-pagar-niudata",
+    "presupuestos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/flujo-de-caja",
+    "capturadoEl": "2026-08-16"
+  }
+}

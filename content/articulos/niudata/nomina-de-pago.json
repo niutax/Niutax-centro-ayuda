@@ -1,0 +1,63 @@
+{
+  "slug": "nomina-de-pago",
+  "titulo": "Nómina de pago",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Revisar las nóminas generadas desde cuentas por pagar para transferir.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería"
+  ],
+  "proposito": "Reúne las nóminas de pago generadas, con el detalle bancario necesario para ejecutar las transferencias.",
+  "requisitos": [
+    "Documentos seleccionados en cuentas por pagar"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Tesorería → Nómina de Pago** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "nomina-de-pago-01.jpg",
+        "alt": "Listado de nóminas de pago del período",
+        "descripcion": "Las nóminas se generan desde Cuentas por Pagar con la acción “Pagar como nómina”."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar la nómina",
+      "cuerpo": "Cada registro muestra **Folio**, **Fecha**, **Comprobante**, **Cuenta de pago**, **Total pagado** y los documentos incluidos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Ejecutar la transferencia",
+      "cuerpo": "Con el detalle bancario de la nómina se ejecuta el pago en el banco; después queda el respaldo asociado al comprobante.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Genera una nómina por fecha de pago y por cuenta bancaria: simplifica después la conciliación."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo generar una nómina desde aquí?",
+      "respuesta": "No: las nóminas nacen en **Cuentas por Pagar** seleccionando los documentos."
+    }
+  ],
+  "relacionados": [
+    "cuentas-por-pagar-niudata",
+    "conciliacion-bancaria-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/nomina-de-pago",
+    "capturadoEl": "2026-08-16"
+  }
+}

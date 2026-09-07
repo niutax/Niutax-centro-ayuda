@@ -1,0 +1,74 @@
+{
+  "slug": "usuarios-y-roles",
+  "titulo": "Dar acceso: usuarios y roles",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Cada usuario recibe un rol y un alcance de RUT: todos los de la cartera o un subconjunto.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 102,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Administrador"
+  ],
+  "proposito": "Controlar quién entra al módulo tributario y sobre qué empresas puede trabajar.",
+  "requisitos": [
+    "Perfil Administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Revisar los usuarios",
+      "cuerpo": "Entra a **Administración → Usuarios**. La tabla muestra **RUT**, **Nombre**, **Correo electrónico**, **Rol** y **Ruts**, esta última con el número de empresas que ese usuario puede ver (o **Todos**).",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-usuarios-01.png",
+        "alt": "Listado de usuarios con su rol y cantidad de RUT asignados",
+        "descripcion": "Administración → Usuarios."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un usuario",
+      "cuerpo": "Usa **Agregar**, completa sus datos y asígnale un rol y el conjunto de RUT a los que tendrá acceso.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar los roles disponibles",
+      "cuerpo": "En **Administración → Roles** está la lista de perfiles con la cantidad de usuarios que tiene cada uno. Los roles de fábrica son **Administrador**, **Contador**, **Usuario**, **Solo lectura**, **Free**, **Usuario Renta**, **Contador Renta** y **Acuso de Recibo**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-roles-01.png",
+        "alt": "Lista de roles del sistema con la cantidad de usuarios de cada uno",
+        "descripcion": "Administración → Roles."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Ajustar un rol",
+      "cuerpo": "El lápiz de cada fila abre los permisos del rol. **Acuso de Recibo** es un rol acotado, pensado para quien solo debe dar acuse de documentos recibidos.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "**Solo lectura** es el rol adecuado para un cliente que quiere mirar sus declaraciones sin poder alterarlas."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Un usuario puede ver solo algunas empresas?",
+      "respuesta": "Sí: la columna **Ruts** muestra cuántas tiene asignadas. Si dice **Todos**, ve la cartera completa."
+    }
+  ],
+  "relacionados": [
+    "administrar-mis-ruts",
+    "grupos-de-ruts"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

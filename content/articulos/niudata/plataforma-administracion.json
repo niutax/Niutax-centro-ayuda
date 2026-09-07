@@ -1,0 +1,85 @@
+{
+  "slug": "plataforma-administracion",
+  "titulo": "Plataforma: control avanzado",
+  "categoria": "niudata",
+  "seccion": "Plataforma",
+  "tipo": "procedimiento",
+  "resumen": "Roles, planes, auditoría, tareas programadas y uso de IA y MCP.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "El menú **Plataforma** agrupa la administración avanzada del sistema: quién puede hacer qué, qué se ejecuta automáticamente y qué ha pasado en la cuenta. Es el nivel de control para administradores y estudios contables.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Roles y planes",
+      "cuerpo": "**Roles** define los perfiles de acceso y **Planes** muestra el plan contratado y sus límites.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Parámetros tributarios",
+      "cuerpo": "**Corrección Monetaria SII**, **Retenciones por País** y **Tipo de documentos** mantienen los parámetros con los que el sistema calcula y clasifica.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Tareas programadas y pendientes",
+      "cuerpo": "**Tareas Programadas** muestra los procesos automáticos y **Pendientes por revisar** lo que quedó esperando intervención.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Uso de IA y MCP",
+      "cuerpo": "**Uso de IA**, **Aprendizaje IA** y **Uso MCP** muestran cómo se está usando la inteligencia artificial sobre los datos contables y qué ha aprendido el sistema de las clasificaciones anteriores.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Auditoría",
+      "cuerpo": "**Auditoría** registra quién hizo cada cambio y cuándo. Es la primera parada cuando aparece un movimiento que nadie reconoce.",
+      "nota": "El registro de auditoría es también el respaldo ante una revisión externa.",
+      "captura": {
+        "archivo": "niudata-auditoria-01.png",
+        "alt": "Auditoría de la plataforma: fecha, usuario, evento, modelo, ID y empresa de cada acción",
+        "descripcion": "Plataforma → Auditoría. Registra cada creación o modificación con su usuario y empresa."
+      }
+    },
+    {
+      "n": 6,
+      "titulo": "Monitoreo bancario",
+      "cuerpo": "**Fintoc Monitoreo** muestra el estado de las conexiones bancarias automáticas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Ante cualquier duda sobre un cambio en la contabilidad, parte por Auditoría antes de reconstruir el movimiento a mano."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Todos los usuarios ven este menú?",
+      "respuesta": "No: es un menú de administración, sujeto al rol y al plan contratado."
+    }
+  ],
+  "relacionados": [
+    "usuarios-y-permisos-niudata",
+    "integraciones-niudata",
+    "editar-movimientos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/plataforma/auditoria",
+    "capturadoEl": "2026-08-16"
+  }
+}

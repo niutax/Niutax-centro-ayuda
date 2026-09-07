@@ -1,0 +1,56 @@
+{
+  "slug": "historial-de-firmas",
+  "titulo": "Historial de firmas",
+  "categoria": "niuhr",
+  "seccion": "Ciclo del trabajador",
+  "tipo": "procedimiento",
+  "resumen": "Seguir qué documentos se enviaron a firma y en qué estado están.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "Concentra los documentos laborales enviados a firma electrónica —contratos, anexos, liquidaciones— con su estado, para saber qué quedó pendiente.",
+  "requisitos": [
+    "Documentos enviados a firma"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el historial",
+      "cuerpo": "Entra a **Recursos humanos → Historial de firmas**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-historial-firmas-01.png",
+        "alt": "Historial de firmas con documento, empleado, departamento, firmado por, fecha, IP y navegador",
+        "descripcion": "Recursos humanos → Historial de firmas. Registra quién firmó cada documento, cuándo y desde dónde."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar los pendientes",
+      "cuerpo": "Identifica los documentos enviados que aún no han sido firmados y haz seguimiento.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El expediente digital completo es lo primero que se pide en una fiscalización laboral: revisa los pendientes cada mes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La firma electrónica tiene validez?",
+      "respuesta": "Sí, para documentos laborales conforme a la normativa chilena."
+    }
+  ],
+  "relacionados": [
+    "feriados-y-documentos",
+    "listado-de-personal"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/historial-firmas",
+    "capturadoEl": "2026-08-16"
+  }
+}

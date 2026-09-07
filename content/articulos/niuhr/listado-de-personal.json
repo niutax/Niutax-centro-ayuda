@@ -1,0 +1,79 @@
+{
+  "slug": "listado-de-personal",
+  "titulo": "Listado de personal",
+  "categoria": "niuhr",
+  "seccion": "Ciclo del trabajador",
+  "tipo": "procedimiento",
+  "resumen": "El maestro de colaboradores: fichas, estado y acceso al portal.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Administración"
+  ],
+  "proposito": "Es el maestro de personas de la empresa. Cada fila es la ficha de un colaborador con su RUT, contacto, departamento, cargo, fecha de inicio, estado y si tiene acceso al portal del trabajador.",
+  "requisitos": [
+    "Cargos y departamentos creados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Recursos humanos → Listado personal**. Las columnas son **RUT**, **Nombre / Contacto**, **Departamento**, **Cargo**, **Fecha inicio / Plazo**, **Estado** y **Portal**.",
+      "nota": null,
+      "captura": {
+        "archivo": "listado-de-personal-01.jpg",
+        "alt": "Listado de personal con estado y acceso al portal",
+        "descripcion": "Cada ficha muestra de un vistazo si el colaborador está activo y si tiene portal."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Filtrar",
+      "cuerpo": "El primer selector permite ver **solo fichas de personal activo** o incluir a quienes ya no están; el segundo filtra por acceso al **Portal**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Agregar un colaborador",
+      "cuerpo": "**Agregar** abre la ficha nueva: datos personales, previsionales, contractuales y de contacto.",
+      "nota": "El RUT es el dato que cruza toda la información del módulo: valídalo al crear la ficha.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Dar acceso al portal",
+      "cuerpo": "La columna **Portal** muestra **Sin acceso** o el estado del acceso. Habilitarlo permite al colaborador ver sus liquidaciones y solicitar vacaciones por su cuenta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar a Excel** descarga la dotación completa, útil para auditorías o para cruzar con otros sistemas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Marca como inactivo a quien sale de la empresa en vez de eliminarlo: así conservas su historial de liquidaciones."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si un colaborador no aparece?",
+      "respuesta": "Revisa el filtro de estado: por defecto solo se muestran las fichas activas."
+    }
+  ],
+  "relacionados": [
+    "cargos-y-departamentos",
+    "procesar-liquidaciones",
+    "solicitudes-de-empleado"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/listado-personal",
+    "capturadoEl": "2026-08-16"
+  }
+}

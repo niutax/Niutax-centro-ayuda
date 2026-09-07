@@ -1,0 +1,65 @@
+{
+  "slug": "cuentas-por-auxiliar",
+  "titulo": "Cuentas por auxiliar",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Ver la posición completa de cada tercero: lo que te debe y lo que le debes.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Contador"
+  ],
+  "proposito": "Consolida por auxiliar los saldos a favor y en contra, con el saldo neto. Sirve cuando un mismo tercero es cliente y proveedor a la vez.",
+  "requisitos": [
+    "Movimientos contabilizados con auxiliar"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Tesorería → Cuentas por Auxiliar**. Arriba, **Por cobrar**, **Por pagar**, **Saldo neto** y **Vencido**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cuentas-por-auxiliar-01.jpg",
+        "alt": "Cuentas por auxiliar con saldos a favor, en contra y neto",
+        "descripcion": "La posición neta por tercero evita pagar y cobrar en paralelo a la misma empresa."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Filtrar por naturaleza",
+      "cuerpo": "El filtro **Naturaleza** separa saldos a favor de saldos en contra; también puedes acotar por auxiliar, cuenta y antigüedad.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar el detalle",
+      "cuerpo": "La tabla lista cada documento con su razón social, RUT, folio, tipo, cuenta, fechas y saldo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de pagarle a un proveedor que también es cliente, revisa aquí su posición neta."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué es un auxiliar?",
+      "respuesta": "Es el tercero asociado a un movimiento: cliente, proveedor o prestador de servicios. Se administran en **Administración → Auxiliares**."
+    }
+  ],
+  "relacionados": [
+    "auxiliares-niudata",
+    "cuentas-por-cobrar-niudata",
+    "cuentas-por-pagar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/cuentas-por-auxiliar",
+    "capturadoEl": "2026-08-16"
+  }
+}

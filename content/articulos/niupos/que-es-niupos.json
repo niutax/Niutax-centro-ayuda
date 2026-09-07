@@ -1,0 +1,100 @@
+{
+  "slug": "que-es-niupos",
+  "titulo": "¿Qué es Niupos y para qué sirve?",
+  "categoria": "niupos",
+  "seccion": "Primeros pasos",
+  "tipo": "concepto",
+  "resumen": "Recorrido por los cuatro menús del módulo comercial y por el orden en que conviene configurarlo.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Vendedor",
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "Niupos es el módulo comercial de Niutax ERP: emite documentos tributarios electrónicos ante el SII, controla el inventario y entrega los informes de venta. Todo se organiza en cuatro menús — **Administración**, **Configuración**, **Doc. electrónicos** e **Informes** — y es multiempresa: una misma cuenta opera decenas de RUT.",
+  "requisitos": [
+    "Usuario creado en el sistema"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Cómo entrar",
+      "nota": "Ya no existe una pantalla de ingreso propia de este módulo: si abres su dirección sin sesión, te redirige a Central.",
+      "cuerpo": "El acceso a todos los módulos está centralizado en **https://central.niu.tax**. Inicia sesión ahí con tu cuenta de Niutax ERP y pulsa **Entrar** en la tarjeta **Gestión Comercial**: el módulo se abre en una pestaña nueva, ya autenticado.",
+      "captura": {
+        "archivo": "central-selector-productos-01.png",
+        "alt": "Pantalla Selecciona un producto de Niutax Central con las tarjetas Contabilidad y Finanzas, Gestión tributaria, Gestión Comercial y Gestión RRHH",
+        "descripcion": "central.niu.tax después de iniciar sesión: una tarjeta por módulo. Entrar abre el módulo en una pestaña nueva."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Administración",
+      "cuerpo": "Quién usa el sistema y con qué alcance: **Vendedores**, **Roles**, **Usuarios**, **Planes** y **Rechazos SII** (los documentos que el Servicio devolvió con reparos).",
+      "nota": null,
+      "captura": {
+        "archivo": "que-es-niupos-01.jpg",
+        "alt": "Menú Administración desplegado",
+        "descripcion": "Administración: usuarios, roles, planes y rechazos del SII."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Configuración",
+      "cuerpo": "Todo lo que hay que dejar listo antes de emitir: **Empresas**, **Certificados**, **Folios**, **Productos y servicios**, **Ubicaciones**, **Personal**, **Centros de costo** e **Importar Datos**.",
+      "nota": null,
+      "captura": {
+        "archivo": "que-es-niupos-02.jpg",
+        "alt": "Menú Configuración desplegado",
+        "descripcion": "Configuración: la base sobre la que opera todo el módulo."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Doc. electrónicos",
+      "cuerpo": "La operación diaria: **Emisión de documento**, **Punto de venta**, **Boletas Emitidas**, **Cotizaciones**, **Facturas recurrentes**, **Orden de compra**, **Orden de trabajo**, **Traspasos**, **Guía de entrada**, **Acuse de recibo**, **Documentos Recibidos** y **Cesiones**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Informes",
+      "cuerpo": "El análisis: **Inventario**, **Ventas detalladas**, **Producto**, **Consumo**, **Guías**, **Movimientos PMP** y **Cosechas**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "El orden recomendado para partir",
+      "cuerpo": "Configura en este orden y no te quedarás a medio camino: **Empresa** (con direcciones y giros) → **Certificado digital** → **Folios CAF** → **Ubicaciones** → **Productos y servicios**. Recién entonces podrás emitir tu primer documento.",
+      "nota": "Cada pantalla tiene un botón **Tutorial** arriba a la derecha con un video del proceso.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El selector de empresa está en el encabezado, arriba a la derecha: revisa siempre sobre qué RUT estás trabajando antes de emitir.",
+    "El ícono de cuadrícula del encabezado cambia entre los módulos del ecosistema: Contabilidad y Finanzas, Gestión tributaria y Gestión RRHH."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Necesito instalar algo?",
+      "respuesta": "No, Niupos funciona en el navegador."
+    },
+    {
+      "pregunta": "¿Puedo administrar varias empresas?",
+      "respuesta": "Sí, el sistema es multiempresa y el listado admite decenas de RUT."
+    }
+  ],
+  "relacionados": [
+    "ingresar-a-niupos",
+    "configurar-empresas",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl",
+    "capturadoEl": "2026-08-16"
+  }
+}

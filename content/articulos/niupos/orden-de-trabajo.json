@@ -1,0 +1,73 @@
+{
+  "slug": "orden-de-trabajo",
+  "titulo": "Registrar órdenes de trabajo",
+  "categoria": "niupos",
+  "seccion": "Operación comercial",
+  "tipo": "procedimiento",
+  "resumen": "Documentar trabajos y servicios ejecutados, con su bodega y su costo.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de operaciones",
+    "Administración"
+  ],
+  "proposito": "La orden de trabajo registra un servicio o faena a ejecutar, con los materiales y la mano de obra asociada. Sirve para controlar qué se hizo, dónde y cuánto costó.",
+  "requisitos": [
+    "Ubicación creada",
+    "Personal registrado si se imputa mano de obra"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Orden de trabajo**. La tabla muestra **N°**, **Fecha inicio**, **Bodega**, **Descripción**, **Estado** y **Total**.",
+      "nota": null,
+      "captura": {
+        "archivo": "orden-de-trabajo-01.jpg",
+        "alt": "Listado de órdenes de trabajo registradas",
+        "descripcion": "Doc. electrónicos → Orden de trabajo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Emitir una orden",
+      "cuerpo": "Presiona **Emitir orden**, describe el trabajo, indica la **bodega** desde la que salen los materiales y la fecha de inicio.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Asociar materiales y mano de obra",
+      "cuerpo": "Agrega los productos que se consumen y, si corresponde, el personal externo o contratista que ejecuta el trabajo.",
+      "nota": "Los productos que se consumen en una orden descuentan stock de la bodega indicada.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Seguir el estado",
+      "cuerpo": "El estado indica si la orden sigue pendiente o ya fue respondida. Desde cada fila puedes ver el detalle y descargar el documento.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Usa la descripción para identificar el trabajo como lo nombra el equipo en terreno: es lo que después permite encontrarlo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo facturar una orden de trabajo?",
+      "respuesta": "La orden documenta la ejecución; la facturación al cliente se emite desde **Emisión de documento**."
+    }
+  ],
+  "relacionados": [
+    "registrar-personal",
+    "informe-consumo",
+    "traspasos-entre-bodegas"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/orden-de-trabajo",
+    "capturadoEl": "2026-08-16"
+  }
+}

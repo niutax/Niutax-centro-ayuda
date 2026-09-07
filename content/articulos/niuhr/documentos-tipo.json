@@ -1,0 +1,47 @@
+{
+  "slug": "documentos-tipo",
+  "titulo": "Documentos tipo",
+  "categoria": "niuhr",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Las plantillas con las que se generan contratos, anexos y certificados.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "Los documentos tipo son las plantillas de los documentos laborales que la empresa emite. Con ellas listas, generar un contrato o un certificado deja de ser un trabajo manual cada vez.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el mantenedor",
+      "cuerpo": "Entra a **Administración → Documentos tipo**. Ahí se definen las plantillas de los documentos laborales de la empresa.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-documentos-tipo-01.png",
+        "alt": "Listado de documentos tipo con categoría, nombre y descripción",
+        "descripcion": "Administración → Documentos tipo. Cada plantilla se clasifica por categoría."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Usarlas en el ciclo del trabajador",
+      "cuerpo": "Las plantillas quedan disponibles al generar documentos desde la ficha de cada persona, y las firmas quedan registradas en el historial.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "historial-de-firmas",
+    "listado-de-personal"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/administracion/documentos-tipo",
+    "capturadoEl": "2026-08-16"
+  }
+}

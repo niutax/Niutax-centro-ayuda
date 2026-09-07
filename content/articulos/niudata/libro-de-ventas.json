@@ -1,0 +1,71 @@
+{
+  "slug": "libro-de-ventas",
+  "titulo": "Libro de ventas",
+  "categoria": "niudata",
+  "seccion": "Libros auxiliares",
+  "tipo": "procedimiento",
+  "resumen": "Revisar las ventas del período sincronizadas desde el SII.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "Reúne los documentos de venta emitidos en el período. Es la base del débito fiscal y el contraste natural con lo emitido en el módulo comercial.",
+  "requisitos": [
+    "Empresa conectada al SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el libro",
+      "cuerpo": "Entra a **Libros Auxiliares → Libro de Ventas** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "libro-de-ventas-01.jpg",
+        "alt": "Libro de ventas con sus columnas de detalle",
+        "descripcion": "Mismas herramientas que el libro de compras: sincronizar, documento manual y exportar."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar",
+      "cuerpo": "**Sincronizar SII** trae las ventas informadas al Servicio en el período.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar el detalle",
+      "cuerpo": "Columnas: **Comprobante**, **Doc.**, **Folio**, **Fecha**, **RUT Cliente**, **Razón Social**, **Exento**, **Neto**, **IVA** y **Total**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Cuadrar con la facturación",
+      "cuerpo": "Contrasta el total con lo emitido en el módulo comercial: si no calza, falta sincronizar o hay documentos rechazados por el SII.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cuadra ventas y compras antes de declarar: el F29 se arma con estos dos libros."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye las boletas?",
+      "respuesta": "El libro reúne los documentos informados al SII para el período; las boletas se informan según su propio resumen."
+    }
+  ],
+  "relacionados": [
+    "libro-de-compras",
+    "cuentas-por-cobrar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-auxiliares/libro-de-ventas",
+    "capturadoEl": "2026-08-16"
+  }
+}

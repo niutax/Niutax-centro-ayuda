@@ -1,0 +1,65 @@
+{
+  "slug": "informe-de-remuneraciones",
+  "titulo": "Informe de remuneraciones",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "El detalle mensual con los datos de pago de cada colaborador.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Contador",
+    "Tesorería"
+  ],
+  "proposito": "Entrega el detalle de las remuneraciones del mes con los datos bancarios de cada persona. Es el informe con el que se prepara el pago y se cuadra el costo del período.",
+  "requisitos": [
+    "Liquidaciones generadas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Remuneraciones** y elige el mes y el año.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-de-remuneraciones-01.jpg",
+        "alt": "Informe de remuneraciones mensuales con datos de pago",
+        "descripcion": "Incluye banco, tipo y número de cuenta para preparar la transferencia."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "**RUT**, **Email**, **Nombre**, **Apellidos**, **Banco**, **Cod. SBIF**, **Tipo cuenta**, **Número cuenta** y **Total líquido**, con el total del período al pie.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Exportar",
+      "cuerpo": "Los botones del encabezado permiten elegir columnas y descargar en **Excel**, **PDF** o imprimir.",
+      "nota": "Este informe contiene datos bancarios de personas: compártelo solo con quien deba ejecutar el pago.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El total líquido de este informe debe cuadrar con la transferencia que se ejecuta en el banco."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo elegir qué columnas mostrar?",
+      "respuesta": "Sí, con el primer botón del encabezado."
+    }
+  ],
+  "relacionados": [
+    "procesar-liquidaciones",
+    "informe-de-anticipos"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/remuneraciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "informe-producto",
+  "titulo": "Informe de producto",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Seguir todos los movimientos de inventario de un producto específico.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Bodega",
+    "Administración"
+  ],
+  "proposito": "Muestra la historia de un producto: cada entrada, cada salida y el saldo acumulado. Es la herramienta para investigar por qué el stock de un ítem no cuadra.",
+  "requisitos": [
+    "Producto inventariable con movimientos"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Producto**, selecciona el **Producto** en el desplegable y elige el **mes** y **año**.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-producto-01.jpg",
+        "alt": "Informe de producto con el selector de producto y período",
+        "descripcion": "Informes → Producto: movimientos de inventario de un ítem específico."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el movimiento",
+      "cuerpo": "Cada línea muestra **Fecha**, **Unidad de medida**, **Movimiento**, **Entradas**, **Salidas** y **Saldo** acumulado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Rastrear diferencias",
+      "cuerpo": "Recorre los movimientos en orden hasta encontrar dónde el saldo dejó de coincidir con la realidad: ahí está el registro que falta o sobra.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cuando un producto “no cuadra”, este informe responde la pregunta más rápido que revisar documento por documento."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo ver varios productos a la vez?",
+      "respuesta": "No, este informe es por producto. Para la vista global usa el **Informe de inventario**."
+    }
+  ],
+  "relacionados": [
+    "informe-inventario",
+    "informe-movimientos-pmp"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/producto",
+    "capturadoEl": "2026-08-16"
+  }
+}

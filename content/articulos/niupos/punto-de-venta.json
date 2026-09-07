@@ -1,0 +1,109 @@
+{
+  "slug": "punto-de-venta",
+  "titulo": "Vender en el punto de venta",
+  "categoria": "niupos",
+  "seccion": "Operación comercial",
+  "tipo": "procedimiento",
+  "resumen": "Operar la caja: agregar productos, registrar el pago y emitir la boleta en segundos.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Vendedor",
+    "Cajero"
+  ],
+  "proposito": "El punto de venta es la pantalla de caja: una sola vista donde armas la venta, cobras y emites el documento. Está pensada para atención presencial, donde la velocidad importa.",
+  "requisitos": [
+    "Catálogo cargado en **Configuración → Productos y servicios**",
+    "Folios de boleta disponibles",
+    "Vendedor registrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la caja",
+      "cuerpo": "Entra a **Doc. electrónicos → Punto de venta**. A la izquierda armas la venta; a la derecha defines el documento y ves el total.",
+      "nota": null,
+      "captura": {
+        "archivo": "punto-de-venta-01.jpg",
+        "alt": "Pantalla del punto de venta con el buscador de productos y el panel de la venta",
+        "descripcion": "Doc. electrónicos → Punto de venta."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar productos",
+      "cuerpo": "En **Agregar producto** busca por nombre o código, o presiona la **lupa** para abrir *Productos registrados*, el catálogo completo con **Código**, **IVA**, **Descripción**, impuesto adicional y **Precio**. Al elegir un ítem se agrega a la venta y se recalculan **Exento**, **Neto**, **IVA** y **Total**.",
+      "nota": "Si trabajas con lector de código de barras, el buscador acepta el código directamente.",
+      "captura": {
+        "archivo": "punto-de-venta-02.jpg",
+        "alt": "Ventana Productos registrados con el catálogo y su buscador",
+        "descripcion": "La lupa abre **Productos registrados**: código, IVA, descripción y precio."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Definir el documento",
+      "cuerpo": "En el panel derecho elige el **Tipo de documento** —*Boleta Electrónica* o *Factura Electrónica*—, revisa la **Fecha** y selecciona el **Vendedor** que realiza la venta.",
+      "nota": null,
+      "captura": {
+        "archivo": "punto-de-venta-03.jpg",
+        "alt": "Venta con un producto cargado y los totales calculados",
+        "descripcion": "Al elegir el producto se calculan exento, neto, IVA y total."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Asignar cliente si corresponde",
+      "cuerpo": "**Asignar cliente** es opcional en una boleta: búscalo por RUT cuando el cliente lo pida o cuando necesites emitir factura.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Registrar el pago",
+      "cuerpo": "En **Forma de pago** elige entre *Efectivo*, *Tarjeta de crédito*, *Tarjeta de débito*, *Transferencia*, *Giftcard*, *Entrega Gratuita* o los créditos a 10, 15, 30, 45, 120, 150 y 180 días. El **Valor pagado** viene prellenado con el total; presiona **Agregar** para registrarlo. Puedes sumar varias formas de pago hasta cubrir el total.",
+      "nota": "La tabla **Pagos ingresados** lleva la cuenta: si *Total pagos* es menor que el total de la venta, falta registrar el saldo.",
+      "captura": {
+        "archivo": "punto-de-venta-05.jpg",
+        "alt": "Sección Pagos ingresados con forma de pago y valor pagado",
+        "descripcion": "**Valor pagado** viene prellenado con el total de la venta."
+      }
+    },
+    {
+      "n": 6,
+      "titulo": "Emitir",
+      "cuerpo": "Presiona **Emitir documento**: la boleta se firma y se envía al SII. Para comenzar otra venta usa **Nueva venta**, que limpia la pantalla.",
+      "nota": "La venta descuenta el stock de los productos marcados como inventariables.",
+      "captura": {
+        "archivo": "punto-de-venta-06.jpg",
+        "alt": "Botón Emitir documento al pie del panel de la venta",
+        "descripcion": "**Emitir documento** firma la boleta y la envía al SII."
+      }
+    }
+  ],
+  "tips": [
+    "Cuadra la caja al cierre de cada turno contra el informe de ventas del día: las diferencias se explican mucho mejor el mismo día.",
+    "Si el cliente pide factura, asígnalo antes de cobrar y cambia el tipo de documento: después de emitir, corregirlo exige una nota de crédito."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo emitir factura desde el punto de venta?",
+      "respuesta": "Sí, cambiando el **Tipo de documento** y asignando el cliente con sus datos tributarios."
+    },
+    {
+      "pregunta": "¿Se puede dividir el pago?",
+      "respuesta": "Sí, en **Pagos ingresados** puedes registrar varias formas de pago para la misma venta."
+    }
+  ],
+  "relacionados": [
+    "boletas-emitidas",
+    "catalogo-productos-y-servicios",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/punto-de-venta",
+    "capturadoEl": "2026-08-16"
+  }
+}

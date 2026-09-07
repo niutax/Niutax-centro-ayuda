@@ -1,0 +1,64 @@
+{
+  "slug": "libro-mayor",
+  "titulo": "Libro mayor",
+  "categoria": "niudata",
+  "seccion": "Libros contables",
+  "tipo": "procedimiento",
+  "resumen": "Ver todos los movimientos de cada cuenta con su saldo acumulado.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "El libro mayor agrupa los movimientos por cuenta contable y muestra cómo se llega al saldo de cada una. Es la herramienta para investigar por qué una cuenta quedó con el saldo que tiene.",
+  "requisitos": [
+    "Movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Generar el mayor",
+      "cuerpo": "Entra a **Libros Contables → Libro Mayor**. Elige el tipo de período —**Anual** o **Mensual**—, el año y las opciones de agrupación, y presiona **Generar informe**. El informe se construye en pantalla y se puede **Exportar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-libro-mayor-01.png",
+        "alt": "Libro mayor: mensual, anual o entre fechas, con filtros de subtipo, cuenta y tipo financiero",
+        "descripcion": "Libros Contables → Libro mayor. Elige el período y, si quieres, una cuenta o subtipo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Recorrer una cuenta",
+      "cuerpo": "Cada cuenta muestra sus movimientos en orden con débitos, créditos y saldo acumulado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Investigar diferencias",
+      "cuerpo": "Cuando una cuenta del balance no calza con lo esperado, este es el informe donde se encuentra el movimiento que la descuadró.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cuando el balance no cuadra, parte por el mayor de la cuenta con la diferencia: casi siempre está ahí."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo descargarlo?",
+      "respuesta": "Sí, el informe generado se exporta desde la misma pantalla."
+    }
+  ],
+  "relacionados": [
+    "libro-diario",
+    "balance-de-comprobacion",
+    "analisis-de-cuentas"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-contables/libro-mayor",
+    "capturadoEl": "2026-08-16"
+  }
+}

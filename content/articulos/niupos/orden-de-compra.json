@@ -1,0 +1,81 @@
+{
+  "slug": "orden-de-compra",
+  "titulo": "Emitir y seguir órdenes de compra",
+  "categoria": "niupos",
+  "seccion": "Operación comercial",
+  "tipo": "procedimiento",
+  "resumen": "Registrar lo que se le pide a cada proveedor y seguir su recepción.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Compras",
+    "Bodega",
+    "Administración"
+  ],
+  "proposito": "La orden de compra formaliza el pedido a un proveedor y permite seguir si fue respondido y si la mercadería llegó completa. Es el paso previo a la recepción en bodega.",
+  "requisitos": [
+    "Proveedor registrado",
+    "Bodega de destino creada en **Configuración → Ubicaciones**"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Orden de compra**. La tabla muestra **N°**, **Fecha**, **Bodega**, **RUT** y **Nombre** del receptor, **Tipo**, **Estado** y **Total**.",
+      "nota": null,
+      "captura": {
+        "archivo": "orden-de-compra-01.jpg",
+        "alt": "Listado de órdenes de compra con sus estados",
+        "descripcion": "Doc. electrónicos → Orden de compra."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Filtrar por estado",
+      "cuerpo": "El selector **Estado** separa lo pendiente de lo recibido. Los estados habituales son **Pendiente de respuesta** y **Recibida completa**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Emitir una orden",
+      "cuerpo": "Presiona **Emitir orden**, elige el proveedor y la **bodega** de destino, y agrega los productos con cantidades y precios.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Seguir la recepción",
+      "cuerpo": "A medida que llega la mercadería, el estado de la orden refleja si quedó recibida completa o sigue pendiente.",
+      "nota": "La recepción física se documenta con la **Guía de entrada**.",
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Descargar y compartir",
+      "cuerpo": "Cada fila permite descargar el documento para enviárselo al proveedor.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisar semanalmente las órdenes en *Pendiente de respuesta* evita quiebres de stock por pedidos que el proveedor nunca confirmó."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La orden de compra es un documento tributario?",
+      "respuesta": "No, es un documento interno de gestión. El documento tributario lo emite el proveedor."
+    }
+  ],
+  "relacionados": [
+    "guias-de-entrada",
+    "documentos-recibidos",
+    "ubicaciones-y-bodegas"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/orden-de-compra",
+    "capturadoEl": "2026-08-16"
+  }
+}

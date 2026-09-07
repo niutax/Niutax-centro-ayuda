@@ -1,0 +1,48 @@
+{
+  "slug": "calendario-tributario",
+  "titulo": "Consultar el calendario tributario",
+  "categoria": "niutax",
+  "seccion": "Primeros pasos",
+  "tipo": "procedimiento",
+  "resumen": "El calendario centraliza los vencimientos de IVA y Renta que alimentan los avisos del dashboard.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Tener en un solo lugar las fechas legales de vencimiento, para que el sistema pueda avisar los **próximos eventos** en el dashboard.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el calendario",
+      "cuerpo": "Entra a **Mantenedores → Calendario tributario**. La tabla lista **Tipo** (IVA o Renta), **Fecha** y **Descripción**, por ejemplo \"Vencimiento pago F29\" o \"Vencimiento pago contribuciones y sobretasa\".",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-calendario-tributario-01.png",
+        "alt": "Listado del calendario tributario con vencimientos de IVA y Renta",
+        "descripcion": "Mantenedores → Calendario tributario."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar o corregir una fecha",
+      "cuerpo": "Usa **Agregar** para una fecha nueva, o el lápiz de cada fila para editarla. Es la tabla que el dashboard consulta para mostrar los próximos vencimientos.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cuando el vencimiento legal se corre (por ejemplo el 20 cae fin de semana), corrige aquí la fecha: el aviso del dashboard la toma de esta tabla."
+  ],
+  "faq": [],
+  "relacionados": [
+    "que-es-niutax"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

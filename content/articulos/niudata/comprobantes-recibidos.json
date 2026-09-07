@@ -1,0 +1,61 @@
+{
+  "slug": "comprobantes-recibidos",
+  "titulo": "Comprobantes recibidos",
+  "categoria": "niudata",
+  "seccion": "Ingreso contable",
+  "tipo": "procedimiento",
+  "resumen": "Revisar los comprobantes que llegan desde otros módulos y aprobarlos.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Reúne los comprobantes generados fuera de la contabilidad —por ejemplo desde el módulo comercial o de remuneraciones— para revisarlos antes de que queden registrados.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la bandeja",
+      "cuerpo": "Entra a **Ingreso Contable → Comprobantes Recibidos**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-comprobantes-recibidos-01.png",
+        "alt": "Bandeja de comprobantes recibidos con columnas fecha, origen, plan de cuenta, glosa, líneas, monto y cuadra",
+        "descripcion": "Ingreso Contable → Comprobantes recibidos. Aquí llegan los vouchers enviados por API, IA o niugastos, pendientes de aprobación."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar cada comprobante",
+      "cuerpo": "Verifica cuentas, montos y glosa antes de aprobarlo. Nada se contabiliza sin pasar por esta revisión.",
+      "nota": "Los comprobantes creados por integraciones o por asistentes de IA llegan aquí en estado pendiente: la aprobación siempre es humana.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Aprobar o corregir",
+      "cuerpo": "Aprueba los que estén correctos y devuelve o corrige los que tengan diferencias.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa esta bandeja antes de emitir cualquier informe: un comprobante sin aprobar no está en el balance."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿De dónde vienen estos comprobantes?",
+      "respuesta": "De los módulos conectados y de las integraciones por API."
+    }
+  ],
+  "relacionados": [
+    "vouchers",
+    "integraciones-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/ingreso-contable/comprobantes-recibidos",
+    "capturadoEl": "2026-08-16"
+  }
+}

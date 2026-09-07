@@ -1,0 +1,76 @@
+{
+  "slug": "registrar-personal",
+  "titulo": "Registrar personal, contratistas y externos",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Dar de alta a las personas que participan en la operación, propias o externas.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 6,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Jefe de operaciones"
+  ],
+  "proposito": "El registro de personal identifica a quienes ejecutan trabajos asociados a documentos y órdenes: trabajadores propios, trabajadores externos y contratistas. Se usa para imputar mano de obra y para las órdenes de trabajo.",
+  "requisitos": [
+    "RUT y nombre de cada persona"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro",
+      "cuerpo": "Entra a **Configuración → Personal**. La tabla lista **RUT**, **Tipo**, **Nombre** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "registrar-personal-01.jpg",
+        "alt": "Listado de personal registrado",
+        "descripcion": "Configuración → Personal."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Registrar una persona",
+      "cuerpo": "Presiona **Agregar**. Elige el **Tipo** —*Trabajador*, *Trabajador externo* o *Contratista*— e ingresa **Rut**, **Nombre** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "registrar-personal-02.jpg",
+        "alt": "Ventana Registrar personal con tipo, RUT, nombre y estado",
+        "descripcion": "Los tres tipos distinguen personal propio de terceros."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Mantener el estado al día",
+      "cuerpo": "Marca como **Inactivo** a quien ya no participa en la operación, en vez de eliminarlo: así conservas el historial de los documentos en que aparece.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Vincular con productos de mano de obra",
+      "cuerpo": "En el catálogo, el campo **Mano de obra externa** de un producto permite asociarlo a un trabajador externo o a un contratista.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Valida el RUT al registrar: es el dato con el que se cruza la información en el resto del sistema."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Es lo mismo que Vendedores?",
+      "respuesta": "No. **Personal** son las personas que ejecutan trabajos; **Vendedores** son quienes figuran como responsables comerciales de un documento."
+    }
+  ],
+  "relacionados": [
+    "vendedores",
+    "orden-de-trabajo",
+    "catalogo-productos-y-servicios"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/personal",
+    "capturadoEl": "2026-08-16"
+  }
+}

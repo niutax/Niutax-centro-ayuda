@@ -1,0 +1,73 @@
+{
+  "slug": "traspasos-entre-bodegas",
+  "titulo": "Traspasar stock entre bodegas",
+  "categoria": "niupos",
+  "seccion": "Operación comercial",
+  "tipo": "procedimiento",
+  "resumen": "Mover mercadería de una bodega a otra y registrar consumos internos.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Bodega",
+    "Administración"
+  ],
+  "proposito": "El traspaso mueve stock entre ubicaciones sin que exista una venta: reposición entre bodegas, envío a una sucursal o consumo interno de materiales.",
+  "requisitos": [
+    "Al menos dos ubicaciones creadas",
+    "Stock disponible en la bodega de origen"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Traspasos**. La tabla muestra **Folio**, **Fecha**, **Descripción**, **Bodega origen**, **Bodega destino** y **Total neto**.",
+      "nota": null,
+      "captura": {
+        "archivo": "traspasos-entre-bodegas-01.jpg",
+        "alt": "Listado de traspasos entre bodegas",
+        "descripcion": "Doc. electrónicos → Traspasos: traspasos y consumos internos entre bodegas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un traspaso",
+      "cuerpo": "Presiona **Nuevo traspaso**, elige la **bodega de origen** y la **bodega de destino**, y describe el motivo del movimiento.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Agregar los productos",
+      "cuerpo": "Indica qué productos y en qué cantidad se mueven. El stock se descuenta del origen y se suma al destino.",
+      "nota": "Solo se pueden traspasar productos marcados como **inventariables** en el catálogo.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Verificar en el inventario",
+      "cuerpo": "Después del traspaso, revisa el **Informe de inventario** filtrando por bodega para confirmar que los saldos quedaron donde corresponde.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Describe siempre el motivo del traspaso: seis meses después es lo único que explica un movimiento raro de stock."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El traspaso emite un documento tributario?",
+      "respuesta": "No, es un movimiento interno. Si la mercadería se traslada físicamente por vía pública, corresponde emitir una guía de despacho."
+    }
+  ],
+  "relacionados": [
+    "ubicaciones-y-bodegas",
+    "informe-inventario",
+    "informe-movimientos-pmp"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/traspasos",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "movimientos-de-personal",
+  "titulo": "Movimientos de personal",
+  "categoria": "niuhr",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Ingresos, salidas y cambios de la dotación en el período.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 6,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Gerencia"
+  ],
+  "proposito": "Muestra cómo cambió la dotación: quiénes entraron, quiénes salieron y qué cambios contractuales hubo. Es el informe de rotación.",
+  "requisitos": [
+    "Fichas de personal actualizadas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Movimientos de personal** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-movimientos-personal-01.png",
+        "alt": "Informe de movimientos de personal con filtros por año, fechas, trabajador y tipo de movimiento",
+        "descripcion": "Informes → Movimientos de personal. Las etiquetas superiores resumen la cantidad por tipo de movimiento."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar ingresos y salidas",
+      "cuerpo": "Contrasta con la dotación del dashboard: los movimientos explican la variación del total de colaboradores.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Este informe es el insumo del indicador de rotación: revísalo mensualmente, no una vez al año."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye cambios de cargo?",
+      "respuesta": "Refleja los movimientos registrados en las fichas del período."
+    }
+  ],
+  "relacionados": [
+    "listado-de-personal",
+    "que-es-niuhr"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/informes/movimientos-personal",
+    "capturadoEl": "2026-08-16"
+  }
+}

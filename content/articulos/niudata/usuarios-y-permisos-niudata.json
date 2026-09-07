@@ -1,0 +1,63 @@
+{
+  "slug": "usuarios-y-permisos-niudata",
+  "titulo": "Usuarios, empresas y permisos",
+  "categoria": "niudata",
+  "seccion": "Configuración",
+  "tipo": "procedimiento",
+  "resumen": "Dar acceso al equipo y definir qué puede ver y hacer cada quien.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "Define quiénes acceden a la contabilidad, sobre qué empresas y con qué permisos. En un estudio contable es lo que separa la información de cada cliente.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Invitar usuarios",
+      "cuerpo": "En **Configuración → Usuarios** se da de alta a cada persona; **Mis invitaciones** muestra las invitaciones pendientes de aceptar.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-usuarios-01.png",
+        "alt": "Listado de usuarios con RUT, nombre, email, empresas, jerarquía, plan y permiso, separado en Equipo y Contadores",
+        "descripcion": "Configuración → Usuarios. Las pestañas separan el equipo interno de los contadores externos."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Administrar empresas",
+      "cuerpo": "**Configuración → Empresas** lista las empresas de la cuenta y permite cambiar entre ellas desde el selector del encabezado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Definir permisos",
+      "cuerpo": "**Configuración → Permisos** determina qué puede hacer cada rol dentro de cada módulo.",
+      "nota": "La información contable es sensible: da acceso solo a las empresas que cada persona necesita.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa los accesos cada vez que alguien entra o sale del equipo, no una vez al año."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Un usuario puede ver varias empresas?",
+      "respuesta": "Sí, según los permisos que se le asignen."
+    }
+  ],
+  "relacionados": [
+    "plan-de-cuentas-niudata",
+    "automatizaciones"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/configuracion/usuarios",
+    "capturadoEl": "2026-08-16"
+  }
+}

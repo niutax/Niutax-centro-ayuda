@@ -1,0 +1,76 @@
+{
+  "slug": "documentos-recibidos",
+  "titulo": "Revisar los documentos recibidos",
+  "categoria": "niupos",
+  "seccion": "Documentos recibidos y SII",
+  "tipo": "procedimiento",
+  "resumen": "Sincronizar desde el SII las facturas de compra y revisarlas por período.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "Reúne los documentos de compra que tus proveedores emitieron a nombre de la empresa. Es la base del libro de compras y el punto de partida para aceptar o reclamar un documento.",
+  "requisitos": [
+    "Empresa conectada al SII"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro",
+      "cuerpo": "Entra a **Doc. electrónicos → Documentos Recibidos**. La tabla muestra **RUT**, **Folio**, **Tipo documento**, **Razón social**, **Fecha** y **Total**, con el selector de período arriba.",
+      "nota": null,
+      "captura": {
+        "archivo": "documentos-recibidos-01.jpg",
+        "alt": "Registro de documentos de compra recibidos",
+        "descripcion": "Doc. electrónicos → Documentos Recibidos."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Sincronizar con el SII",
+      "cuerpo": "El botón **Sincronizar** trae los documentos que el Servicio tiene registrados a nombre de la empresa para el período seleccionado.",
+      "nota": "Sincroniza al menos una vez antes de cerrar el mes: los proveedores suelen emitir sobre la fecha de vencimiento.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar el período",
+      "cuerpo": "Cambia el mes y el año con el selector. El botón verde indica si el período está abierto o cerrado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Cruzar con las compras reales",
+      "cuerpo": "Contrasta los documentos recibidos con lo que efectivamente llegó a bodega. Un documento sin recepción asociada es una alerta antes de aceptarlo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Este listado es lo que después alimenta el libro de compras y el crédito fiscal del F29: revisarlo a tiempo evita rectificatorias."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo cargar documentos que no aparecen?",
+      "respuesta": "Sí, con **Configuración → Importar Datos → Documentos XML**, a partir del XML o ZIP del emisor."
+    },
+    {
+      "pregunta": "¿Dónde acepto o rechazo un documento?",
+      "respuesta": "La respuesta formal al emisor se gestiona desde **Acuse de recibo**."
+    }
+  ],
+  "relacionados": [
+    "acuse-de-recibo",
+    "importar-datos",
+    "orden-de-compra"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/documentos-recibidos",
+    "capturadoEl": "2026-08-16"
+  }
+}

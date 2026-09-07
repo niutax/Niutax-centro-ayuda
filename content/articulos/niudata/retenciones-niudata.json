@@ -1,0 +1,53 @@
+{
+  "slug": "retenciones-niudata",
+  "titulo": "Retenciones y otros impuestos",
+  "categoria": "niudata",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Configurar las retenciones y los impuestos adicionales que aplica la empresa.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Define las retenciones e impuestos adicionales que se aplican a los documentos, para que la contabilización y las declaraciones los consideren correctamente.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Administración → Retenciones y otros impuestos**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-retenciones-01.png",
+        "alt": "Retenciones y otros impuestos: código, tipo, nombre, porcentaje y plan de cuentas asignado",
+        "descripcion": "Administración → Retenciones. A cada retención o impuesto se le asigna la cuenta contable con la que se imputa."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar las tasas vigentes",
+      "cuerpo": "Verifica que las tasas correspondan al período: las retenciones de honorarios cambian por año.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Revisa la tasa de retención de honorarios cada enero: es el error más común del primer trimestre."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Afecta al libro de honorarios?",
+      "respuesta": "Sí, la retención aplicada es la que se refleja en el libro y en la declaración."
+    }
+  ],
+  "relacionados": [
+    "libro-de-honorarios"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/administracion/retenciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

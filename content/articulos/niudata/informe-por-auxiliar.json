@@ -1,0 +1,64 @@
+{
+  "slug": "informe-por-auxiliar",
+  "titulo": "Informe por auxiliar",
+  "categoria": "niudata",
+  "seccion": "Informes de gestión",
+  "tipo": "procedimiento",
+  "resumen": "Ver el movimiento contable acumulado de un tercero.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Tesorería"
+  ],
+  "proposito": "Muestra todo lo registrado con un auxiliar: sus documentos, sus pagos y su saldo. Es el estado de cuenta contable de un cliente o proveedor.",
+  "requisitos": [
+    "Movimientos con auxiliar asignado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes de Gestión → Informe por Auxiliar** y selecciona el tercero y el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-informe-auxiliar-01.png",
+        "alt": "Informe por auxiliar: selector de auxiliar, período mensual, histórico o entre fechas, y por cobrar, por pagar o ambas",
+        "descripcion": "Informes de Gestión → Informe por Auxiliar."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar el movimiento",
+      "cuerpo": "El informe lista los documentos y pagos que explican el saldo actual del auxiliar.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usarlo para conciliar con el tercero",
+      "cuerpo": "Es el informe que se envía cuando un cliente o proveedor discute un saldo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de discutir un saldo con un proveedor, emite este informe: la mayoría de las diferencias son documentos no registrados de un lado."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se puede exportar?",
+      "respuesta": "Sí, para enviarlo al tercero como respaldo."
+    }
+  ],
+  "relacionados": [
+    "cuentas-por-auxiliar",
+    "auxiliares-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/informes-de-gestion/informe-por-auxiliar",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "planes-e-importacion",
+  "titulo": "Planes e importación de datos",
+  "categoria": "niuhr",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "El plan contratado y la carga masiva de información laboral.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador de la cuenta",
+    "Jefe de RRHH"
+  ],
+  "proposito": "**Planes** muestra el plan contratado y sus límites. **Importar Datos** permite cargar en lote la información laboral cuando se migra desde otro sistema.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Revisar el plan",
+      "cuerpo": "En **Administración → Planes** verás el plan vigente y sus límites, por ejemplo la cantidad de colaboradores.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-planes-01.png",
+        "alt": "Listado de planes con slug, cantidad de permisos, usuarios y límites de usuarios, empresas y trabajadores",
+        "descripcion": "Administración → Planes. Cada plan fija cuántos usuarios, empresas y trabajadores admite."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Importar datos",
+      "cuerpo": "**Importar Datos** carga fichas de personal e información histórica desde archivo, que es lo que permite arrancar sin digitar persona por persona.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Verificar la carga",
+      "cuerpo": "Después de importar, revisa el listado de personal y corrige lo que haya quedado incompleto.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Importa primero cargos y departamentos, después las fichas: si no existen, las fichas quedan sin estructura."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo migrar el historial de liquidaciones?",
+      "respuesta": "La importación cubre la información laboral; el historial de remuneraciones se carga como libro en el módulo contable."
+    }
+  ],
+  "relacionados": [
+    "usuarios-y-roles-niuhr",
+    "listado-de-personal"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/administracion/planes",
+    "capturadoEl": "2026-08-16"
+  }
+}

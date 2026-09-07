@@ -1,0 +1,68 @@
+{
+  "slug": "observaciones-de-renta",
+  "titulo": "Seguir observaciones y anotaciones del SII",
+  "categoria": "niutax",
+  "seccion": "Tickets y normativa",
+  "tipo": "procedimiento",
+  "resumen": "El menú Tickets concentra el seguimiento de los casos abiertos ante el SII.",
+  "tiempoLectura": "4 min",
+  "estado": "borrador",
+  "orden": 601,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Llevar el rastro de cada observación, anotación o requerimiento del SII hasta que queda resuelto.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Observaciones de renta",
+      "cuerpo": "**Tickets → Observaciones rentas** lista las observaciones que el SII hizo a las declaraciones anuales. El dashboard muestra el **Top 10 observaciones** del año y su estado.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-observaciones-f22-01.png",
+        "alt": "Listado de observaciones de F22 con RUT, nombre, código de observación, descripción y estado",
+        "descripcion": "Tickets → Observaciones rentas. Cada observación trae el código del SII, su descripción y el estado; el botón \"Mostrar solo pendientes\" acota la lista."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Anotaciones",
+      "cuerpo": "**Tickets → Anotaciones** sigue las anotaciones que el SII registra sobre el contribuyente. El panel mensual las cuenta en el indicador **Anotaciones** y el dashboard las desglosa entre empresas y personas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Legales y solicitudes",
+      "cuerpo": "**Tickets → Legales** y **Tickets → Solicitudes** registran los casos legales y las peticiones en curso.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Control de hojas foliadas",
+      "cuerpo": "**Tickets → Control hojas foliadas** lleva el control de la timbrada de hojas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Una anotación vigente bloquea trámites ante el SII: revísalas antes de iniciar cualquier gestión de la empresa."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Dónde veo cuántas empresas tienen anotaciones?",
+      "respuesta": "En el indicador **Anotaciones** del panel de control mensual y en los gráficos del dashboard."
+    }
+  ],
+  "relacionados": [
+    "panel-de-control-f29",
+    "f22-y-antecedentes"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

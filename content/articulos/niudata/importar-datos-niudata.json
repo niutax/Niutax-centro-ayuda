@@ -1,0 +1,64 @@
+{
+  "slug": "importar-datos-niudata",
+  "titulo": "Importar datos",
+  "categoria": "niudata",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Cargar información masiva desde archivos para poner en marcha la contabilidad.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Permite cargar en lote la información que la empresa trae de otro sistema: plan de cuentas, auxiliares, saldos y movimientos.",
+  "requisitos": [
+    "Archivos con la información a migrar"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el importador",
+      "cuerpo": "Entra a **Administración → Importar Datos** y elige qué tipo de información vas a cargar.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-importar-datos-01.png",
+        "alt": "Importar datos: tarjetas para empresas, libros de compras, ventas y honorarios, plan de cuentas, auxiliares, vouchers, centros de costo y activos fijos",
+        "descripcion": "Administración → Importar datos. Cada tarjeta abre el importador de ese tipo de datos desde Excel."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Preparar el archivo",
+      "cuerpo": "Respeta el formato esperado: los errores de formato son la causa habitual de una importación fallida.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Cargar y verificar",
+      "cuerpo": "Después de importar, revisa en la pantalla correspondiente que los registros hayan quedado como esperabas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Importa primero el plan de cuentas y los auxiliares, y recién después los movimientos: el orden importa."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo deshacer una importación?",
+      "respuesta": "Depende del tipo de dato; prueba siempre con un lote pequeño antes de cargar todo."
+    }
+  ],
+  "relacionados": [
+    "plan-de-cuentas-niudata",
+    "auxiliares-niudata",
+    "apertura-contable"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/administracion/importar-datos",
+    "capturadoEl": "2026-08-16"
+  }
+}

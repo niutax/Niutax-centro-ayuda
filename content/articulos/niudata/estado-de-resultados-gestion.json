@@ -1,0 +1,66 @@
+{
+  "slug": "estado-de-resultados-gestion",
+  "titulo": "Estado de resultados de gestión",
+  "categoria": "niudata",
+  "seccion": "Informes de gestión",
+  "tipo": "procedimiento",
+  "resumen": "El resultado reordenado según la estructura de análisis del negocio.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Contador"
+  ],
+  "proposito": "Toma las mismas cifras del estado de resultados y las reordena según cómo se analiza el negocio —líneas, áreas o centros de costo—, para que la conversación sea sobre el negocio y no sobre el plan de cuentas.",
+  "requisitos": [
+    "Movimientos contabilizados",
+    "Centros de costo definidos si se analiza por área"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Generar el informe",
+      "cuerpo": "Entra a **Informes de Gestión → Estado de Resultados** y define período y agrupación.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-estado-resultados-gestion-01.png",
+        "alt": "Estado de resultados de gestión: mensual, anual, entre fechas, comparativo o proyectado, con centro de costo",
+        "descripcion": "Informes de Gestión → Estado de Resultados. Elige el tipo, el período y, opcionalmente, un centro de costo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Comparar contra el período anterior",
+      "cuerpo": "El comparativo muestra la variación y es lo que permite explicar el resultado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Analizar por centro de costo",
+      "cuerpo": "Si la empresa usa centros de costo, el informe permite ver el resultado por área o proyecto.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Este es el informe para el directorio; el financiero es para el cumplimiento."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El resultado final es el mismo que el financiero?",
+      "respuesta": "Sí: cambia la agrupación de las cifras, no el resultado."
+    }
+  ],
+  "relacionados": [
+    "estado-de-resultados-financiero",
+    "analisis-de-cuentas",
+    "presupuestos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/informes-de-gestion/estado-de-resultados",
+    "capturadoEl": "2026-08-16"
+  }
+}

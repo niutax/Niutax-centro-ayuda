@@ -1,0 +1,72 @@
+{
+  "slug": "cesiones-de-documentos",
+  "titulo": "Ceder documentos (factoring)",
+  "categoria": "niupos",
+  "seccion": "Documentos recibidos y SII",
+  "tipo": "procedimiento",
+  "resumen": "Ceder facturas a un tercero, de forma individual o masiva.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Tesorería"
+  ],
+  "proposito": "La cesión traspasa a un tercero el derecho a cobrar una factura, que es la operación de fondo del factoring. Desde esta pantalla se preparan y registran esas cesiones.",
+  "requisitos": [
+    "Documentos emitidos y aceptados",
+    "Acuerdo con la empresa de factoring"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro",
+      "cuerpo": "Entra a **Doc. electrónicos → Cesiones**. La tabla lista los documentos del período con **Folio**, **Fecha**, **Tipo documento**, **RUT** y **Nombre** del receptor, **Tipo**, **Total** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cesiones-de-documentos-01.jpg",
+        "alt": "Pantalla de cesión de documentos con selección múltiple",
+        "descripcion": "Doc. electrónicos → Cesiones."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el período",
+      "cuerpo": "Usa el selector de mes y año para ubicar las facturas que vas a ceder.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Seleccionar los documentos",
+      "cuerpo": "Marca con la casilla de cada fila las facturas a ceder. Puedes seleccionar varias a la vez.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Ceder de forma masiva",
+      "cuerpo": "El botón **Cesión masiva** procesa en bloque todos los documentos seleccionados, en vez de uno por uno.",
+      "nota": "La cesión es una operación con efectos legales y financieros: confirma con tu empresa de factoring qué documentos corresponden antes de procesarla.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cede solo facturas ya aceptadas por el receptor: una factura reclamada no es cedible."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La cesión se informa al SII?",
+      "respuesta": "Sí, la cesión de un documento tributario electrónico se registra ante el Servicio."
+    }
+  ],
+  "relacionados": [
+    "acuse-de-recibo",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/cesiones",
+    "capturadoEl": "2026-08-16"
+  }
+}

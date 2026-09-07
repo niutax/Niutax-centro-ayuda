@@ -1,0 +1,63 @@
+{
+  "slug": "apertura-contable",
+  "titulo": "Apertura del ejercicio",
+  "categoria": "niudata",
+  "seccion": "Ingreso contable",
+  "tipo": "procedimiento",
+  "resumen": "Cargar los saldos iniciales con los que parte el año contable.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "La apertura registra los saldos con los que la empresa comienza el ejercicio. Sin apertura, los balances del primer período no cuadran con la realidad.",
+  "requisitos": [
+    "Balance de cierre del ejercicio anterior"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Ingreso Contable → Apertura**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-apertura-contable-01.png",
+        "alt": "Apertura contable del año con el voucher de apertura por cuenta: código, nombre, fecha, glosa, debe y haber",
+        "descripcion": "Ingreso Contable → Apertura. Cada línea es el saldo inicial de una cuenta; el botón rojo elimina la apertura completa."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cargar los saldos",
+      "cuerpo": "Ingresa el saldo inicial de cada cuenta según el balance de cierre anterior.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Verificar el cuadre",
+      "cuerpo": "La suma del debe y el haber de la apertura debe ser igual: si no cuadra, el balance arrastrará la diferencia todo el año.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Haz la apertura antes de contabilizar el primer mes: corregirla después obliga a revisar todos los informes emitidos."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si migro a mitad de año?",
+      "respuesta": "Se carga como apertura el saldo a la fecha de migración y se contabiliza desde ahí en adelante."
+    }
+  ],
+  "relacionados": [
+    "vouchers",
+    "balance-de-8-columnas"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/ingreso-contable/apertura",
+    "capturadoEl": "2026-08-16"
+  }
+}

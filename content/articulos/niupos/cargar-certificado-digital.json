@@ -1,0 +1,89 @@
+{
+  "slug": "cargar-certificado-digital",
+  "titulo": "Cargar el certificado digital",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Subir el certificado .pfx de la empresa y controlar su vencimiento.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "El certificado digital es la firma electrónica con la que Niupos firma cada documento tributario y se identifica ante el SII. Sin un certificado vigente no se pueden obtener folios ni emitir documentos.",
+  "requisitos": [
+    "Archivo del certificado digital (.pfx) y su contraseña",
+    "Certificado vigente, emitido a nombre del representante legal o de un autorizado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro de certificados",
+      "cuerpo": "Entra a **Configuración → Certificados**. La tabla muestra **RUT**, **Fecha ingreso**, **Fecha vencimiento**, **Nombre** del titular, **Archivo**, **Estado** y **Tipo**. Un certificado marcado **ACTIVO** con la etiqueta **REP. LEGAL** es el que está firmando tus documentos.",
+      "nota": "La fecha de vencimiento es el dato a vigilar: cuando expira, la emisión se detiene por completo.",
+      "captura": {
+        "archivo": "cargar-certificado-digital-01.jpg",
+        "alt": "Listado de certificados digitales con su estado y vencimiento",
+        "descripcion": "Configuración → Certificados. El estado ACTIVO indica cuál está en uso."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar un certificado nuevo",
+      "cuerpo": "Presiona **Agregar**. En la ventana *Nuevo certificado digital* selecciona el archivo en **Certificado** e ingresa la **Contraseña del certificado**.",
+      "nota": "La contraseña es la que te entregaron al comprar el certificado; sin ella el archivo no se puede usar.",
+      "captura": {
+        "archivo": "cargar-certificado-digital-02.jpg",
+        "alt": "Ventana Nuevo certificado digital con el campo de archivo y contraseña",
+        "descripcion": "El certificado se carga con su contraseña; el sistema lo deja listo para firmar."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Marcar si es del representante legal",
+      "cuerpo": "Activa el interruptor **Certificado del representante legal** cuando el certificado pertenezca al representante legal de la empresa. Ese dato determina con qué calidad se firma ante el SII.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Verificar que quedó activo",
+      "cuerpo": "Guarda con **Agregar** y confirma en la tabla que el certificado aparece con estado **ACTIVO** y con la fecha de vencimiento correcta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Renovar antes de que venza",
+      "cuerpo": "Cuando se acerque el vencimiento, carga el certificado nuevo con este mismo procedimiento. La fecha vigente también se muestra en **Configuración → Folios**, arriba a la derecha.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Agenda el vencimiento del certificado con un mes de anticipación: renovarlo toma días y sin él no puedes facturar.",
+    "La contraseña del certificado es una credencial: no la compartas por correo ni la dejes anotada junto al archivo."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si el certificado vence?",
+      "respuesta": "La emisión se detiene y tampoco podrás obtener folios, aunque tengas timbraje disponible."
+    },
+    {
+      "pregunta": "¿Puedo tener más de un certificado?",
+      "respuesta": "El listado admite varios registros, pero el que firma es el que está en estado ACTIVO."
+    }
+  ],
+  "relacionados": [
+    "configurar-empresas",
+    "timbraje-electronico-folios",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/certificados",
+    "capturadoEl": "2026-08-16"
+  }
+}

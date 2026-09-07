@@ -1,0 +1,80 @@
+{
+  "slug": "conciliacion-bancaria-niudata",
+  "titulo": "Conciliación bancaria",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Cargar cartolas, cuadrar el banco contra la contabilidad y seguir el avance.",
+  "tiempoLectura": "6 min",
+  "estado": "revisado",
+  "orden": 8,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería",
+    "Contador"
+  ],
+  "proposito": "Confirma que lo que dice el banco y lo que dice la contabilidad son lo mismo. Cada cartola muestra su porcentaje de conciliación, para saber de un vistazo qué falta cuadrar.",
+  "requisitos": [
+    "Cuentas bancarias creadas",
+    "Cartola del período"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Tesorería → Conciliación Bancaria** y elige el año. Cada fila es una cartola: **Banco**, **N° Cuenta**, **N° Cartola**, **Período**, **Saldo Inicial**, **Ingresos**, **Egresos**, **Saldo Final** y **Conciliado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "conciliacion-bancaria-niudata-01.jpg",
+        "alt": "Listado de cartolas con su porcentaje de conciliación",
+        "descripcion": "La columna **Conciliado** muestra el avance: por ejemplo 58/60 · 97%."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cargar la cartola",
+      "cuerpo": "**Importar cartola** sube el archivo que entrega el banco; **Nueva Cartola** permite crearla manualmente.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar el avance",
+      "cuerpo": "La columna **Conciliado** indica cuántos movimientos están cuadrados sobre el total. *Sin detalles* significa que la cartola aún no tiene movimientos cargados.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Conciliar los movimientos",
+      "cuerpo": "Entra a la cartola para asociar cada movimiento del banco con su registro contable y resolver las diferencias.",
+      "nota": "Las comisiones, intereses e impuestos bancarios suelen ser la mayor fuente de diferencias: son movimientos que solo existen en la cartola.",
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Ver el panorama anual",
+      "cuerpo": "**Vista anual** resume el estado de conciliación de todo el año.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Concilia mensualmente. Una cartola con 60 movimientos se cuadra en minutos; doce cartolas juntas, no."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué significa un porcentaje bajo?",
+      "respuesta": "Que quedan movimientos del banco sin asociar a la contabilidad: ahí están las diferencias por resolver."
+    }
+  ],
+  "relacionados": [
+    "cuentas-bancarias",
+    "flujo-de-caja",
+    "nomina-de-pago"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/conciliacion-bancaria",
+    "capturadoEl": "2026-08-16"
+  }
+}

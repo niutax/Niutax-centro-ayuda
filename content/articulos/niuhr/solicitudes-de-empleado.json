@@ -1,0 +1,72 @@
+{
+  "slug": "solicitudes-de-empleado",
+  "titulo": "Solicitudes de vacaciones y permisos",
+  "categoria": "niuhr",
+  "seccion": "Ciclo del trabajador",
+  "tipo": "procedimiento",
+  "resumen": "Recibir, aprobar y descargar las solicitudes del equipo.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Jefaturas"
+  ],
+  "proposito": "Centraliza las solicitudes que hacen los colaboradores —vacaciones y permisos— con su período, su estado y el comprobante descargable.",
+  "requisitos": [
+    "Colaboradores con acceso al portal, si quieres que soliciten por su cuenta"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir las solicitudes",
+      "cuerpo": "Entra a **Recursos humanos → Solicitudes**. Verás **Tipo solicitud**, **Empleado**, **Comentario**, **Desde**, **Hasta**, cuándo fue **solicitada** y su **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "solicitudes-de-empleado-01.jpg",
+        "alt": "Listado de solicitudes de empleados con su estado",
+        "descripcion": "Cada solicitud muestra el período pedido y en qué estado quedó."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar antes de aprobar",
+      "cuerpo": "Contrasta el período solicitado con el saldo de vacaciones disponible del colaborador.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Aprobar o rechazar",
+      "cuerpo": "Al resolver, la solicitud cambia de estado y el colaborador queda notificado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Descargar el comprobante",
+      "cuerpo": "El botón de cada fila descarga el comprobante de la solicitud, que sirve como respaldo del feriado tomado.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Aprobar en el sistema y no por correo es lo que mantiene el saldo de vacaciones confiable."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El colaborador puede solicitar solo?",
+      "respuesta": "Sí, si tiene habilitado el acceso al portal desde el listado de personal."
+    }
+  ],
+  "relacionados": [
+    "vacaciones-tomadas",
+    "provision-de-vacaciones",
+    "listado-de-personal"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/solicitudes",
+    "capturadoEl": "2026-08-16"
+  }
+}

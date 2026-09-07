@@ -1,0 +1,75 @@
+{
+  "slug": "cargos-y-departamentos",
+  "titulo": "Cargos, departamentos y proyectos",
+  "categoria": "niuhr",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "La estructura organizacional con la que se ordenan las fichas y los informes.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH"
+  ],
+  "proposito": "Cargos y departamentos definen la estructura de la empresa; los proyectos permiten además imputar horas y costos a iniciativas concretas. Es lo primero que hay que crear, porque cada ficha de personal se apoya en ellos.",
+  "requisitos": [
+    "Estructura organizacional definida"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Crear los departamentos",
+      "cuerpo": "En **Recursos humanos → Departamentos** define las áreas de la empresa.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-departamentos-01.png",
+        "alt": "Listado de departamentos con su centro de costo",
+        "descripcion": "Recursos humanos → Departamentos. Cada departamento puede asociarse a un centro de costo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear los cargos",
+      "cuerpo": "En **Recursos humanos → Cargos** define los puestos que se asignan a cada colaborador.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-cargos-01.png",
+        "alt": "Listado de cargos con número de empleados, nombre y descripción",
+        "descripcion": "Recursos humanos → Cargos. La columna N° EMP muestra cuántas personas tienen cada cargo."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Crear los proyectos",
+      "cuerpo": "**Proyectos** permite registrar las iniciativas a las que después se imputan horas y costos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Asignarlos en la ficha",
+      "cuerpo": "Al crear o editar una ficha de personal se elige su departamento y cargo, y así queda disponible en los informes.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Define la estructura antes de cargar las fichas: cambiarla después obliga a editar persona por persona."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo tener a alguien en varios proyectos?",
+      "respuesta": "Sí, la imputación por proyecto se hace en el control de horas."
+    }
+  ],
+  "relacionados": [
+    "listado-de-personal",
+    "control-de-horas",
+    "distribucion-por-proyectos"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/cargos",
+    "capturadoEl": "2026-08-16"
+  }
+}

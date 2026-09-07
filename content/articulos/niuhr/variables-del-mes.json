@@ -1,0 +1,73 @@
+{
+  "slug": "variables-del-mes",
+  "titulo": "Variables del mes",
+  "categoria": "niuhr",
+  "seccion": "Proceso de remuneraciones",
+  "tipo": "procedimiento",
+  "resumen": "Cargar horas extra, bonos, descuentos y anticipos antes de liquidar.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Administración"
+  ],
+  "proposito": "Las variables son todo lo que cambia mes a mes en una liquidación: horas extra, bonos, comisiones, descuentos, anticipos. Se cargan antes de procesar y son el complemento del sueldo base.",
+  "requisitos": [
+    "Mes de proceso abierto",
+    "Fichas de personal activas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir las variables del mes",
+      "cuerpo": "Entra a **Recursos humanos → Variables mes** y confirma el período arriba. El botón indica si el **mes está abierto o cerrado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "variables-del-mes-01.jpg",
+        "alt": "Pantalla de variables del mes con carga por empleado y por variable",
+        "descripcion": "Se puede cargar por empleado o por variable, según convenga."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Cargar por empleado",
+      "cuerpo": "**Listado por empleado** permite elegir a una persona y completar todas sus variables del mes de una vez.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Cargar por variable",
+      "cuerpo": "**Listado por variable** hace lo inverso: eliges un concepto —por ejemplo horas extra— y lo cargas para todas las personas. Es más rápido cuando el mismo concepto aplica a muchos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar antes de liquidar",
+      "cuerpo": "Las variables cargadas son las que alimentan el cálculo: revísalas antes de generar las liquidaciones, porque después hay que recalcular.",
+      "nota": "Si el mes aparece **cerrado**, primero hay que abrirlo para poder modificar variables.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cargar por variable es el atajo cuando el mismo bono aplica a todo un departamento."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si cargo una variable después de liquidar?",
+      "respuesta": "Hay que recalcular la liquidación de esa persona para que la considere."
+    }
+  ],
+  "relacionados": [
+    "procesar-liquidaciones",
+    "apertura-y-cierre-de-mes",
+    "etiquetas-de-liquidacion"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/recursos-humanos/variables-mes",
+    "capturadoEl": "2026-08-16"
+  }
+}

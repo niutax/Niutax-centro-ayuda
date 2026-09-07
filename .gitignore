@@ -1,0 +1,8 @@
+node_modules/
+public/
+.DS_Store
+docs/anon.privado.js
+docs/ACCESOS.local.md
+content/_papelera/
+.claude/
+admin/.env

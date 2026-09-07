@@ -1,0 +1,65 @@
+{
+  "slug": "f22-y-antecedentes",
+  "titulo": "F22, información de terceros y certificados",
+  "categoria": "niutax",
+  "seccion": "Declaraciones de renta",
+  "tipo": "procedimiento",
+  "resumen": "La declaración anual y los antecedentes que el SII ya tiene del contribuyente.",
+  "tiempoLectura": "5 min",
+  "estado": "borrador",
+  "orden": 404,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Armar el F22 con los antecedentes que el SII informa de terceros y emitir los certificados que la empresa debe entregar.",
+  "requisitos": [
+    "Declaraciones juradas del año enviadas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "F22",
+      "cuerpo": "**Declaraciones de renta → F22** trabaja la declaración anual de una empresa, período por período, igual que el F29 lo hace con el mes.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-f22-01.png",
+        "alt": "Propuesta de F22 de una empresa: fila del formulario con régimen tributario y estado de cada sección, matriz de declaraciones juradas y balance de 8 columnas",
+        "descripcion": "Declaraciones de renta → F22, con el RUT ya seleccionado. La fila del formulario muestra el régimen y el avance de cada sección; debajo, las DJ del año y el balance de 8 columnas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Información de terceros",
+      "cuerpo": "**Declaraciones de renta → Información de terceros** muestra lo que el SII ya sabe del contribuyente porque se lo informaron otros: sueldos, honorarios, dividendos, intereses.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Certificados de renta",
+      "cuerpo": "**Declaraciones de renta → Certificados de renta** emite los certificados que la empresa entrega a sus trabajadores y socios.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Balance 8 columnas",
+      "cuerpo": "**Declaraciones de renta → Balance 8 columnas** entrega el balance tributario que respalda la declaración.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Contrasta siempre el F22 contra **Información de terceros**: las diferencias con lo que el SII ya tiene son la principal causa de observaciones."
+  ],
+  "faq": [],
+  "relacionados": [
+    "panel-empresas-f22",
+    "observaciones-de-renta"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

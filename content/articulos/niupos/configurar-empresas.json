@@ -1,0 +1,120 @@
+{
+  "slug": "configurar-empresas",
+  "titulo": "Registrar y configurar empresas",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Dar de alta cada RUT que emite documentos y completar direcciones, giros, datos bancarios y tokens de API.",
+  "tiempoLectura": "7 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador",
+    "Estudio contable"
+  ],
+  "proposito": "Niupos es multiempresa: en **Configuración → Empresas** se registra cada RUT que va a emitir documentos electrónicos y se completa todo lo que el SII exige para poder emitir —direcciones vigentes y giros— además del logo, los datos bancarios y los tokens de integración. Es la primera configuración que hay que dejar lista, antes de los certificados y los folios.",
+  "requisitos": [
+    "RUT de la empresa y su clave del SII",
+    "Perfil con permisos de administración sobre la configuración"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro de empresas",
+      "cuerpo": "Entra a **Configuración → Empresas**. La tabla lista cada empresa con su **RUT**, **Nombre** y **Estado**. El estado indica en qué ambiente del SII opera: **CERTIFICACIÓN** (ambiente de prueba, para validar la emisión antes de salir a producción) o **PRODUCCIÓN** (documentos tributarios reales). Usa el buscador para encontrar una empresa cuando administras muchas.",
+      "nota": "Junto al estado puede aparecer la marca **SIN DIRECCIÓN VIGENTE NI GIRO**: esa empresa tiene la configuración incompleta y hay que resolverlo antes de emitir.",
+      "captura": {
+        "archivo": "configurar-empresas-01.jpg",
+        "alt": "Listado de empresas registradas con RUT, nombre y estado de certificación o producción",
+        "descripcion": "Configuración → Empresas. El buscador filtra por RUT o nombre."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar una empresa nueva",
+      "cuerpo": "Presiona **Agregar**. En **Sistema de niudata** indica si la contabilidad de esa empresa se lleva en *Niudata* o en un sistema *Externo o ninguno*. Ingresa el **Rut** y la **Contraseña del SII**, y presiona **Obtener datos**: Niupos consulta al Servicio y completa la **Razón social**. Ajusta el **Nombre** con el que quieres identificarla dentro del sistema y presiona **Agregar**.",
+      "nota": "La clave del SII es la que permite traer los datos del contribuyente y operar ante el Servicio. Trátala como una credencial: no la compartas por correo ni la dejes anotada fuera del sistema.",
+      "captura": {
+        "archivo": "configurar-empresas-02.jpg",
+        "alt": "Ventana Agregar una nueva empresa con los campos RUT, contraseña del SII y razón social",
+        "descripcion": "**Obtener datos** completa la razón social directamente desde el SII."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Conocer las acciones de cada empresa",
+      "cuerpo": "Cada fila tiene seis acciones, identificadas por su ícono: **Editar Logo** (el que sale en los documentos), **Datos bancarios**, **Direcciones y giros**, **Gestionar los API tokens de la empresa**, **Editar** y **Eliminar**. Al pasar el cursor sobre cada botón aparece su nombre.",
+      "nota": null,
+      "captura": {
+        "archivo": "configurar-empresas-03.jpg",
+        "alt": "Listado de empresas con los botones de acción de cada fila",
+        "descripcion": "Los seis botones de cada fila: logo, datos bancarios, direcciones y giros, API tokens, editar y eliminar."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Cargar direcciones y giros",
+      "cuerpo": "Es el paso que más se olvida y el que bloquea la emisión. Abre **Direcciones y giros**: arriba se listan las direcciones con su **Comuna**, **Tipo** y **Estado** (Vigente). Para agregar una, completa **Dirección**, **Comuna** y **Tipo** —*CASA MATRIZ*, *SUCURSAL*, *DOMICILIO*, *DOM. POSTAL* o *DOM. URBANO VALIDO NOTIFICACIONES*— y presiona **Agregar**. Abajo, en **Giros**, elige la actividad económica del listado con código del SII y presiona **Agregar**.",
+      "nota": "Una empresa sin dirección vigente ni giro queda marcada en el listado y no puede emitir documentos correctamente: la dirección y el giro salen impresos en el DTE.",
+      "captura": {
+        "archivo": "configurar-empresas-04.jpg",
+        "alt": "Ventana Direcciones y giros con la tabla de direcciones y el formulario de giros",
+        "descripcion": "Direcciones arriba, giros abajo. Ambos son obligatorios para emitir."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Registrar los datos bancarios",
+      "cuerpo": "En **Datos bancarios** indica **Banco**, **Tipo de cuenta** y **Número de cuenta** de la empresa, y guarda. Son los datos de pago que acompañan a los documentos que emites.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Gestionar los tokens de API",
+      "cuerpo": "Si vas a integrar Niupos con otro sistema, entra a **Gestionar los API tokens de la empresa**. El listado muestra el **Nombre** de cada token y la fecha de **Última vez usado**, y permite crear nuevos o eliminar los que ya no se usan.",
+      "nota": "Crea un token por integración y ponle un nombre reconocible: así puedes revocar solo el que corresponde sin cortar el resto. La columna *Última vez usado* delata los tokens abandonados.",
+      "captura": null
+    },
+    {
+      "n": 7,
+      "titulo": "Completar el resto de la configuración",
+      "cuerpo": "Con la empresa registrada y sus direcciones y giros cargados, continúa con el certificado digital en **Configuración → Certificados** y con el timbraje en **Configuración → Folios**. Recién entonces la empresa queda en condiciones de emitir.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Antes de reportar que \"no se puede emitir\", revisa el estado de la empresa en este listado: la marca **SIN DIRECCIÓN VIGENTE NI GIRO** explica buena parte de esos casos.",
+    "Mantén el nombre interno de la empresa igual al que usa el equipo para referirse a ella: con decenas de RUT registrados, el buscador es lo que salva el día.",
+    "Revisa periódicamente los API tokens y elimina los que no registran uso reciente."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué significa el campo \"Sistema de niudata\"?",
+      "respuesta": "Indica si la contabilidad de esa empresa se lleva en Niudata —y por lo tanto los documentos se integran con el módulo contable— o si se usa un sistema externo."
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre certificación y producción?",
+      "respuesta": "En certificación los documentos van al ambiente de prueba del SII y sirven para validar la configuración; en producción son documentos tributarios reales con validez legal."
+    },
+    {
+      "pregunta": "¿Puedo administrar varias empresas desde una misma cuenta?",
+      "respuesta": "Sí, Niupos es multiempresa: el listado admite decenas de RUT y el buscador permite filtrarlos por nombre o RUT."
+    },
+    {
+      "pregunta": "Agregué la empresa pero no puedo emitir. ¿Qué falta?",
+      "respuesta": "Revisa en orden: dirección vigente y giro cargados, certificado digital vigente en **Configuración → Certificados** y folios CAF disponibles en **Configuración → Folios**."
+    }
+  ],
+  "relacionados": [
+    "timbraje-electronico-folios",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/empresas",
+    "capturadoEl": "2026-08-16"
+  }
+}

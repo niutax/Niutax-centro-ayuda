@@ -1,0 +1,66 @@
+{
+  "slug": "informe-inventario",
+  "titulo": "Informe de inventario",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Ver entradas, salidas y saldo de cada producto por bodega y hasta una fecha.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Bodega",
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "Muestra el stock de cada producto con su movimiento acumulado. Es el informe de referencia para la toma de inventario y para el cierre contable de existencias.",
+  "requisitos": [
+    "Productos inventariables en el catálogo"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Inventario**. Filtra por **Bodega** —o déjalo en *Todas*— y por **Hasta la fecha**, y presiona **Aceptar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-inventario-01.jpg",
+        "alt": "Informe de inventario con filtros de bodega y fecha",
+        "descripcion": "Informes → Inventario: entradas, salidas y saldo por producto."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "Para cada producto verás **Código**, **Descripción**, **Unidad de medida**, **Entradas**, **Salidas** y **Saldo**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Cuadrar con la toma física",
+      "cuerpo": "Compara el saldo del sistema con el conteo real. Las diferencias se corrigen con ajustes o traspasos, nunca editando el histórico.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Emite el informe con la fecha de cierre del mes: es la foto que respalda la valorización de existencias."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Por qué un producto no aparece?",
+      "respuesta": "Porque no está marcado como **Inventariable** en el catálogo."
+    }
+  ],
+  "relacionados": [
+    "traspasos-entre-bodegas",
+    "informe-movimientos-pmp",
+    "catalogo-productos-y-servicios"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/inventario",
+    "capturadoEl": "2026-08-16"
+  }
+}

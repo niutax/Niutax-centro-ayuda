@@ -1,0 +1,74 @@
+{
+  "slug": "informe-ventas-detalladas",
+  "titulo": "Informe de ventas detalladas",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Ver la venta producto por producto, con costo y margen, y filtrar por vendedor.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Gerencia",
+    "Administración",
+    "Vendedor"
+  ],
+  "proposito": "Es el informe comercial más completo: cada línea de venta con su producto, su precio, su descuento, su costo y su margen. Permite ver no solo cuánto se vendió, sino cuánto dejó.",
+  "requisitos": [
+    "Documentos emitidos en el período",
+    "Precios de compra cargados en el catálogo para que el margen sea real"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Ventas detalladas** y elige el **mes** y el **año** con el selector.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-ventas-detalladas-01.jpg",
+        "alt": "Informe de ventas detalladas con filtro por vendedor",
+        "descripcion": "Informes → Ventas detalladas: reporte detallado de ventas por producto."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Filtrar por vendedor",
+      "cuerpo": "El selector de la derecha permite ver **todos los vendedores** o aislar a uno.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Leer el detalle",
+      "cuerpo": "Cada línea muestra **Fecha**, **Tipo**, **Folio**, **Cliente**, **Vendedor**, **Producto**, **Código**, **Cantidad**, **Precio**, **%Dto**, **Subtotal**, **Costo unitario**, **Costo total** y **Margen**.",
+      "nota": "El margen solo es confiable si los precios de compra del catálogo están actualizados.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Exportar para analizar",
+      "cuerpo": "**Exportar a Excel** descarga el detalle completo para cruzarlo o armar tus propios cortes.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Ordena por margen en vez de por monto: los productos que más facturan no siempre son los que más aportan."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Incluye las notas de crédito?",
+      "respuesta": "El informe refleja los documentos del período; revisa el tipo de documento de cada línea al analizar."
+    }
+  ],
+  "relacionados": [
+    "vendedores",
+    "informe-producto",
+    "boletas-emitidas"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/ventas-detalladas",
+    "capturadoEl": "2026-08-16"
+  }
+}

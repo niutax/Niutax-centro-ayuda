@@ -1,0 +1,52 @@
+{
+  "slug": "grupos-de-ruts",
+  "titulo": "Agrupar empresas para trabajarlas juntas",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Los grupos permiten filtrar los paneles mensuales y de renta por conjuntos de empresas.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 104,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador",
+    "Contador"
+  ],
+  "proposito": "Cuando la cartera tiene cientos de RUT, los grupos son la forma de trabajar por cliente, por ejecutivo o por holding.",
+  "requisitos": [
+    "RUT registrados en Mis ruts"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Crear el grupo",
+      "cuerpo": "Entra a **Administración → Grupos** y crea un grupo con el nombre del cliente, del ejecutivo o del holding.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-grupos-01.png",
+        "alt": "Listado de grupos con el nombre del grupo y los RUT que pertenecen a cada uno",
+        "descripcion": "Administración → Grupos. Cada grupo lista los RUT que lo componen; el selector superior filtra por usuario responsable."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Usarlo en los paneles",
+      "cuerpo": "El selector **Filtrar ruts** del **Panel de control** mensual y del **Panel empresas F22** lista estos grupos: al elegir uno y pulsar **Aceptar**, el panel queda acotado a esas empresas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Un grupo por ejecutivo hace que cada persona vea su propia carga de trabajo en el panel del mes."
+  ],
+  "faq": [],
+  "relacionados": [
+    "administrar-mis-ruts",
+    "panel-de-control-f29"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

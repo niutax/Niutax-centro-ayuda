@@ -1,0 +1,54 @@
+{
+  "slug": "bienes-de-los-contribuyentes",
+  "titulo": "Propiedades, vehículos y direcciones",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Tres registros de bienes y domicilios que alimentan contribuciones, renta presunta y patentes.",
+  "tiempoLectura": "3 min",
+  "estado": "borrador",
+  "orden": 105,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Registrar los bienes raíces, vehículos y domicilios asociados a los contribuyentes de la cartera, porque de ahí salen las contribuciones y varios datos del F22.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Mis propiedades",
+      "cuerpo": "En **Administración → Mis propiedades** se registran los bienes raíces por rol de avalúo. Es la base de la pantalla de **Contribuciones**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-propiedades-01.png",
+        "alt": "Registro de propiedades con selector de RUT y columnas rol de avalúo, nombre, número, fecha de adquisición, comuna, tipo de propiedad y tipo de renta",
+        "descripcion": "Administración → Mis propiedades. Se elige el RUT y se registran los bienes raíces por rol de avalúo."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Mis vehículos",
+      "cuerpo": "**Administración → Mis vehículos** guarda los vehículos de los contribuyentes, relevantes para permisos de circulación y para renta presunta de transporte.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Mis direcciones",
+      "cuerpo": "**Administración → Mis direcciones** mantiene los domicilios, que se usan en las patentes municipales y en las notificaciones.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [],
+  "relacionados": [
+    "contribuciones",
+    "patente-comercial"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "correos-enviados",
+  "titulo": "Auditar los correos enviados",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Registro de todos los correos que el sistema envió a los clientes.",
+  "tiempoLectura": "2 min",
+  "estado": "revisado",
+  "orden": 107,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador",
+    "Contador"
+  ],
+  "proposito": "Comprobar si un cliente recibió efectivamente su carpeta tributaria, su liquidación o el aviso de vencimiento.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el historial",
+      "cuerpo": "Entra a **Administración → Correos enviados**. Cada envío queda registrado con su destinatario y fecha.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-correos-enviados-01.png",
+        "alt": "Historial de correos enviados con filtros de mes y año y columnas RUT/cliente, destinatario, asunto, tipo, estado, enviado por y fecha",
+        "descripcion": "Administración → Correos enviados. Se filtra por mes y año; cada envío registra destinatario, asunto, estado y quién lo envió."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Contrastar con las notificaciones",
+      "cuerpo": "La campana de la barra superior muestra los mismos hechos en forma de aviso, por ejemplo \"se ha enviado correctamente la carpeta tributaria al email\".",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Es la primera pantalla que hay que mirar cuando un cliente dice que nunca recibió un documento."
+  ],
+  "faq": [],
+  "relacionados": [
+    "que-es-niutax"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

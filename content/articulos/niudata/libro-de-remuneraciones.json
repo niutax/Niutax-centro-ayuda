@@ -1,0 +1,77 @@
+{
+  "slug": "libro-de-remuneraciones",
+  "titulo": "Libro de remuneraciones",
+  "categoria": "niudata",
+  "seccion": "Libros auxiliares",
+  "tipo": "procedimiento",
+  "resumen": "Importar el libro desde la Dirección del Trabajo y contabilizar cada mes.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Concentra las remuneraciones del año con su total de haberes, descuentos y líquido, mes a mes, y marca cuáles ya fueron contabilizados.",
+  "requisitos": [
+    "Libro de remuneraciones electrónico (LRE) del período"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el libro",
+      "cuerpo": "Entra a **Libros Auxiliares → Libro de Remuneraciones** y elige el año.",
+      "nota": null,
+      "captura": {
+        "archivo": "libro-de-remuneraciones-01.jpg",
+        "alt": "Libro de remuneraciones con totales anuales y resumen mensual",
+        "descripcion": "Arriba los totales del año; abajo, cada mes con su estado."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer los totales del año",
+      "cuerpo": "Las tarjetas muestran **Trabajadores**, **Total haberes**, **Total descuentos** y **Total líquido** acumulados.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Importar el libro",
+      "cuerpo": "**Importar libro (DT)** carga el archivo del libro de remuneraciones electrónico que entrega la Dirección del Trabajo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar el estado por mes",
+      "cuerpo": "Cada mes muestra trabajadores y montos, con estado **Contabilizado** o **Pendiente**. Los pendientes son los que aún no pasaron a la contabilidad.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Descargar",
+      "cuerpo": "**Descargar Excel** exporta el detalle para revisarlo o archivarlo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Contabiliza las remuneraciones del mes antes del cierre: es uno de los costos más grandes y su omisión distorsiona el resultado."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿De dónde sale el archivo DT?",
+      "respuesta": "Del libro de remuneraciones electrónico que se presenta ante la Dirección del Trabajo."
+    }
+  ],
+  "relacionados": [
+    "dashboard-niudata",
+    "vouchers"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/libros-auxiliares/libro-de-remuneraciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

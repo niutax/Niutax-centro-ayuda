@@ -1,0 +1,63 @@
+{
+  "slug": "depreciaciones",
+  "titulo": "Depreciaciones",
+  "categoria": "niudata",
+  "seccion": "Activos fijos",
+  "tipo": "procedimiento",
+  "resumen": "Calcular y contabilizar la depreciación del período.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Calcula la depreciación que corresponde a cada activo en el período y genera el comprobante contable que la registra.",
+  "requisitos": [
+    "Activos fijos registrados como depreciables"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir depreciaciones",
+      "cuerpo": "Entra a **Activos Fijos → Depreciaciones** y elige el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-depreciaciones-01.png",
+        "alt": "Depreciaciones del período con totales del ejercicio, contabilizado y pendiente",
+        "descripcion": "Activos Fijos → Depreciaciones. Se navega por mes y año; la tabla lista cada activo depreciable."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar el cálculo",
+      "cuerpo": "Verifica el monto por activo antes de contabilizar: un costo mal cargado se arrastra todos los meses.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Contabilizar",
+      "cuerpo": "Genera el comprobante del período, que queda registrado en la contabilidad.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Contabiliza la depreciación todos los meses: dejarla para el cierre anual distorsiona los resultados mensuales."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se puede revertir?",
+      "respuesta": "Sí, revirtiendo el comprobante generado mientras el período esté abierto."
+    }
+  ],
+  "relacionados": [
+    "activos-fijos",
+    "informes-activos-fijos"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/activos-fijos/depreciaciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

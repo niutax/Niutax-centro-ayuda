@@ -1,0 +1,70 @@
+{
+  "slug": "libros-mensuales",
+  "titulo": "Consultar los libros del período",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "Compras, ventas, honorarios, remuneraciones y caja se leen desde el SII y son la base del F29.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 303,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Ver el detalle que sustenta cada código del F29 y detectar documentos mal clasificados antes de declarar.",
+  "requisitos": [
+    "Credenciales SII vigentes para el RUT"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir libro, empresa y período",
+      "cuerpo": "En **Impuestos mensuales** están los libros de **caja**, **compras**, **ventas**, **honorarios** y **remuneraciones**. Elige el RUT, pulsa **Aceptar** y fija mes y año.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el resumen por tipo de documento",
+      "cuerpo": "Arriba aparece el consolidado por código: por ejemplo **33 Factura Electrónica** y **34 Factura no Afecta o Exenta Electrónica**, con **Cant**, **Exento**, **Neto**, **IVA** y **Bruto**, más la fila de totales.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-libro-compras-01.png",
+        "alt": "Libro de compras con resumen por tipo de documento y detalle de cada factura",
+        "descripcion": "Impuestos mensuales → Libro de compras."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar el detalle",
+      "cuerpo": "Abajo va documento por documento: **Tipo**, **Folio**, **Fecha**, **RUT**, **Razón social**, **Tipo documento**, **Exento**, **Neto**, **IVA** y **Total**. La columna **Tipo** marca los casos especiales, como **IVA no Recuperable**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Reclasificar y exportar",
+      "cuerpo": "**Editar clasificación** corrige cómo se imputa un documento; **Exportar a excel** baja el libro completo. **Sincronizar** vuelve a leerlo desde el SII.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "La fecha de **Última modificación** que aparece sobre la tabla indica cuándo se sincronizó por última vez con el SII."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Por qué un documento sale como IVA no Recuperable?",
+      "respuesta": "Porque su clasificación indica que el crédito fiscal no se puede usar. Se corrige con **Editar clasificación**."
+    }
+  ],
+  "relacionados": [
+    "revisar-y-declarar-f29",
+    "acuses-de-recibo"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "malla-societaria",
+  "titulo": "Consultar la malla societaria",
+  "categoria": "niutax",
+  "seccion": "Cartera y accesos",
+  "tipo": "procedimiento",
+  "resumen": "Muestra los socios que el SII tiene registrados para una empresa, con su capital y porcentajes.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 103,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Conocer la composición societaria vigente de cada empresa, dato necesario para las declaraciones juradas y para el F22.",
+  "requisitos": [
+    "Credenciales SII configuradas para el RUT"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir la empresa",
+      "cuerpo": "Entra a **Administración → Malla societaria**, elige el RUT en **Seleccione un rut** y pulsa **Aceptar**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Leer la composición",
+      "cuerpo": "La tabla muestra por cada socio su **RUT**, **Nombre**, **Fecha incorporación**, **Capital enterado**, **Capital por enterar**, **Capital** (%) y **Utilidades** (%).",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-malla-societaria-01.png",
+        "alt": "Malla societaria con los socios, su capital y porcentaje de utilidades",
+        "descripcion": "Administración → Malla societaria."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Actualizar desde el SII",
+      "cuerpo": "El botón **Sincronizar** vuelve a leer los socios activos desde el SII. **Agregar** permite registrar un socio manualmente si aún no figura.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Los porcentajes de **Capital** y **Utilidades** pueden diferir entre sí: revisa ambos antes de repartir resultados."
+  ],
+  "faq": [],
+  "relacionados": [
+    "administrar-mis-ruts",
+    "declaraciones-juradas"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

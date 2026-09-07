@@ -1,0 +1,71 @@
+{
+  "slug": "vendedores",
+  "titulo": "Registrar vendedores",
+  "categoria": "niupos",
+  "seccion": "Administración y usuarios",
+  "tipo": "procedimiento",
+  "resumen": "Dar de alta a quienes figuran como responsables comerciales de cada documento.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración"
+  ],
+  "proposito": "El vendedor es quien queda asociado a cada venta. Registrarlos permite emitir a su nombre y analizar después el desempeño comercial por persona.",
+  "requisitos": [
+    "RUT, nombre y correo de cada vendedor"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Administración → Vendedores**. La tabla muestra **RUT**, **Nombre**, **Email** y **Ubicación**.",
+      "nota": null,
+      "captura": {
+        "archivo": "vendedores-01.jpg",
+        "alt": "Listado de vendedores registrados en el sistema",
+        "descripcion": "Administración → Vendedores."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar un vendedor",
+      "cuerpo": "Presiona **Agregar** e ingresa sus datos. Si trabaja en una sucursal o bodega específica, asígnale su **Ubicación**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usarlo al emitir",
+      "cuerpo": "El vendedor se selecciona en la ventana de emisión y en el punto de venta; queda registrado en el documento.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Analizar por vendedor",
+      "cuerpo": "El **Informe de ventas detalladas** permite filtrar por vendedor y ver su venta, su costo y su margen.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Asigna la ubicación a cada vendedor: es lo que después permite comparar el desempeño entre sucursales."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿El vendedor necesita usuario del sistema?",
+      "respuesta": "No necesariamente. Puede figurar como vendedor en los documentos sin tener acceso propio."
+    }
+  ],
+  "relacionados": [
+    "usuarios-y-accesos",
+    "informe-ventas-detalladas",
+    "punto-de-venta"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/administracion/vendedores",
+    "capturadoEl": "2026-08-16"
+  }
+}

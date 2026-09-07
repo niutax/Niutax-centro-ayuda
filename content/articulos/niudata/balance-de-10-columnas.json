@@ -1,0 +1,56 @@
+{
+  "slug": "balance-de-10-columnas",
+  "titulo": "Balance de 10 columnas",
+  "categoria": "niudata",
+  "seccion": "Estados financieros",
+  "tipo": "procedimiento",
+  "resumen": "La versión ampliada del balance, con el desglose de ajustes.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Agrega al balance de 8 columnas el detalle de los ajustes del período, para ver el antes y el después de cada corrección de cierre.",
+  "requisitos": [
+    "Balance de comprobación cuadrado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Generar el informe",
+      "cuerpo": "Entra a **Estados Financieros → Balance de 10 Columnas**. Elige el tipo de período —**Anual** o **Mensual**—, el año y las opciones de agrupación, y presiona **Generar informe**. El informe se construye en pantalla y se puede **Exportar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-balance-10-columnas-01.png",
+        "alt": "Balance de 10 columnas: período, agrupación por plan de cuentas y botón Generar informe",
+        "descripcion": "Estados Financieros → Balance de 10 Columnas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar los ajustes",
+      "cuerpo": "Las columnas adicionales muestran los ajustes aplicados y su efecto en los saldos finales.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Úsalo en el cierre anual, cuando los ajustes son muchos y conviene verlos separados."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Reemplaza al de 8 columnas?",
+      "respuesta": "No, lo complementa: el de 8 es el formato de presentación habitual."
+    }
+  ],
+  "relacionados": [
+    "balance-de-8-columnas",
+    "balance-clasificado"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/estados-financieros/balance-de-10-columnas",
+    "capturadoEl": "2026-08-16"
+  }
+}

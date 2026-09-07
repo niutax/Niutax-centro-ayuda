@@ -1,0 +1,83 @@
+{
+  "slug": "importar-datos",
+  "titulo": "Importar datos desde Excel y XML",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Cargar productos, boletas, facturas y documentos XML en lote.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 8,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "La importación evita cargar registro por registro cuando se migra desde otro sistema o cuando hay que incorporar documentos históricos. Es la vía rápida para dejar operativa una empresa nueva.",
+  "requisitos": [
+    "Archivo Excel con los datos, o los XML de los documentos"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el importador",
+      "cuerpo": "Entra a **Configuración → Importar Datos**. Verás cuatro opciones según el tipo de dato que quieras cargar.",
+      "nota": null,
+      "captura": {
+        "archivo": "importar-datos-01.jpg",
+        "alt": "Pantalla Importar Datos con las cuatro opciones de carga",
+        "descripcion": "Cuatro importadores: productos, boletas, facturas y documentos XML."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Productos y servicios",
+      "cuerpo": "Carga el catálogo completo desde Excel, con sus categorías y sus precios de compra y venta. Es la forma más rápida de poblar el catálogo de una empresa nueva.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Boletas y facturas",
+      "cuerpo": "**Boletas** incorpora boletas de ventas realizadas y **Facturas** hace lo mismo con facturas electrónicas de venta. Sirven para cargar historial de ventas emitido fuera del sistema.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Documentos XML",
+      "cuerpo": "Permite subir documentos tributarios electrónicos desde archivos **XML o ZIP**, tal como los entrega el SII o el software del emisor.",
+      "nota": "El ZIP admite varios XML de una vez, útil para cargar un período completo.",
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Revisar el resultado",
+      "cuerpo": "Después de importar, verifica en la pantalla correspondiente —catálogo, boletas emitidas o documentos recibidos— que los registros hayan quedado como esperabas.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Haz una prueba con pocas filas antes de cargar el archivo completo: corregir una importación masiva mal armada es mucho más lento que repetirla."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Desde dónde saco la plantilla de Excel?",
+      "respuesta": "Cada importador indica el formato esperado; para el catálogo puedes partir de un **Exportar a Excel** del listado de productos y usarlo como base."
+    },
+    {
+      "pregunta": "¿Puedo importar documentos de compra?",
+      "respuesta": "Sí, con el importador de **Documentos XML** a partir de los archivos entregados por tus proveedores o descargados del SII."
+    }
+  ],
+  "relacionados": [
+    "catalogo-productos-y-servicios",
+    "documentos-recibidos",
+    "boletas-emitidas"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/importar",
+    "capturadoEl": "2026-08-16"
+  }
+}

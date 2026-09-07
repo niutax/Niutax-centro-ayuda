@@ -1,0 +1,70 @@
+{
+  "slug": "usuarios-y-roles-niuhr",
+  "titulo": "Usuarios, roles y empresas",
+  "categoria": "niuhr",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Quién accede al módulo, con qué permisos y sobre qué empresas.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "La información laboral es de las más sensibles de la empresa. Este menú define quién entra, qué puede ver y sobre qué empresas puede operar.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Administrar usuarios",
+      "cuerpo": "En **Administración → Usuarios** se da de alta a cada persona con acceso al módulo.",
+      "nota": null,
+      "captura": {
+        "archivo": "niuhr-usuarios-01.png",
+        "alt": "Listado de usuarios con RUT, nombre, email, empresas asignadas y rol",
+        "descripcion": "Administración → Usuarios. La columna central indica a qué empresas accede cada usuario."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Definir roles",
+      "cuerpo": "**Roles** determina qué puede hacer cada perfil: no todos deben ver sueldos.",
+      "nota": "Restringe el acceso a remuneraciones al mínimo de personas posible: es el dato más sensible del módulo.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Administrar empresas",
+      "cuerpo": "**Empresas** lista los RUT sobre los que opera la cuenta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar el panel y los correos",
+      "cuerpo": "**Panel de Control** resume el estado del módulo e **Historial de correos** registra las notificaciones enviadas a los colaboradores.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cuando alguien deja la empresa, revocar su acceso debe ser parte del checklist de salida, el mismo día."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo limitar quién ve los sueldos?",
+      "respuesta": "Sí, mediante los roles y sus permisos."
+    }
+  ],
+  "relacionados": [
+    "listado-de-personal",
+    "planes-e-importacion"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/administracion/usuarios",
+    "capturadoEl": "2026-08-16"
+  }
+}

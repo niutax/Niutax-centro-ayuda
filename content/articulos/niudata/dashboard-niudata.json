@@ -1,0 +1,79 @@
+{
+  "slug": "dashboard-niudata",
+  "titulo": "El panel de inicio",
+  "categoria": "niudata",
+  "seccion": "Primeros pasos",
+  "tipo": "procedimiento",
+  "resumen": "Qué muestra el dashboard: resumen del mes, saldos bancarios y posición de cobros y pagos.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "El panel de inicio resume la situación de la empresa en el período: ventas, compras y honorarios del mes, resultado preliminar, saldos de cada cuenta bancaria y la posición de cuentas por cobrar y por pagar. Es la primera pantalla que conviene mirar cada mañana.",
+  "requisitos": [
+    "Empresa con movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir el período",
+      "cuerpo": "Arriba está el selector **Período**, por defecto en *mes actual*. Todo lo que ves debajo responde a ese período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-dashboard-01.png",
+        "alt": "Dashboard de Niudata: período, accesos rápidos, resumen del mes, saldos bancarios y cuentas por cobrar y pagar",
+        "descripcion": "El dashboard resume el mes elegido: ventas, compras, honorarios, resultado preliminar, saldos bancarios y posición de cobros y pagos."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer el resumen del mes",
+      "cuerpo": "Las tarjetas muestran **Ventas**, **Compras** y **Honorarios** del período, cada una comparada con el mes anterior, y el **Resultado preliminar** con el IVA neto.",
+      "nota": "El resultado es preliminar: refleja lo contabilizado hasta ese momento, no el cierre definitivo.",
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar los saldos bancarios",
+      "cuerpo": "Muestra el saldo de cada cuenta con su fecha de actualización y la moneda, más el total consolidado en pesos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Ver la posición de cobros y pagos",
+      "cuerpo": "Abajo aparecen **Por cobrar**, **Vencido por cobrar**, **Por pagar** y la **Posición neta**: la diferencia entre lo que te deben y lo que debes.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Usar los accesos rápidos",
+      "cuerpo": "Los cuatro botones de color llevan directo a **Conciliación bancaria**, **Vouchers**, **Cobranzas** y **Libro de compras**, que son las pantallas de uso más frecuente.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si el resultado preliminar se ve raro, casi siempre falta contabilizar documentos del período o hay comprobantes pendientes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cada cuánto se actualizan los saldos bancarios?",
+      "respuesta": "Se actualizan con las cartolas cargadas o sincronizadas en Conciliación bancaria; la fecha de cada tarjeta indica hasta cuándo está al día."
+    }
+  ],
+  "relacionados": [
+    "libro-de-compras",
+    "conciliacion-bancaria-niudata",
+    "cuentas-por-cobrar-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax",
+    "capturadoEl": "2026-08-16"
+  }
+}

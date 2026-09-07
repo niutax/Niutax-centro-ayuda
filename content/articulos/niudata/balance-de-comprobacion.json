@@ -1,0 +1,63 @@
+{
+  "slug": "balance-de-comprobacion",
+  "titulo": "Balance de comprobación",
+  "categoria": "niudata",
+  "seccion": "Estados financieros",
+  "tipo": "procedimiento",
+  "resumen": "Verificar que débitos y créditos cuadran antes de emitir los demás informes.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Muestra sumas y saldos de todas las cuentas para comprobar que la contabilidad está cuadrada. Es el primer informe a revisar en un cierre.",
+  "requisitos": [
+    "Movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Generar el balance",
+      "cuerpo": "Entra a **Estados Financieros → Balance de Comprobación**. Elige el tipo de período —**Anual** o **Mensual**—, el año y las opciones de agrupación, y presiona **Generar informe**. El informe se construye en pantalla y se puede **Exportar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-balance-comprobacion-01.png",
+        "alt": "Balance de comprobación: anual o mensual, año y botón Generar informe",
+        "descripcion": "Estados Financieros → Balance de Comprobación."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Verificar el cuadre",
+      "cuerpo": "El total de débitos debe ser igual al total de créditos. Si no lo es, hay un asiento descuadrado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Corregir antes de seguir",
+      "cuerpo": "No emitas balance de 8 columnas ni estado de resultados hasta que este informe cuadre.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Este informe es el semáforo del cierre: si no cuadra aquí, todo lo que venga después estará mal."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué hago si no cuadra?",
+      "respuesta": "Revisa el libro mayor de las cuentas con diferencia y los comprobantes del período."
+    }
+  ],
+  "relacionados": [
+    "balance-de-8-columnas",
+    "libro-mayor"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/estados-financieros/balance-de-comprobacion",
+    "capturadoEl": "2026-08-16"
+  }
+}

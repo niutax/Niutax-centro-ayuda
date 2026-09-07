@@ -1,0 +1,65 @@
+{
+  "slug": "informe-consumo",
+  "titulo": "Informe de consumo",
+  "categoria": "niupos",
+  "seccion": "Informes",
+  "tipo": "procedimiento",
+  "resumen": "Ver qué se consumió internamente, por centro de costo y guía.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Jefe de operaciones",
+    "Contador"
+  ],
+  "proposito": "Muestra los materiales consumidos internamente —no vendidos— con su centro de costo. Permite saber cuánto costó cada área o faena en materiales.",
+  "requisitos": [
+    "Consumos o traspasos internos registrados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el informe",
+      "cuerpo": "Entra a **Informes → Consumo** y selecciona el **mes** y **año**.",
+      "nota": null,
+      "captura": {
+        "archivo": "informe-consumo-01.jpg",
+        "alt": "Informe de consumo con centro de costo y valorización",
+        "descripcion": "Informes → Consumo: consumos internos valorizados."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Leer las columnas",
+      "cuerpo": "Cada línea muestra **Fecha**, **N° guía**, **Centro de costo**, **Código**, **Descripción**, **Unidad de medida**, **Cantidad**, **Precio unitario** y **Total**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Analizar por centro de costo",
+      "cuerpo": "Agrupa mentalmente por centro de costo para ver qué área concentra el consumo del período.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "El consumo interno no es venta, pero sí es costo: revísalo junto con el estado de resultados de gestión."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿De dónde salen estos registros?",
+      "respuesta": "De los consumos internos y traspasos registrados en la operación."
+    }
+  ],
+  "relacionados": [
+    "traspasos-entre-bodegas",
+    "centros-de-costo-niupos",
+    "orden-de-trabajo"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/informes/consumo",
+    "capturadoEl": "2026-08-16"
+  }
+}

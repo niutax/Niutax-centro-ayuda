@@ -1,0 +1,80 @@
+{
+  "slug": "panel-de-control-f29",
+  "titulo": "Trabajar el mes desde el panel de control",
+  "categoria": "niutax",
+  "seccion": "Impuestos mensuales",
+  "tipo": "procedimiento",
+  "resumen": "El panel mensual concentra el estado del F29 de toda la cartera, con alertas, giros y fiscalizaciones.",
+  "tiempoLectura": "6 min",
+  "estado": "revisado",
+  "orden": 301,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador",
+    "Administrador"
+  ],
+  "proposito": "Es la pantalla de trabajo del cierre mensual: desde aquí se ve, empresa por empresa, si el F29 del período está listo, y se actúa en bloque sobre las que faltan.",
+  "requisitos": [
+    "RUT registrados en Mis ruts",
+    "Credenciales SII vigentes"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el panel del período",
+      "cuerpo": "Entra a **Impuestos mensuales → Panel de control**. Arriba se muestran cuatro indicadores de la cartera: **F29** (aceptados sobre el total de empresas), **Giros pendientes**, **Fiscalizaciones remotas** y **Anotaciones**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-panel-control-f29-01.png",
+        "alt": "Panel de control mensual con indicadores y estado del F29 por empresa",
+        "descripcion": "Impuestos mensuales → Panel de control."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el período",
+      "cuerpo": "Los dos desplegables bajo los indicadores fijan **mes** y **año** de trabajo. El botón naranja junto a ellos refresca los datos desde el SII.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Leer la tabla",
+      "cuerpo": "Cada fila es una empresa: **RUT**, **Nombre**, **F29 automático** (si está activo y con qué corte), **Alertas**, **Prioridad**, **Monto** y **Estado F29** (PENDIENTE, ACEPTADO, NO INFORMADO).",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Filtrar por grupo",
+      "cuerpo": "El selector **Filtrar ruts** de la esquina superior derecha acota el panel a un grupo de empresas. Pulsa **Aceptar** para aplicarlo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Actuar en bloque",
+      "cuerpo": "El botón **Acciones masivas** aplica una operación a las empresas seleccionadas, en vez de entrar una por una.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "La columna **F29 automático** indica qué empresas calculan solas su declaración: son las que menos atención necesitan durante el cierre."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué es NO INFORMADO?",
+      "respuesta": "Significa que para ese período la empresa todavía no tiene declaración registrada en el SII."
+    }
+  ],
+  "relacionados": [
+    "revisar-y-declarar-f29",
+    "deudas-vigentes",
+    "libros-mensuales"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

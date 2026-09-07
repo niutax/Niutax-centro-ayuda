@@ -1,0 +1,65 @@
+{
+  "slug": "automatizaciones",
+  "titulo": "Automatizaciones y plantillas",
+  "categoria": "niudata",
+  "seccion": "Configuración",
+  "tipo": "procedimiento",
+  "resumen": "Reglas automáticas de contabilización y plantillas de tareas y documentos.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Estudio contable"
+  ],
+  "proposito": "Las automatizaciones definen reglas que contabilizan documentos sin intervención manual. Las plantillas estandarizan las tareas de cierre y las solicitudes de documentos a los clientes.",
+  "requisitos": [
+    "Plan de cuentas y auxiliares configurados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Configurar automatizaciones",
+      "cuerpo": "En **Configuración → Automatizaciones** se definen las reglas que asignan cuentas a los documentos según su origen o su auxiliar.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-automatizaciones-01.png",
+        "alt": "Automatizaciones: pestaña Planes de Cuenta con las cuentas globales de ventas y compras",
+        "descripcion": "Configuración → Automatizaciones. Las cuentas globales se usan cuando el auxiliar no tiene las suyas configuradas."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear plantillas de tareas",
+      "cuerpo": "**Plantillas de tareas** estandariza el checklist del cierre mensual para repetirlo en cada empresa y período.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Crear plantillas de solicitudes",
+      "cuerpo": "**Plantillas de solicitudes de documentos** define qué documentos se le piden al cliente cada mes.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Cada regla de automatización bien configurada es trabajo manual que no se repite todos los meses."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La automatización contabiliza sola?",
+      "respuesta": "Genera el comprobante, que igualmente pasa por revisión en Comprobantes recibidos."
+    }
+  ],
+  "relacionados": [
+    "comprobantes-recibidos",
+    "mi-espacio",
+    "auxiliares-niudata"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/configuracion/automatizaciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

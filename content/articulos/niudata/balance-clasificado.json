@@ -1,0 +1,65 @@
+{
+  "slug": "balance-clasificado",
+  "titulo": "Balance clasificado",
+  "categoria": "niudata",
+  "seccion": "Estados financieros",
+  "tipo": "procedimiento",
+  "resumen": "El balance ordenado por activo y pasivo, corriente y no corriente.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Gerencia"
+  ],
+  "proposito": "Presenta la situación financiera con la estructura que se usa para análisis y para presentar a bancos o socios: activos y pasivos separados entre corriente y no corriente, más el patrimonio.",
+  "requisitos": [
+    "Balance cuadrado",
+    "Plan de cuentas con su clasificación al día"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Generar el balance",
+      "cuerpo": "Entra a **Estados Financieros → Balance Clasificado**. Elige el tipo de período —**Anual** o **Mensual**—, el año y las opciones de agrupación, y presiona **Generar informe**. El informe se construye en pantalla y se puede **Exportar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-balance-clasificado-01.png",
+        "alt": "Balance clasificado: selector anual o mensual, año, comparativo y botón Generar informe",
+        "descripcion": "Estados Financieros → Balance Clasificado. Elige el período y pulsa Generar informe."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar la clasificación",
+      "cuerpo": "Cada cuenta aparece en su grupo según cómo esté clasificada en el plan de cuentas. Una cuenta mal clasificada distorsiona el análisis.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Usarlo para análisis",
+      "cuerpo": "Es el formato con el que se calculan liquidez, endeudamiento y capital de trabajo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Si un grupo se ve raro, el problema suele estar en la clasificación de una cuenta del plan, no en los movimientos."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Dónde cambio la clasificación de una cuenta?",
+      "respuesta": "En **Configuración → Plan de Cuentas**, editando su subtipo."
+    }
+  ],
+  "relacionados": [
+    "plan-de-cuentas-niudata",
+    "balance-de-8-columnas"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/estados-financieros/balance-clasificado",
+    "capturadoEl": "2026-08-16"
+  }
+}

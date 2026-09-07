@@ -1,0 +1,76 @@
+{
+  "slug": "ubicaciones-y-bodegas",
+  "titulo": "Crear ubicaciones y bodegas",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Definir bodegas, sucursales y demás ubicaciones desde donde se emite y se mueve el stock.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Bodega"
+  ],
+  "proposito": "Cada documento se emite desde una **ubicación** y el inventario se controla por ubicación. Antes de emitir o de mover stock hay que tener al menos una creada.",
+  "requisitos": [
+    "Saber qué bodegas, sucursales o sectores maneja la empresa"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el registro de ubicaciones",
+      "cuerpo": "Entra a **Configuración → Ubicaciones**. La tabla muestra **Tipo**, **Código**, **Nombre**, **Centro de costo** y **Superficie**.",
+      "nota": null,
+      "captura": {
+        "archivo": "ubicaciones-y-bodegas-01.jpg",
+        "alt": "Listado de ubicaciones registradas",
+        "descripcion": "Configuración → Ubicaciones."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear una ubicación",
+      "cuerpo": "Presiona **Agregar** y elige el **Tipo**: *Bodega*, *Sector*, *Destino*, *Sucursal*, *Casa matriz* o *Vehículo*. Asigna un **Código** corto y un **Nombre** reconocible.",
+      "nota": null,
+      "captura": {
+        "archivo": "ubicaciones-y-bodegas-02.jpg",
+        "alt": "Formulario de alta de ubicación con tipo, código, nombre y superficie",
+        "descripcion": "Los seis tipos de ubicación cubren desde una bodega hasta un vehículo de reparto."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Completar superficie y centro de costo",
+      "cuerpo": "La **Superficie m²** es útil en operaciones agrícolas o de bodegaje. El **Centro de costos** conecta la ubicación con la contabilidad de gestión.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Usarla al emitir y al mover stock",
+      "cuerpo": "Al emitir un documento eliges la **Ubicación** desde la que sale; en **Traspasos** defines bodega de origen y de destino.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Usa códigos cortos y estables: aparecen en los traspasos, en los informes de inventario y en la emisión."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo tener varias bodegas?",
+      "respuesta": "Sí, y el inventario se controla por separado en cada una. El número máximo depende del plan contratado."
+    }
+  ],
+  "relacionados": [
+    "traspasos-entre-bodegas",
+    "informe-inventario",
+    "emitir-factura-electronica"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/ubicaciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

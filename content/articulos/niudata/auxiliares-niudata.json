@@ -1,0 +1,72 @@
+{
+  "slug": "auxiliares-niudata",
+  "titulo": "Auxiliares (clientes y proveedores)",
+  "categoria": "niudata",
+  "seccion": "Administración",
+  "tipo": "procedimiento",
+  "resumen": "Mantener el maestro de terceros y sus cuentas contables asociadas.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 1,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Contador",
+    "Administración"
+  ],
+  "proposito": "El auxiliar es el tercero con el que opera la empresa: cliente, proveedor o prestador de honorarios. Aquí se dan de alta y se define con qué cuenta contable se registra cada uno.",
+  "requisitos": [
+    "Plan de cuentas configurado"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el maestro",
+      "cuerpo": "Entra a **Administración → Auxiliares**. Cada registro muestra **RUT**, **Nombre**, **Tipo** (Compra, Venta u Honorario), si tiene **Auto-contab.** y su **Cuenta Compra**.",
+      "nota": null,
+      "captura": {
+        "archivo": "auxiliares-niudata-01.jpg",
+        "alt": "Maestro de auxiliares con tipo y cuenta contable asociada",
+        "descripcion": "El tipo distingue proveedores, clientes y prestadores de honorarios."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un auxiliar",
+      "cuerpo": "**Crear Auxiliar** da de alta un tercero por RUT. La razón social se puede traer desde el SII.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Asignar cuentas en masa",
+      "cuerpo": "**Asignar cuentas en masa** define la cuenta contable de muchos auxiliares a la vez: es lo que habilita la contabilización automática.",
+      "nota": "Sin cuenta asignada, cada documento de ese tercero exige clasificación manual.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Exportar",
+      "cuerpo": "**Exportar Excel** descarga el maestro completo.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Dedica un rato a asignar cuentas en masa: es la inversión que más reduce el trabajo manual de contabilización."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué significa Auto-contab.?",
+      "respuesta": "Que los documentos de ese auxiliar se contabilizan automáticamente con la cuenta definida."
+    }
+  ],
+  "relacionados": [
+    "plan-de-cuentas-niudata",
+    "cuentas-por-auxiliar",
+    "informe-por-auxiliar"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/administracion/auxiliares",
+    "capturadoEl": "2026-08-16"
+  }
+}

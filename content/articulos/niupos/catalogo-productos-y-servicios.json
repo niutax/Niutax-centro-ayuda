@@ -1,0 +1,107 @@
+{
+  "slug": "catalogo-productos-y-servicios",
+  "titulo": "Cargar el catálogo de productos y servicios",
+  "categoria": "niupos",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Crear productos y servicios con precios, unidades, categorías y cuentas contables.",
+  "tiempoLectura": "8 min",
+  "estado": "revisado",
+  "orden": 4,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administración",
+    "Contador"
+  ],
+  "proposito": "El catálogo es lo que aparece en el detalle de cada documento: sin productos cargados no se puede completar una factura ni vender en el punto de venta. Aquí se define cada ítem con su precio de compra y de venta, su unidad, su categoría y las cuentas contables con las que se registrará.",
+  "requisitos": [
+    "Listado de productos o servicios con sus precios",
+    "Categorías definidas (se crean en la misma pantalla)"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el catálogo",
+      "cuerpo": "Entra a **Configuración → Productos y servicios**. La tabla muestra **Cuentas** (los indicadores de cuenta contable), **Tipo**, **Categoría**, **Código**, **Código compra**, **Descripción**, **Medida**, **P.Compra**, **P.Venta**, **IVA** e **Impuesto**.",
+      "nota": null,
+      "captura": {
+        "archivo": "catalogo-productos-y-servicios-01.jpg",
+        "alt": "Listado del catálogo de productos y servicios",
+        "descripcion": "Configuración → Productos y servicios. Arriba, los botones Categorías, Exportar a Excel, Listas de precios y Agregar."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Crear un producto o servicio",
+      "cuerpo": "Presiona **Agregar**. Define **Tipo** (Producto o Servicio), la **Descripción**, y si el ítem es **Para** compra o venta. Completa **Código compra** y **Código venta**, la **Unidad de medida** (Unidad, Kilo, Litro, Centímetro, Caja, Bin, Rollo o Metro) y el **Peso**.",
+      "nota": null,
+      "captura": {
+        "archivo": "catalogo-productos-y-servicios-02.jpg",
+        "alt": "Formulario de alta de un producto con todos sus campos",
+        "descripcion": "El formulario cubre datos comerciales, tributarios y contables del ítem."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Definir precios y moneda",
+      "cuerpo": "Ingresa **Precio de compra** y **Precio de venta**, cada uno con su **Divisa**: peso chileno, dólar, euro o UF. Indica si el producto es **Afecto a IVA** y si lleva **Impuesto adicional**.",
+      "nota": "Los precios en UF o dólar se convierten al emitir según el valor del día que muestra la ventana de emisión.",
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Marcar si controla inventario",
+      "cuerpo": "El campo **Inventariable** define si el producto descuenta stock al venderse. Los servicios normalmente van en *No*. **Mano de obra externa** permite asociar el ítem a un *Trabajador externo* o *Contratista*.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Asignar las cuentas contables",
+      "cuerpo": "Completa **Cuenta de activo**, **Cuenta de costo** y **Cuenta de venta**. Son las que usará la contabilidad al registrar las operaciones de ese ítem.",
+      "nota": "Los indicadores de la columna **Cuentas** en el listado muestran de un vistazo qué ítems ya tienen cuentas asignadas.",
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Organizar con categorías",
+      "cuerpo": "El botón **Categorías** abre el administrador: se crean con **Código** y **Nombre**, y admiten dos niveles (una categoría principal y sus subcategorías).",
+      "nota": null,
+      "captura": {
+        "archivo": "catalogo-productos-y-servicios-06.jpg",
+        "alt": "Ventana Administrar categorías con la jerarquía de dos niveles",
+        "descripcion": "Las categorías agrupan el catálogo y ordenan los informes."
+      }
+    },
+    {
+      "n": 7,
+      "titulo": "Cargar muchos productos de una vez",
+      "cuerpo": "Si vas a migrar un catálogo completo, usa **Configuración → Importar Datos → Productos y servicios**, que carga el listado con categorías y precios desde un archivo Excel. El botón **Exportar a Excel** descarga el catálogo actual.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Las **Listas de precios** permiten reutilizar un mismo conjunto de precios en varios clientes; los **Precios personalizados por cliente** (el botón de cada fila) fijan un precio especial para uno en particular.",
+    "Define bien la unidad de medida desde el inicio: cambiarla después descuadra el inventario histórico."
+  ],
+  "faq": [
+    {
+      "pregunta": "La pantalla no carga y muestra un error del servidor.",
+      "respuesta": "Puede ocurrir en empresas con la configuración incompleta. Escríbenos a soporte indicando el RUT de la empresa para revisarlo."
+    },
+    {
+      "pregunta": "¿Puedo tener el mismo producto con precio distinto por cliente?",
+      "respuesta": "Sí, con el botón **Precios personalizados por cliente** de cada fila del listado."
+    }
+  ],
+  "relacionados": [
+    "importar-datos",
+    "emitir-factura-electronica",
+    "punto-de-venta"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/configuracion/productos-y-servicios",
+    "capturadoEl": "2026-08-16"
+  }
+}

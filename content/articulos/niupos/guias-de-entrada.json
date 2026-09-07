@@ -1,0 +1,72 @@
+{
+  "slug": "guias-de-entrada",
+  "titulo": "Registrar guías de entrada",
+  "categoria": "niupos",
+  "seccion": "Operación comercial",
+  "tipo": "procedimiento",
+  "resumen": "Documentar la recepción de mercadería en bodega y su ingreso al inventario.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Bodega"
+  ],
+  "proposito": "La guía de entrada registra lo que efectivamente llegó a la bodega: es lo que convierte una orden de compra en stock disponible.",
+  "requisitos": [
+    "Mercadería recibida",
+    "Ubicación de destino creada"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Guia de entrada**. La tabla muestra **Folio**, **Tipo**, **Guía**, **Fecha**, **RUT**, **Razón social**, **Descripción**, **Ubicación** y **Neto**, con el selector de período arriba.",
+      "nota": null,
+      "captura": {
+        "archivo": "guias-de-entrada-01.jpg",
+        "alt": "Listado de guías de entrada con el selector de período",
+        "descripcion": "Doc. electrónicos → Guia de entrada."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Registrar una recepción",
+      "cuerpo": "Presiona **Agregar** e indica el proveedor, el documento de respaldo, la **ubicación** que recibe y el detalle de los productos con sus cantidades.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar contra la orden de compra",
+      "cuerpo": "Contrasta lo recibido con lo pedido: la diferencia es lo que deja una orden en estado pendiente en vez de recibida completa.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Confirmar el ingreso al stock",
+      "cuerpo": "Verifica en el **Informe de inventario** que las cantidades recibidas se hayan sumado a la bodega correcta.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Registra la recepción el mismo día: el desfase entre la llegada física y el registro es la causa habitual de diferencias de inventario."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo recibir parcialmente una orden?",
+      "respuesta": "Sí, registrando la guía con las cantidades efectivamente recibidas; la orden queda pendiente por el saldo."
+    }
+  ],
+  "relacionados": [
+    "orden-de-compra",
+    "informe-inventario",
+    "ubicaciones-y-bodegas"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/guia-de-entrada",
+    "capturadoEl": "2026-08-16"
+  }
+}

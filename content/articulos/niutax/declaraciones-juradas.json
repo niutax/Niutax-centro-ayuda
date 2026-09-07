@@ -1,0 +1,71 @@
+{
+  "slug": "declaraciones-juradas",
+  "titulo": "Preparar y enviar declaraciones juradas",
+  "categoria": "niutax",
+  "seccion": "Declaraciones de renta",
+  "tipo": "procedimiento",
+  "resumen": "El módulo prepara las DJ 1879, 1887 y 1948 y las sincroniza con el SII.",
+  "tiempoLectura": "5 min",
+  "estado": "revisado",
+  "orden": 402,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Generar las declaraciones juradas que anteceden al F22 y dejarlas enviadas dentro de plazo.",
+  "requisitos": [
+    "Libros de honorarios y remuneraciones del año cerrados",
+    "Malla societaria actualizada para la 1948"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir la empresa",
+      "cuerpo": "Entra a **Declaraciones de renta → Declaraciones juradas**, selecciona el RUT y pulsa **Aceptar**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir tipo y año",
+      "cuerpo": "Aparecen dos controles más: **Tipo declaración jurada** y el año. Los tipos disponibles son **1879**, **1887** y **1948**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-declaraciones-juradas-01.png",
+        "alt": "Pantalla de declaraciones juradas con selector de RUT, tipo de DJ y año",
+        "descripcion": "Declaraciones de renta → Declaraciones juradas."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Saber qué informa cada una",
+      "cuerpo": "La **1887** informa las rentas del trabajo (sueldos), la **1879** las retenciones por honorarios de segunda categoría, y la **1948** los retiros, remesas y dividendos distribuidos a los socios.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar antes de enviar",
+      "cuerpo": "Los botones de la esquina superior derecha permiten trabajar la declaración y sincronizarla con el SII. Revisa el detalle antes de enviarla: una DJ enviada con errores obliga a rectificar.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "La 1948 depende de la malla societaria: si los porcentajes no están al día, la distribución sale mal."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Qué pasa si envío una DJ con error?",
+      "respuesta": "Hay que rectificarla ante el SII. Por eso conviene revisar el detalle completo antes de enviar."
+    }
+  ],
+  "relacionados": [
+    "malla-societaria",
+    "panel-empresas-f22"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

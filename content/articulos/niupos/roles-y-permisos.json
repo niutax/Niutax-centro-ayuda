@@ -1,0 +1,70 @@
+{
+  "slug": "roles-y-permisos",
+  "titulo": "Configurar roles y permisos",
+  "categoria": "niupos",
+  "seccion": "Administración y usuarios",
+  "tipo": "procedimiento",
+  "resumen": "Definir qué puede hacer cada tipo de usuario dentro del sistema.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 2,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Administrador de la cuenta"
+  ],
+  "proposito": "El rol determina a qué partes del sistema accede cada usuario. Niupos trae roles base —Administrador, Usuario y Vendedor— y permite crear otros según cómo trabaje tu equipo.",
+  "requisitos": [
+    "Perfil de administrador"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la lista de roles",
+      "cuerpo": "Entra a **Administración → Roles**. La tabla muestra el **Nombre** del rol, cuántos **Usuarios** lo tienen asignado y su **Fecha de creación**.",
+      "nota": null,
+      "captura": {
+        "archivo": "roles-y-permisos-01.jpg",
+        "alt": "Lista de roles de usuarios con la cantidad asignada a cada uno",
+        "descripcion": "Administración → Roles: Administrador, Usuario y Vendedor."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Entender los roles base",
+      "cuerpo": "**Administrador** accede a la configuración completa; **Usuario** opera el día a día; **Vendedor** se enfoca en la emisión y la venta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Crear o editar un rol",
+      "cuerpo": "Con **Agregar** creas un rol nuevo; el botón de edición de cada fila permite ajustar sus permisos.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Revisar antes de eliminar",
+      "cuerpo": "La columna **Usuarios** avisa cuánta gente quedaría afectada por un cambio: revísala antes de modificar o eliminar un rol.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Menos roles bien definidos funcionan mejor que muchos roles casi iguales."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Puedo eliminar un rol en uso?",
+      "respuesta": "Primero hay que reasignar a los usuarios que lo tienen: la columna Usuarios indica cuántos son."
+    }
+  ],
+  "relacionados": [
+    "usuarios-y-accesos",
+    "planes-y-limites"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/administracion/roles",
+    "capturadoEl": "2026-08-16"
+  }
+}

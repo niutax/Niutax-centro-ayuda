@@ -1,0 +1,63 @@
+{
+  "slug": "analisis-de-cuentas",
+  "titulo": "Análisis de cuentas",
+  "categoria": "niudata",
+  "seccion": "Informes de gestión",
+  "tipo": "procedimiento",
+  "resumen": "Revisar en detalle el comportamiento de una cuenta contable.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Permite analizar una cuenta en profundidad: su movimiento en el tiempo, su composición y el detalle que forma el saldo. Es la herramienta de revisión antes de un cierre.",
+  "requisitos": [
+    "Movimientos contabilizados"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el análisis",
+      "cuerpo": "Entra a **Informes de Gestión → Análisis de Cuentas** y elige la cuenta y el período.",
+      "nota": null,
+      "captura": {
+        "archivo": "niudata-analisis-cuentas-01.png",
+        "alt": "Análisis de cuentas: fecha de corte, tipo (por cobrar, por pagar, otros), cuenta y botón Generar informe",
+        "descripcion": "Informes de Gestión → Análisis de Cuentas. Se elige fecha de corte, tipo y cuenta, y se genera."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Revisar la composición",
+      "cuerpo": "El informe descompone el saldo en los movimientos que lo forman.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Detectar lo que no corresponde",
+      "cuerpo": "Un movimiento fuera de patrón en una cuenta de gasto suele ser una mala clasificación.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Analiza las cuentas de mayor movimiento antes del cierre: ahí se concentran los errores de imputación."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Cuál es la diferencia con el libro mayor?",
+      "respuesta": "El mayor lista los movimientos; el análisis los organiza para entender la composición del saldo."
+    }
+  ],
+  "relacionados": [
+    "libro-mayor",
+    "estado-de-resultados-gestion"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/informes-de-gestion/analisis-de-cuentas",
+    "capturadoEl": "2026-08-16"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "cotizaciones",
+  "titulo": "Crear y gestionar cotizaciones",
+  "categoria": "niupos",
+  "seccion": "Emisión de documentos",
+  "tipo": "procedimiento",
+  "resumen": "Registrar propuestas comerciales y seguir su estado hasta el cierre.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 6,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Vendedor"
+  ],
+  "proposito": "La cotización formaliza una propuesta antes de que exista un documento tributario. El listado permite seguir en qué estado va cada una y quién la emitió.",
+  "requisitos": [
+    "Catálogo cargado",
+    "Cliente registrado o sus datos a mano"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el listado",
+      "cuerpo": "Entra a **Doc. electrónicos → Cotizaciones**. La tabla muestra **N°**, **Fecha**, **Cliente**, **RUT**, **Vendedor**, **Total** y **Estado**.",
+      "nota": null,
+      "captura": {
+        "archivo": "cotizaciones-01.jpg",
+        "alt": "Listado de cotizaciones con el filtro por estado",
+        "descripcion": "Doc. electrónicos → Cotizaciones."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Filtrar por estado",
+      "cuerpo": "El selector **Estado** acota el listado, para separar lo que sigue vivo de lo que ya se cerró o venció.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Crear una cotización",
+      "cuerpo": "Presiona **Nueva cotización** y completa cliente, productos, cantidades y precios, igual que en un documento de venta.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Hacer seguimiento",
+      "cuerpo": "Revisa periódicamente las cotizaciones pendientes: el estado y la fecha son el mejor indicador de qué oportunidades se están enfriando.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Filtra por vendedor y estado para tener una lectura rápida del embudo comercial del mes."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿La cotización afecta el inventario?",
+      "respuesta": "No. Solo los documentos tributarios y los movimientos de bodega mueven stock."
+    }
+  ],
+  "relacionados": [
+    "emitir-factura-electronica",
+    "punto-de-venta"
+  ],
+  "fuente": {
+    "url": "https://pos.niudata.cl/documentos-electronicos/cotizaciones",
+    "capturadoEl": "2026-08-16"
+  }
+}

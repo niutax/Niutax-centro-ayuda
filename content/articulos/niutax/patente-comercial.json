@@ -1,0 +1,49 @@
+{
+  "slug": "patente-comercial",
+  "titulo": "Registrar las patentes comerciales",
+  "categoria": "niutax",
+  "seccion": "Impuestos municipales",
+  "tipo": "procedimiento",
+  "resumen": "Lleva el registro de roles de patente municipal de cada empresa de la cartera.",
+  "tiempoLectura": "3 min",
+  "estado": "revisado",
+  "orden": 501,
+  "actualizado": "2026-08-17",
+  "publicoObjetivo": [
+    "Contador"
+  ],
+  "proposito": "Tener registrado el rol de patente de cada empresa, base para el cálculo del capital propio tributario municipal y para la declaración de trabajadores.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Elegir la empresa",
+      "cuerpo": "Entra a **Impuestos municipales → Patente comercial**, selecciona el RUT y pulsa **Aceptar**.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-patente-comercial-01.png",
+        "alt": "Pantalla de patentes comerciales con el selector de RUT",
+        "descripcion": "Impuestos municipales → Patente comercial."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Registrar los roles",
+      "cuerpo": "Se registra un rol de patente por cada local o sucursal de la empresa ante su municipalidad.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Una empresa con locales en varias comunas tiene un rol por comuna: regístralos todos, porque la distribución de trabajadores se reparte entre ellos."
+  ],
+  "faq": [],
+  "relacionados": [
+    "cpt-municipal",
+    "distribucion-de-trabajadores"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}

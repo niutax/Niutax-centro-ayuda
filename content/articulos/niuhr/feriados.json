@@ -1,0 +1,113 @@
+{
+  "slug": "feriados",
+  "titulo": "Cargar los feriados del año",
+  "categoria": "niuhr",
+  "seccion": "Configuración inicial",
+  "tipo": "procedimiento",
+  "resumen": "Cada empresa tiene su propio calendario de feriados y hay que cargarlo al comenzar cada año.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 3,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Jefe de RRHH",
+    "Administrador"
+  ],
+  "proposito": "El calendario de feriados es la base con la que NiuHR calcula días hábiles, vacaciones y control de horas. Hay dos cosas que conviene tener claras antes de empezar: **el calendario es por empresa** —no es una tabla común del sistema— y **empieza vacío cada año**, así que hay que cargarlo al inicio del ejercicio.",
+  "requisitos": [
+    "Acceso al menú **Administración**",
+    "Estar situado en la empresa que se va a configurar"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir el calendario de la empresa",
+      "nota": null,
+      "cuerpo": "Entra a **Administración → Feriados**. La tabla lista los feriados registrados con **Fecha** y **Nombre**, ordenados del más nuevo al más antiguo. Fíjate en la cabecera: los feriados que ves son los de la empresa activa, la que aparece bajo tu nombre arriba a la derecha.",
+      "captura": {
+        "archivo": "niuhr-feriados-01.png",
+        "alt": "Listado de feriados del año con fecha y nombre",
+        "descripcion": "Administración → Feriados. El aviso naranja indica que el año en curso ya tiene su calendario cargado."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Elegir el año",
+      "nota": null,
+      "cuerpo": "El desplegable oscuro de la izquierda cambia el año que estás viendo. Cada año se guarda por separado, así que puedes consultar ejercicios anteriores sin alterar el actual.",
+      "captura": {
+        "archivo": "niuhr-feriados-02.png",
+        "alt": "Desplegable de años disponibles en el calendario de feriados",
+        "descripcion": "El selector de año recorre los ejercicios ya cargados."
+      }
+    },
+    {
+      "n": 3,
+      "titulo": "Cargar los feriados del año nuevo",
+      "nota": "Este es el paso que no hay que olvidar en enero. Mientras el año no tenga feriados, todo lo que dependa de días hábiles —vacaciones y control de horas— se calcula sobre un calendario incompleto.",
+      "cuerpo": "Cuando el año todavía no tiene feriados, la tabla aparece con **\"Ningún dato disponible en esta tabla\"** y en lugar del aviso naranja se habilita el botón verde **Obtener feriados**. Púlsalo y el sistema trae de una vez los feriados legales de ese año. Si el año ya está cargado, ese botón se muestra deshabilitado con el texto **\"Ya existen feriados en el año actual\"**: es la señal de que no hay nada que hacer.",
+      "captura": {
+        "archivo": "niuhr-feriados-03.png",
+        "alt": "Año sin feriados cargados, con el botón verde Obtener feriados habilitado",
+        "descripcion": "Un año sin cargar: tabla vacía y el botón **Obtener feriados** disponible."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Agregar un feriado propio",
+      "nota": null,
+      "cuerpo": "El botón **Agregar** abre una ventana con **Nombre del feriado** y **Fecha** (formato DD-MM-YYYY). Sirve para los días que no vienen en el calendario legal: feriados regionales, el día de aniversario de la empresa o cualquier día libre pactado con el personal.",
+      "captura": {
+        "archivo": "niuhr-feriados-04.png",
+        "alt": "Ventana Agregar feriado con los campos nombre y fecha",
+        "descripcion": "Alta manual de un feriado: solo nombre y fecha."
+      }
+    },
+    {
+      "n": 5,
+      "titulo": "Corregir o eliminar",
+      "nota": null,
+      "cuerpo": "Cada fila tiene un lápiz para editarla y una papelera para borrarla. Úsalos cuando un feriado se traslada de fecha o cuando un día cargado no aplica a tu empresa.",
+      "captura": null
+    },
+    {
+      "n": 6,
+      "titulo": "Repetir en cada empresa",
+      "nota": null,
+      "cuerpo": "Como el calendario es por empresa, cargarlo en una **no** lo carga en las demás. Si administras varias, cambia de empresa y repite los pasos 2 y 3 en cada una.",
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Deja la carga de feriados como primera tarea de enero, junto con los indicadores Previred: son los dos parámetros anuales de los que depende todo el cálculo del año.",
+    "Si administras varias empresas, recorre la lista de una vez en enero en lugar de ir descubriendo el calendario vacío empresa por empresa cuando alguien pide vacaciones.",
+    "Los feriados regionales y los trasladables cambian de un año a otro: después de pulsar **Obtener feriados**, revisa la lista y agrega a mano lo que falte."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Por qué el año aparece vacío?",
+      "respuesta": "Porque el calendario no se arrastra de un año al otro: cada ejercicio parte sin feriados y hay que cargarlo con **Obtener feriados**."
+    },
+    {
+      "pregunta": "Cargué los feriados, ¿por qué otra empresa sigue sin ellos?",
+      "respuesta": "El calendario es por empresa. Hay que cargarlo en cada una por separado."
+    },
+    {
+      "pregunta": "¿Afecta al cálculo de vacaciones?",
+      "respuesta": "Sí. Los días hábiles del feriado legal se cuentan con este calendario, así que un año sin feriados cargados hace que las vacaciones descuenten días de más."
+    },
+    {
+      "pregunta": "¿Puedo agregar un día libre que no es feriado legal?",
+      "respuesta": "Sí, con **Agregar**. Es la vía para aniversarios de la empresa, feriados regionales y días pactados."
+    }
+  ],
+  "relacionados": [
+    "indicadores-previred",
+    "provision-de-vacaciones",
+    "solicitudes-de-empleado"
+  ],
+  "fuente": {
+    "url": "https://hr.niu.tax/administracion/feriados",
+    "capturadoEl": "2026-09-07"
+  }
+}

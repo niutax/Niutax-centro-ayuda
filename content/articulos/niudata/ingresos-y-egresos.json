@@ -1,0 +1,70 @@
+{
+  "slug": "ingresos-y-egresos",
+  "titulo": "Ingresos y egresos",
+  "categoria": "niudata",
+  "seccion": "Tesorería",
+  "tipo": "procedimiento",
+  "resumen": "Registrar movimientos de caja y generar su voucher.",
+  "tiempoLectura": "4 min",
+  "estado": "revisado",
+  "orden": 5,
+  "actualizado": "2026-08-16",
+  "publicoObjetivo": [
+    "Tesorería"
+  ],
+  "proposito": "Permite registrar entradas y salidas de dinero que no vienen de un documento tributario —aportes, retiros, gastos menores— y generar el comprobante contable correspondiente.",
+  "requisitos": [
+    "Cuenta caja definida en el plan de cuentas"
+  ],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Abrir la pantalla",
+      "cuerpo": "Entra a **Tesorería → Ingresos y Egresos**.",
+      "nota": null,
+      "captura": {
+        "archivo": "ingresos-y-egresos-01.jpg",
+        "alt": "Pantalla de ingresos y egresos con el formulario de detalle y el voucher",
+        "descripcion": "A la izquierda se arma cada detalle; a la derecha se genera el voucher."
+      }
+    },
+    {
+      "n": 2,
+      "titulo": "Agregar el detalle",
+      "cuerpo": "Elige el **Tipo** (*Ingreso* o *Egreso*), la **Cuenta**, el **Centro de Costos** si corresponde, el **Monto** y la **Glosa**. Presiona **Agregar Detalle**.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Revisar los detalles",
+      "cuerpo": "Los detalles agregados se listan a la derecha con cuenta, folio, documento, RUT, glosa, tipo y monto.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Generar el voucher",
+      "cuerpo": "Selecciona la **Cuenta Caja** y la **Fecha del Voucher**, y presiona **Generar Voucher**. El asiento queda registrado en la contabilidad.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Usa glosas específicas: “anticipo proveedor X” dice mucho más que “egreso caja”."
+  ],
+  "faq": [
+    {
+      "pregunta": "¿Se puede generar un voucher sin detalles?",
+      "respuesta": "No: hay que agregar al menos un detalle antes de generarlo."
+    }
+  ],
+  "relacionados": [
+    "rendiciones",
+    "vouchers"
+  ],
+  "fuente": {
+    "url": "https://fin.niu.tax/tesoreria/ingresos-egresos",
+    "capturadoEl": "2026-08-16"
+  }
+}

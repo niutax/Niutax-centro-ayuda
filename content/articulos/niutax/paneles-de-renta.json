@@ -1,0 +1,64 @@
+{
+  "slug": "paneles-de-renta",
+  "titulo": "Los tres paneles de la operación renta",
+  "categoria": "niutax",
+  "seccion": "Declaraciones de renta",
+  "tipo": "concepto",
+  "resumen": "Empresas F22, personas y declaraciones juradas se siguen en paneles separados.",
+  "tiempoLectura": "3 min",
+  "estado": "borrador",
+  "orden": 403,
+  "actualizado": "2026-09-07",
+  "publicoObjetivo": [
+    "Contador",
+    "Administrador"
+  ],
+  "proposito": "La operación renta se controla desde tres tableros distintos porque las obligaciones y los plazos de empresas, personas y DJ no coinciden.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Panel empresas F22",
+      "cuerpo": "Sigue el F22 de las empresas de la cartera. Tiene su propio artículo detallado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Panel de personas",
+      "cuerpo": "**Declaraciones de renta → Panel de personas** hace lo mismo para los contribuyentes persona natural. El dashboard separa siempre EMPRESAS de PERSONAS por esta razón.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Panel empresas DJ",
+      "cuerpo": "**Declaraciones de renta → Panel empresas DJ** controla el avance de las declaraciones juradas, que vencen antes que el F22.",
+      "nota": null,
+      "captura": {
+        "archivo": "niutax-panel-empresas-dj-01.png",
+        "alt": "Panel de empresas DJ: por cada empresa, régimen, prioridad y un punto de estado por cada declaración jurada del año",
+        "descripcion": "Declaraciones de renta → Panel empresas DJ. Cada columna es un tipo de DJ (1835, 1879, 1887, 1948…) y el punto indica su estado por empresa."
+      }
+    },
+    {
+      "n": 4,
+      "titulo": "Resumen anual",
+      "cuerpo": "**Declaraciones de renta → Resumen anual** consolida el resultado del ejercicio de la cartera.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [
+    "Las DJ vencen antes que el F22: el panel de DJ es el que hay que mirar primero en la operación renta."
+  ],
+  "faq": [],
+  "relacionados": [
+    "panel-empresas-f22",
+    "declaraciones-juradas"
+  ],
+  "fuente": {
+    "url": "https://niu.tax",
+    "capturadoEl": "2026-08-17"
+  }
+}
