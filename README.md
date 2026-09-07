@@ -128,7 +128,7 @@ sitio generado, solo `content/` y `assets/` (las fuentes). `public/` está en `.
 
 `build.js` genera además lo que Pages necesita:
 
-- `public/CNAME` con el dominio (`docs.niu.tax`, tomado de `SITIO.url`).
+- `public/CNAME` con el dominio (`docs.niutax.cl`, tomado de `SITIO.url`).
 - `public/.nojekyll` para que Pages no procese el sitio con Jekyll (de lo contrario ignora
   archivos/carpetas que empiezan con `_`, como `assets/capturas/_entrada/`).
 - `public/404.html` para la página de error.
@@ -137,7 +137,7 @@ Las URLs limpias (`/a/<slug>`, `/c/<categoria>`, sin `.html`) funcionan tal cual
 `/a/slug` sirviendo `a/slug.html` si existe, igual que hace `serve.js` en local.
 
 Configuración una sola vez en GitHub: **Settings → Pages → Source: GitHub Actions**, y en el DNS del
-dominio apuntar `docs.niu.tax` (CNAME) al hostname de Pages del repo.
+dominio apuntar `docs.niutax.cl` (CNAME) al hostname de Pages del repo.
 
 ## Retomar el trabajo
 
