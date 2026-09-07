@@ -10,7 +10,7 @@ const OUT = path.join(ROOT, 'public');
 const SITIO = {
   nombre: 'Centro de Ayuda',
   marca: 'Niutax ERP',
-  url: 'https://ayuda.niutax.cl',
+  url: 'https://docs.niu.tax',
   soporte: 'soporte@niutax.cl',
   anio: new Date().getFullYear(),
 };
