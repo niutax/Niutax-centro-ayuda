@@ -8,7 +8,7 @@ de la conversación anterior. Léelo primero, junto con el mapa del módulo que 
 | Qué | Dónde |
 |---|---|
 | Contenido (fuente de la verdad) | `content/articulos/<modulo>/<slug>.json` |
-| Capturas publicadas | `public/assets/capturas/<modulo>/` |
+| Capturas publicadas | `assets/capturas/<modulo>/` (versionadas) |
 | Buzón de capturas (temporal) | `public/assets/capturas/_entrada/` |
 | Generador del sitio | `build.js` → `public/` |
 | Preview | `node serve.js` · http://localhost:4322 |

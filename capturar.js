@@ -24,7 +24,7 @@ const path = require('path');
 
 const ROOT = __dirname;
 const CONTENT = path.join(ROOT, 'content');
-const CAPTURAS = path.join(ROOT, 'public', 'assets', 'capturas');
+const CAPTURAS = path.join(ROOT, 'assets', 'capturas');
 const HOY = new Date().toISOString().slice(0, 10);
 
 function ubicarArticulo(slug) {

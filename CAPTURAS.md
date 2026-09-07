@@ -53,7 +53,7 @@ node capturar.js --lote lote.json
 }
 ```
 
-El comando copia la imagen a `public/assets/capturas/<categoria>/<slug>-NN.ext`,
+El comando copia la imagen a `assets/capturas/<categoria>/<slug>-NN.ext`,
 actualiza el JSON del artículo, registra la URL de origen y la fecha, y sube la fecha
 de `actualizado`. Después hay que correr `node build.js`.
 

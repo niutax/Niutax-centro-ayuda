@@ -57,7 +57,7 @@ function dimensionesImagen(archivo) {
   return null;
 }
 
-const rutaCaptura = (cat, archivo) => path.join(OUT, 'assets', 'capturas', cat, archivo);
+const rutaCaptura = (cat, archivo) => path.join(ROOT, 'assets', 'capturas', cat, archivo);
 
 const capturasDe = (art) => art.pasos.filter((p) => p.captura).length;
 const totalPasos = (art) => art.pasos.length;
@@ -599,13 +599,10 @@ function main() {
   escribir('.nojekyll', '');
   escribir('404.html', pagina404());
 
-  // assets fuente (assets/) -> public/assets/, sin tocar las capturas ya subidas
-  const src = path.join(ROOT, 'assets');
-  fs.mkdirSync(path.join(OUT, 'assets'), { recursive: true });
-  for (const f of fs.readdirSync(src)) {
-    const p = path.join(src, f);
-    if (fs.statSync(p).isFile()) fs.copyFileSync(p, path.join(OUT, 'assets', f));
-  }
+  // assets fuente (assets/) -> public/assets/, incluidas las capturas: public/ se
+  // regenera desde cero en cada build (y no se versiona), así que todo lo que deba
+  // publicarse tiene que salir de assets/.
+  fs.cpSync(path.join(ROOT, 'assets'), path.join(OUT, 'assets'), { recursive: true });
   // carpetas de capturas por módulo (para el flujo con el plugin de Chrome)
   for (const cat of categorias) fs.mkdirSync(path.join(OUT, 'assets', 'capturas', cat.id), { recursive: true });
 
