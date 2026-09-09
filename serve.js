@@ -54,6 +54,13 @@ http
   .createServer((req, res) => {
     if (req.method === 'POST' && req.url.startsWith('/_captura')) return recibirCaptura(req, res);
 
+    // /estado es control interno: no existe en public/ (no se publica); solo aquí, en el preview local.
+    if (req.url.split('?')[0] === '/estado') {
+      const f = path.join(__dirname, 'docs', 'estado.html');
+      if (!fs.existsSync(f)) { res.writeHead(404); return res.end('Corre node build.js para generar la página de estado'); }
+      res.writeHead(200, { 'Content-Type': TIPOS['.html'], 'Cache-Control': 'no-cache' });
+      return res.end(fs.readFileSync(f));
+    }
     let url = decodeURIComponent(req.url.split('?')[0]);
     if (url === '/') url = '/index.html';
     let file = path.join(ROOT, url);

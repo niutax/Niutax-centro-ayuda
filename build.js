@@ -13,7 +13,12 @@ const SITIO = {
   url: 'https://docs.niutax.cl',
   soporte: 'soporte@niutax.cl',
   anio: new Date().getFullYear(),
+  // Prueba gratis: una sola URL de destino, con la campaña como único parámetro variable.
+  ctaUrl: (campania) => `https://central.niu.tax/planes?utm_source=docs&utm_medium=centro_ayuda&utm_campaign=${campania}`,
+  ogImagen: '/assets/logo-claro.png', // fallback de og:image cuando el artículo no tiene captura
 };
+// Se llena en main() para que el pie de página liste las categorías reales, no una lista fija.
+let CATEGORIAS = [];
 
 // ---------------------------------------------------------------- utilidades
 const esc = (s = '') =>
@@ -22,10 +27,33 @@ const esc = (s = '') =>
 // Formato mínimo dentro de los textos: `código`, **negrita**, [texto](url)
 const rich = (s = '') =>
   esc(s)
+    // Marcas [VERIFICAR: …] de los artículos de adquisición: quedan en el HTML como
+    // comentario (visibles en el archivo y en el código fuente, invisibles al lector).
+    .replace(/\[VERIFICAR:?([^\]]*)\]/g, '<!-- VERIFICAR:$1 -->')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/\*([^*]+)\*/g, '<em>$1</em>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+
+// Cuerpo de un paso con bloques: párrafos separados por línea en blanco, listas con
+// "- " o "1. " y tablas con "|". Los artículos de tutorial siguen siendo una sola línea,
+// que se renderiza igual que antes (un solo <p>).
+function bloques(s = '') {
+  const texto = String(s);
+  if (!/\n/.test(texto)) return `<p>${rich(texto)}</p>`;
+  return texto.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean).map((b) => {
+    const lineas = b.split('\n').map((l) => l.trim()).filter(Boolean);
+    if (lineas.every((l) => /^[-*]\s+/.test(l))) return `<ul>${lineas.map((l) => `<li>${rich(l.replace(/^[-*]\s+/, ''))}</li>`).join('')}</ul>`;
+    if (lineas.every((l) => /^\d+[.)]\s+/.test(l))) return `<ol>${lineas.map((l) => `<li>${rich(l.replace(/^\d+[.)]\s+/, ''))}</li>`).join('')}</ol>`;
+    if (lineas.length >= 2 && lineas.every((l) => /^\|.*\|$/.test(l))) {
+      const filas = lineas.map((l) => l.slice(1, -1).split('|').map((c) => c.trim())).filter((f) => !f.every((c) => /^:?-{2,}:?$/.test(c)));
+      const [cab, ...cuerpo] = filas;
+      return `<div class="tabla-wrap"><table class="tabla"><thead><tr>${cab.map((c) => `<th>${rich(c)}</th>`).join('')}</tr></thead><tbody>${cuerpo
+        .map((f) => `<tr>${f.map((c) => `<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    }
+    return `<p>${rich(lineas.join(' '))}</p>`;
+  }).join('\n');
+}
 
 const ICONOS = {
   contabilidad:
@@ -36,6 +64,8 @@ const ICONOS = {
     '<path d="M4 2h16a1 1 0 0 1 1 1v19l-3-2-3 2-3-2-3 2-3-2-3 2V3a1 1 0 0 1 1-1zm3 5v2h10V7zm0 4v2h10v-2zm0 4v2h6v-2z"/>',
   tributaria:
     '<path d="M12 2 3 6v2h18V6zm-7 8v7H3v2h18v-2h-2v-7h-2v7h-3v-7h-2v7H7v-7z"/>',
+  inicio:
+    '<path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm-1-5h2v2h-2zm2.1-2.4c-.5.3-.6.6-.6 1.4h-2c0-1.5.4-2.2 1.4-2.8.6-.4 1-.7 1-1.3 0-.7-.5-1.2-1.3-1.2-.9 0-1.4.5-1.5 1.4H8.9C9 9 10.4 7.7 12.6 7.7c2 0 3.4 1.2 3.4 2.9 0 1.1-.6 1.7-1.9 2.4z"/>',
 };
 
 // Dimensiones reales de la imagen (PNG/JPEG) para declarar width/height y evitar
@@ -128,7 +158,9 @@ const logo = (base) => {
 </a>`;
 };
 
-function layout({ titulo, descripcion, contenido, base = '', cat = null, canonical = '', clase = '', jsonld = '' }) {
+// og: { imagen, publicado, modificado } — metadatos por página para buscadores y rastreadores de IA.
+function layout({ titulo, descripcion, contenido, base = '', cat = null, canonical = '', clase = '', jsonld = '', og = {} }) {
+  const ogImagen = og.imagen || `${SITIO.url}${SITIO.ogImagen}`;
   return `<!doctype html>
 <html lang="es-CL"${cat ? ` data-cat="${cat.id}"` : ''}>
 <head>
@@ -139,13 +171,19 @@ function layout({ titulo, descripcion, contenido, base = '', cat = null, canonic
 <link rel="canonical" href="${SITIO.url}${canonical}">
 <meta property="og:title" content="${esc(titulo)} · ${SITIO.nombre} ${SITIO.marca}">
 <meta property="og:description" content="${esc(descripcion)}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="${og.publicado ? 'article' : 'website'}">
 <meta property="og:locale" content="es_CL">
+<meta property="og:url" content="${SITIO.url}${canonical}">
+<meta property="og:image" content="${ogImagen}">
+<meta property="og:site_name" content="${SITIO.nombre} ${SITIO.marca}">
+<meta name="twitter:card" content="summary_large_image">
+${og.publicado ? `<meta property="article:published_time" content="${esc(og.publicado)}">` : ''}
+${og.modificado ? `<meta property="article:modified_time" content="${esc(og.modificado)}">` : ''}
 <link rel="icon" href="${base}/assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="${base}/assets/styles.css?v=${V_CSS}">
 <script>try{var t=localStorage.getItem('niutax-help-tema');if(t)document.documentElement.dataset.tema=t;}catch(e){}</script>
 ${cat ? `<style>:root{--acento:${cat.color};--acento-rgb:${cat.colorRgb}}</style>` : ''}
-${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}
+${jsonld ? `<script type="application/ld+json">${jsonld.replace(/</g, '\\u003c')}</script>` : ''}
 </head>
 <body class="${clase}">
 <a class="skip" href="#main">Ir al contenido</a>
@@ -159,8 +197,8 @@ ${jsonld ? `<script type="application/ld+json">${jsonld}</script>` : ''}
       <div id="resultados" class="resultados" hidden></div>
     </div>
     <nav class="top-nav">
-      <a href="${base}/estado">Estado</a>
       <a class="btn-ghost" href="https://central.niu.tax" target="_blank" rel="noopener">Ir a Niutax ERP</a>
+      <a class="btn-prueba" href="${SITIO.ctaUrl('cta_header')}" target="_blank" rel="noopener">Prueba gratis</a>
       <button class="tema" id="tema" type="button" aria-label="Cambiar tema">
         <svg viewBox="0 0 24 24" class="i-sol" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1v3m0 16v3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1M1 12h3m16 0h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
         <svg viewBox="0 0 24 24" class="i-luna" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
@@ -178,10 +216,7 @@ ${contenido}
       <p class="pie-nota">¿No encontraste lo que buscabas? Escríbenos a <a href="mailto:${SITIO.soporte}">${SITIO.soporte}</a></p>
     </div>
     <nav class="pie-links" aria-label="Categorías">
-      <a href="${base}/c/niudata">Contabilidad y Finanzas</a>
-      <a href="${base}/c/niuhr">Gestión de RRHH</a>
-      <a href="${base}/c/niupos">Gestión Comercial</a>
-      <a href="${base}/c/niutax">Gestión Tributaria</a>
+      ${CATEGORIAS.map((c) => `<a href="${base}/c/${c.id}">${esc(c.nombre)}</a>`).join('\n      ')}
     </nav>
     <p class="pie-copy">© ${SITIO.anio} Niutax — Autonomía Total.</p>
   </div>
@@ -193,9 +228,19 @@ ${contenido}
 `;
 }
 
+// CTA de prueba gratis: un solo componente, al pie de todos los artículos (existentes y
+// futuros). Visualmente secundario: separado por una línea, fondo suave, sin competir con
+// el contenido. El enlace "Cómo funciona" apunta al artículo de "Antes de empezar".
+const ctaPrueba = (base) => `<aside class="cta-prueba" aria-label="Prueba gratis de Niutax">
+      <h2>¿Todavía no usas Niutax?</h2>
+      <p>Conecta el SII y tu banco, y mira tu contabilidad armarse sola. Prueba gratis por 7 días, sin tarjeta.</p>
+      <a class="cta-btn" href="${SITIO.ctaUrl('cta_articulo')}" target="_blank" rel="noopener">Probar 7 días gratis →</a>
+      <p class="cta-nota">¿Tienes contador externo? Entra gratis contigo. <a href="${base}/a/tengo-que-cambiar-de-contador">Cómo funciona →</a></p>
+    </aside>`;
+
 const tarjetaCat = (cat, base, n) => `<a class="cat-card" href="${base}/c/${cat.id}" style="--acento:${cat.color};--acento-rgb:${cat.colorRgb}">
   <span class="cat-ico" aria-hidden="true"><svg viewBox="0 0 24 24">${ICONOS[cat.icono]}</svg></span>
-  <span class="cat-kicker">${esc(cat.producto)}</span>
+  <span class="cat-kicker">${esc(cat.subtitulo || cat.producto)}</span>
   <h3>${esc(cat.nombre)}</h3>
   <p>${esc(cat.tagline)}</p>
   <span class="cat-meta">${n} ${n === 1 ? 'artículo' : 'artículos'} <svg viewBox="0 0 24 24" class="flecha" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -205,7 +250,11 @@ const tarjetaCat = (cat, base, n) => `<a class="cat-card" href="${base}/c/${cat.
 function portada({ categorias, articulos }) {
   const base = '';
   const porCat = (id) => articulos.filter((a) => a.categoria === id);
-  const inicio = articulos.filter((a) => a.tipo === 'concepto');
+  // "Antes de empezar" no es un módulo: va en su propio bloque, arriba de la grilla de módulos.
+  const general = categorias.find((c) => c.esModulo === false);
+  const modulos = categorias.filter((c) => c.esModulo !== false);
+  const antes = general ? porCat(general.id).sort((a, b) => (a.orden || 99) - (b.orden || 99)) : [];
+  const inicio = articulos.filter((a) => a.tipo === 'concepto' && (!general || a.categoria !== general.id));
   const populares = ['declarar-formulario-29', 'emitir-factura-electronica', 'procesar-liquidaciones-de-sueldo', 'conciliacion-bancaria', 'generar-balance-8-columnas', 'contratos-y-anexos-con-firma-electronica']
     .map((s) => articulos.find((a) => a.slug === s))
     .filter(Boolean);
@@ -226,9 +275,20 @@ function portada({ categorias, articulos }) {
   </div>
 </section>
 
+${general ? `<section class="wrap seccion antes" aria-labelledby="antes-t">
+  <div class="antes-cab">
+    <h2 class="titulo-seccion" id="antes-t">${esc(general.nombre)}</h2>
+    <p class="sub-seccion">${esc(general.descripcion)}</p>
+  </div>
+  <ol class="antes-lista">
+    ${antes.map((a) => `<li><a href="/a/${a.slug}"><b>${esc(a.titulo)}</b><span>${esc(a.resumen)}</span></a></li>`).join('\n    ')}
+  </ol>
+  <p><a class="ver-todo" href="/c/${general.id}">Ver la sección completa →</a></p>
+</section>` : ''}
+
 <section class="wrap seccion">
   <h2 class="titulo-seccion">Explora por módulo</h2>
-  <div class="cat-grid">${categorias.map((c) => tarjetaCat(c, base, porCat(c.id).length)).join('')}</div>
+  <div class="cat-grid">${modulos.map((c) => tarjetaCat(c, base, porCat(c.id).length)).join('')}</div>
 </section>
 
 <section class="wrap seccion">
@@ -302,7 +362,7 @@ function paginaCategoria(cat, articulos) {
     <div class="cab-cat-in">
       <span class="cat-ico grande" aria-hidden="true"><svg viewBox="0 0 24 24">${ICONOS[cat.icono]}</svg></span>
       <div>
-        <h1>${esc(cat.nombre)} <em>${esc(cat.producto)}</em></h1>
+        <h1>${esc(cat.nombre)} <em>${esc(cat.subtitulo || cat.producto)}</em></h1>
         <p>${esc(cat.descripcion)}</p>
       </div>
     </div>
@@ -347,7 +407,7 @@ function paginaArticulo(art, cat, articulos) {
   const paso = (p) => `<li class="paso" id="paso-${p.n}">
     <div class="paso-cab"><span class="paso-n">${p.n}</span><h3>${esc(p.titulo)}</h3></div>
     <div class="paso-cuerpo">
-      <p>${rich(p.cuerpo)}</p>
+      ${bloques(p.cuerpo)}
       ${p.nota ? `<p class="nota"><b>Nota:</b> ${rich(p.nota)}</p>` : ''}
       ${p.captura ? figura(p) : ''}
     </div>
@@ -360,7 +420,7 @@ function paginaArticulo(art, cat, articulos) {
     <h1>${esc(art.titulo)}</h1>
     <p class="art-resumen">${esc(art.resumen)}</p>
     <div class="art-datos">
-      <span class="chip">${esc(cat.producto)}</span>
+      <span class="chip">${esc(cat.subtitulo || cat.producto)}</span>
       <span>${esc(art.tiempoLectura)} de lectura</span>
       <span>Actualizado ${esc(art.actualizado)}</span>
       ${
@@ -374,7 +434,7 @@ function paginaArticulo(art, cat, articulos) {
 
     <section class="caja proposito" id="para-que-sirve">
       <h2>Para qué sirve</h2>
-      <p>${rich(art.proposito)}</p>
+      ${bloques(art.proposito)}
       ${art.publicoObjetivo?.length ? `<p class="dirigido"><b>Dirigido a:</b> ${art.publicoObjetivo.map((p) => `<span>${esc(p)}</span>`).join('')}</p>` : ''}
     </section>
 
@@ -405,7 +465,7 @@ function paginaArticulo(art, cat, articulos) {
       art.faq?.length
         ? `<section id="preguntas">
       <h2>Preguntas frecuentes</h2>
-      <div class="faq">${art.faq.map((f) => `<details><summary>${esc(f.pregunta)}</summary><p>${rich(f.respuesta)}</p></details>`).join('')}</div>
+      <div class="faq">${art.faq.map((f) => `<details><summary>${esc(f.pregunta)}</summary>${bloques(f.respuesta)}</details>`).join('')}</div>
     </section>`
         : ''
     }
@@ -418,6 +478,8 @@ function paginaArticulo(art, cat, articulos) {
     </section>`
         : ''
     }
+
+    ${ctaPrueba(base)}
 
     <section class="util">
       <p>¿Te sirvió este artículo?</p>
@@ -444,15 +506,40 @@ function paginaArticulo(art, cat, articulos) {
   </aside>
 </div>`;
 
-  const jsonld = JSON.stringify({
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: art.titulo,
-    description: art.resumen,
-    inLanguage: 'es-CL',
-    totalTime: undefined,
-    step: art.pasos.map((p) => ({ '@type': 'HowToStep', position: p.n, name: p.titulo, text: p.cuerpo })),
-  });
+  // Fechas y imagen para buscadores y rastreadores de IA: publicado = creado (o la fecha
+  // de captura), modificado = actualizado; la imagen es la primera captura del artículo o el logo.
+  const publicado = art.creado || (art.fuente && art.fuente.capturadoEl) || art.actualizado;
+  const modificado = art.actualizado || publicado;
+  const primeraCaptura = art.pasos.find((p) => p.captura && fs.existsSync(rutaCaptura(art.categoria, p.captura.archivo)));
+  const imagen = primeraCaptura ? `${SITIO.url}/assets/capturas/${art.categoria}/${primeraCaptura.captura.archivo}` : `${SITIO.url}${SITIO.ogImagen}`;
+  const url = `${SITIO.url}/a/${art.slug}`;
+  const editor = { '@type': 'Organization', name: 'Niutax', url: 'https://niutax.cl' };
+  const texto = (s) => String(s || '').replace(/\[VERIFICAR[^\]]*\]/g, '').replace(/\*\*|`/g, '').trim();
+
+  let esquema;
+  if (art.esquema === 'FAQPage') {
+    // Artículos en formato pregunta/respuesta: elegibles para resultados enriquecidos.
+    esquema = {
+      '@context': 'https://schema.org', '@type': 'FAQPage', name: art.titulo, url, inLanguage: 'es-CL',
+      datePublished: publicado, dateModified: modificado, publisher: editor,
+      mainEntity: [
+        { '@type': 'Question', name: art.titulo, acceptedAnswer: { '@type': 'Answer', text: texto(art.resumen + ' ' + art.proposito) } },
+        ...(art.faq || []).map((f) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: texto(f.respuesta) } })),
+      ],
+    };
+  } else if (art.tipo === 'concepto') {
+    esquema = {
+      '@context': 'https://schema.org', '@type': 'Article', headline: art.titulo, description: art.resumen, url, inLanguage: 'es-CL',
+      image: imagen, datePublished: publicado, dateModified: modificado, author: editor, publisher: editor,
+      mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    };
+  } else {
+    esquema = {
+      '@context': 'https://schema.org', '@type': 'HowTo', name: art.titulo, description: art.resumen, url, inLanguage: 'es-CL',
+      image: imagen, datePublished: publicado, dateModified: modificado, publisher: editor,
+      step: art.pasos.map((p) => ({ '@type': 'HowToStep', position: p.n, name: p.titulo, text: texto(p.cuerpo) })),
+    };
+  }
 
   return layout({
     titulo: art.titulo,
@@ -462,7 +549,25 @@ function paginaArticulo(art, cat, articulos) {
     cat,
     canonical: `/a/${art.slug}`,
     clase: 'p-articulo',
-    jsonld,
+    jsonld: JSON.stringify(esquema),
+    og: { imagen, publicado, modificado },
+  });
+}
+
+// ---------------------------------------------------------------- 404
+function pagina404() {
+  const contenido = `
+<div class="wrap seccion">
+  <h1>404 — Página no encontrada</h1>
+  <p class="sub-seccion">No encontramos lo que buscabas. Puede que el artículo haya cambiado de nombre.</p>
+  <p><a href="/">Volver al Centro de Ayuda</a></p>
+</div>`;
+  return layout({
+    titulo: 'Página no encontrada',
+    descripcion: 'La página que buscas no existe.',
+    contenido,
+    canonical: '/404',
+    clase: 'p-404',
   });
 }
 
@@ -516,23 +621,6 @@ function paginaEstado({ categorias, articulos }) {
   return layout({ titulo: 'Estado del contenido', descripcion: 'Avance de artículos y capturas del centro de ayuda.', contenido, base, canonical: '/estado', clase: 'p-estado' });
 }
 
-// ---------------------------------------------------------------- 404
-function pagina404() {
-  const contenido = `
-<div class="wrap seccion">
-  <h1>404 — Página no encontrada</h1>
-  <p class="sub-seccion">No encontramos lo que buscabas. Puede que el artículo haya cambiado de nombre.</p>
-  <p><a href="/">Volver al Centro de Ayuda</a></p>
-</div>`;
-  return layout({
-    titulo: 'Página no encontrada',
-    descripcion: 'La página que buscas no existe.',
-    contenido,
-    canonical: '/404',
-    clase: 'p-404',
-  });
-}
-
 // ---------------------------------------------------------------- índice de búsqueda
 function indiceBusqueda({ categorias, articulos }) {
   return articulos.map((a) => {
@@ -540,7 +628,7 @@ function indiceBusqueda({ categorias, articulos }) {
     return {
       t: a.titulo,
       u: `/a/${a.slug}`,
-      c: c.producto,
+      c: c.subtitulo || c.producto,
       cn: c.nombre,
       col: c.color,
       s: a.resumen,
@@ -559,10 +647,13 @@ function escribir(rel, contenido) {
 function main() {
   const data = cargar();
   const { categorias, articulos } = data;
+  CATEGORIAS = categorias;
 
   fs.mkdirSync(OUT, { recursive: true });
   escribir('index.html', portada(data));
-  escribir('estado.html', paginaEstado(data));
+  // La página de estado es control interno: se escribe FUERA de public/ (no se publica) y
+  // serve.js la sirve solo en el preview local como /estado.
+  fs.writeFileSync(path.join(ROOT, 'docs', 'estado.html'), paginaEstado(data));
   for (const cat of categorias) escribir(`c/${cat.id}.html`, paginaCategoria(cat, articulos));
   for (const art of articulos) {
     const cat = categorias.find((c) => c.id === art.categoria);
@@ -592,7 +683,7 @@ function main() {
         .map((u) => `  <url><loc>${u}</loc></url>`)
         .join('\n') +
       `\n</urlset>\n`);
-  escribir('robots.txt', `User-agent: *\nAllow: /\nDisallow: /estado\nSitemap: ${SITIO.url}/sitemap.xml\n`);
+  escribir('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${SITIO.url}/sitemap.xml\n`);
 
   // GitHub Pages: dominio propio + desactivar el procesado Jekyll (ignora _entrada/, etc.)
   escribir('CNAME', `${SITIO.url.replace(/^https?:\/\//, '')}\n`);

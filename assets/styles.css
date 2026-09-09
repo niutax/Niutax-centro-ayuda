@@ -364,6 +364,49 @@ html[data-tema="oscuro"] .fila-pendientes summary { color: #fbbf24; }
 .lightbox { position: fixed; inset: 0; z-index: 90; background: rgba(3, 8, 6, .82); display: grid; place-items: center; padding: 40px; cursor: zoom-out; }
 .lightbox img { max-width: 100%; max-height: 100%; border-radius: 10px; box-shadow: 0 30px 80px rgba(0, 0, 0, .5); }
 
+/* ---------------------------------------------------------------- adquisición
+   Paleta de marca para el CTA (verde claro y verde oscuro de Niutax). El resto del sitio
+   sigue usando --acento por categoría. */
+:root { --marca-claro: #77C887; --marca-oscuro: #0C2615; }
+
+/* Botón "Prueba gratis" del encabezado */
+.btn-prueba { background: var(--marca-oscuro); color: #fff !important; border-radius: 9px; padding: 8px 14px; font-weight: 600; white-space: nowrap; }
+.btn-prueba:hover { background: #163d24; }
+html[data-tema="oscuro"] .btn-prueba { background: var(--marca-claro); color: var(--marca-oscuro) !important; }
+@media (prefers-color-scheme: dark) { html:not([data-tema="claro"]) .btn-prueba { background: var(--marca-claro); color: var(--marca-oscuro) !important; } }
+
+/* CTA al pie de cada artículo: secundario, separado por una línea, fondo suave */
+.cta-prueba { margin: 44px 0 8px; padding: 24px 26px; border-top: 1px solid var(--linea); border-radius: 0 0 var(--radio) var(--radio); background: rgba(119, 200, 135, .11); }
+.cta-prueba h2 { font-size: 18px; margin: 0 0 6px; letter-spacing: -.01em; }
+.cta-prueba p { margin: 0 0 14px; color: var(--texto-2); max-width: 60ch; }
+.cta-btn { display: inline-block; background: var(--marca-oscuro); color: #fff !important; padding: 10px 18px; border-radius: 10px; font-weight: 600; text-decoration: none; }
+.cta-btn:hover { background: #163d24; }
+.cta-nota { font-size: 13.5px; margin: 14px 0 0 !important; }
+html[data-tema="oscuro"] .cta-prueba { background: rgba(119, 200, 135, .08); }
+html[data-tema="oscuro"] .cta-btn { background: var(--marca-claro); color: var(--marca-oscuro) !important; }
+@media (prefers-color-scheme: dark) {
+  html:not([data-tema="claro"]) .cta-prueba { background: rgba(119, 200, 135, .08); }
+  html:not([data-tema="claro"]) .cta-btn { background: var(--marca-claro); color: var(--marca-oscuro) !important; }
+}
+
+/* Bloques dentro de un paso o del propósito: listas y tablas en Markdown mínimo */
+.paso-cuerpo p + p, .paso-cuerpo ul + p, .paso-cuerpo ol + p, .paso-cuerpo .tabla-wrap + p, .proposito p + p { margin-top: 12px; }
+.paso-cuerpo ul, .paso-cuerpo ol, .proposito ul, .faq ul, .faq ol { margin: 8px 0 12px 22px; padding: 0; }
+.paso-cuerpo li, .faq li { margin: 5px 0; }
+.paso-cuerpo .tabla-wrap { margin: 12px 0; }
+
+/* Portada: bloque "Antes de empezar", sobre la grilla de módulos */
+.antes-lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; counter-reset: antes; }
+.antes-lista li { counter-increment: antes; }
+.antes-lista a { display: grid; grid-template-columns: 28px 1fr; gap: 2px 10px; align-items: start; padding: 14px 16px; border: 1px solid var(--linea); border-radius: var(--radio-s); background: var(--fondo-2); color: inherit; text-decoration: none; }
+.antes-lista a::before { content: counter(antes); grid-row: 1 / span 2; font-weight: 700; color: var(--marca-oscuro); background: rgba(119, 200, 135, .25); width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; }
+html[data-tema="oscuro"] .antes-lista a::before { color: var(--marca-claro); }
+@media (prefers-color-scheme: dark) { html:not([data-tema="claro"]) .antes-lista a::before { color: var(--marca-claro); } }
+.antes-lista a:hover { border-color: var(--marca-claro); }
+.antes-lista b { font-size: 15px; line-height: 1.3; }
+.antes-lista span { font-size: 13.5px; color: var(--texto-2); }
+.ver-todo { display: inline-block; margin-top: 14px; font-weight: 600; }
+
 /* ---------------------------------------------------------------- estado */
 .kpis { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 26px 0 32px; }
 .kpi { border: 1px solid var(--linea); border-radius: var(--radio-s); padding: 18px; background: var(--fondo-2); }
@@ -404,7 +447,10 @@ html[data-tema="oscuro"] .fila-pendientes summary { color: #fbbf24; }
   .buscador { order: 3; flex-basis: 100%; max-width: none; }
   .buscador kbd { display: none; }
   .top-nav { margin-left: auto; }
-  .top-nav > a:not(.btn-ghost) { display: none; }
+  /* En móvil quedan solo los dos botones: entrar al ERP y probar gratis. */
+  .top-nav > a:not(.btn-ghost):not(.btn-prueba) { display: none; }
+  .top-nav { gap: 8px; }
+  .top-nav .btn-ghost, .top-nav .btn-prueba { padding: 7px 10px; font-size: 13.5px; }
   .hero { padding: 48px 0 40px; }
   .seccion { padding: 40px 20px; }
   .cab-cat-in { flex-direction: column; gap: 14px; }
