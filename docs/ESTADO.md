@@ -8,11 +8,11 @@ de la conversación anterior. Léelo primero, junto con el mapa del módulo que 
 | Qué | Dónde |
 |---|---|
 | Contenido (fuente de la verdad) | `content/articulos/<modulo>/<slug>.json` |
-| Capturas publicadas | `assets/capturas/<modulo>/` (versionadas) |
+| Capturas publicadas | `public/assets/capturas/<modulo>/` |
 | Buzón de capturas (temporal) | `public/assets/capturas/_entrada/` |
 | Generador del sitio | `build.js` → `public/` |
 | Preview | `node serve.js` · http://localhost:4322 |
-| Avance y pendientes por artículo | http://localhost:4322/estado (interno, no indexable) |
+| Avance y pendientes por artículo | http://localhost:4322/estado — solo en el preview local; se genera en `docs/estado.html`, fuera de `public/`, y no se publica |
 | Mapas de menús de cada ERP | `docs/mapa-*.md` |
 | Protocolo de captura y privacidad | `CAPTURAS.md` + este archivo |
 
@@ -27,6 +27,34 @@ de la conversación anterior. Léelo primero, junto con el mapa del módulo que 
 
 Total: 129 artículos · 164 de 489 pasos con captura · **ningún artículo sin imagen**.
 El detalle de qué pasos siguen sin imagen está en `/estado`, artículo por artículo.
+
+## Adquisición (09-09-2026)
+
+Aplicado el documento "Convertir docs.niutax.cl en pieza de adquisición":
+- **Dominio canónico**: `https://docs.niutax.cl` (`SITIO.url` en `build.js`; antes `ayuda.niutax.cl`).
+- **CTA de prueba gratis** en el pie de todos los artículos (componente `ctaPrueba()` en `build.js`,
+  `utm_campaign=cta_articulo`) y botón **Prueba gratis** en el header (`cta_header`).
+- **Categorías renombradas, slugs intactos**: Contabilidad y Finanzas (Módulo Niudata) ·
+  Remuneraciones y Personas (Módulo NiuHR) · Ventas y Facturación (Módulo Niupos) ·
+  Impuestos y Cumplimiento SII (Módulo Niutax). El campo `subtitulo` alimenta chips y cabeceras.
+- **Categoría nueva "Antes de empezar"** (`/c/antes-de-empezar`, `esModulo: false`, primera en el orden),
+  8 artículos en formato pregunta/respuesta con `esquema: "FAQPage"` y `estado: publicado`;
+  enlazada en la portada sobre la grilla de módulos.
+- **Metadatos**: `og:url`, `og:image` (primera captura o el logo), `article:published_time` /
+  `modified_time`, JSON-LD `HowTo` (procedimientos), `Article` (conceptos) o `FAQPage`.
+- **Render de bloques** en pasos y propósito: párrafos, listas y tablas en Markdown mínimo (`bloques()`).
+- **`[VERIFICAR: …]`** en el JSON se publica como comentario HTML (invisible al lector).
+- "Niudata" como marca: cambiado en 3 textos (título de `que-es-niudata`, resumen de
+  `integraciones-niudata`, una FAQ de `emitir-factura-electronica`). Se conservan las 2 menciones
+  que son valores literales de pantalla del ERP (columna "S.Contable: Niudata/Externo").
+
+**Pendientes `[VERIFICAR]`** (5): ruta del menú para invitar al contador · sistemas y formatos
+que acepta el migrador (×2 artículos) · qué informes se exportan y en qué formatos (el paso
+"Qué puedes exportar" de `que-pasa-con-mis-datos-si-me-voy` NO debe publicarse sin esa
+confirmación) · si existe modalidad para holdings sobre el plan Full.
+
+**Hallazgo**: el slug `acuses-de-recibo` existe en `niudata` y en `niutax`; `build.js` escribe
+una sola página `/a/acuses-de-recibo` y la de Niudata queda pisada. Decidir cuál renombrar.
 
 ## Accesos usados
 
