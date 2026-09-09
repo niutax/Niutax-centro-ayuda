@@ -1,0 +1,74 @@
+{
+  "slug": "cuanto-cuesta-y-con-que-comparar",
+  "titulo": "¿Cuánto cuesta Niutax y con qué se compara?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "Los planes están en UF. Te explicamos contra qué conviene compararlos para decidir bien.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 5,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**Los planes están publicados en [niutax.cl/precio-empresas](https://niutax.cl/precio-empresas), expresados en UF más IVA.** Lo que casi nadie hace bien es la comparación. Va acá.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Contra qué NO conviene compararlo",
+      "cuerpo": "Contra el precio de otro software de contabilidad. Es la comparación intuitiva y es la equivocada, porque asume que el trabajo contable que hay alrededor cuesta lo mismo en los dos casos. Ahí es donde está la plata de verdad.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Contra qué conviene compararlo",
+      "cuerpo": "**Contra el costo de tener la función contable resuelta:**\n\n| Lo que hoy pagas | Rango mensual habitual |\n|---|---|\n| Honorarios de un estudio contable externo | $250.000 – $600.000 |\n| Un asistente contable interno | $900.000 en adelante |\n| Cerrar el mes con tres meses de atraso | No tiene precio, y te está costando |\n\nEse último punto es el que más cuesta ver. Tomar decisiones con información de hace tres meses —de precios, de contrataciones, de inversión— sale mucho más caro que cualquier licencia.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "La pregunta correcta",
+      "cuerpo": "No es \"¿cuánto cuesta este software?\". Es **\"¿cuánto me cuesta hoy tener mi contabilidad al día, y en qué cambia esa cifra?\"**.\n\nSi tu contador externo te cobra por horas de digitación y conciliación, y el sistema hace esa parte, el número se mueve.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Lo que incluyen los planes",
+      "cuerpo": "Los planes se diferencian por cantidad de sociedades, usuarios, documentos mensuales, cuentas bancarias conectadas y empleados en remuneraciones. Están en la [página de precios](https://niutax.cl/precio-empresas).\n\n**Tu contador externo no ocupa un cupo de plan pagado:** se enrola gratis. [Cómo funciona →](../a/tengo-que-cambiar-de-contador)",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿Dónde están los precios de Niutax?",
+      "respuesta": "En niutax.cl/precio-empresas, expresados en UF más IVA."
+    },
+    {
+      "pregunta": "¿En qué se diferencian los planes?",
+      "respuesta": "En la cantidad de sociedades, usuarios, documentos mensuales, cuentas bancarias conectadas y empleados en remuneraciones."
+    },
+    {
+      "pregunta": "¿Mi contador externo ocupa un cupo del plan?",
+      "respuesta": "No. Se enrola gratis y no consume un cupo de plan pagado."
+    }
+  ],
+  "relacionados": [
+    "tengo-que-cambiar-de-contador",
+    "varias-sociedades-como-funciona"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

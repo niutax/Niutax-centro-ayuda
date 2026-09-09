@@ -1,0 +1,77 @@
+{
+  "slug": "tengo-que-cambiar-de-contador",
+  "titulo": "¿Tengo que cambiar de contador si uso Niutax?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "No. Tu contador actual entra a Niutax gratis, con su propia cuenta y su propia vista. Te explicamos cómo funciona.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 1,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**No. Y no tiene costo adicional para nadie.** Es la primera pregunta que hace casi todo el mundo, y la respuesta corta es que Niutax está diseñado justamente para que no tengas que elegir entre tu sistema y tu contador.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Cómo funciona",
+      "cuerpo": "Cuando tu empresa contrata Niutax, puedes **invitar a tu contador externo a la misma cuenta**. Él se enrola con su propio acceso, sin pagar nada, y trabaja adentro con las herramientas contables completas.\n\nNo es un usuario limitado ni un acceso de solo lectura: es el ambiente de trabajo contable completo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Cada uno ve lo que necesita ver",
+      "cuerpo": "Niutax tiene vistas separadas por rol:\n\n- **Tú y tu equipo** ven finanzas: estado de resultados, flujo de caja, cuentas por cobrar y por pagar, presupuesto. Sin debe y haber, sin lenguaje contable.\n- **Tu contador** ve todo lo anterior más la capa contable: comprobantes, libro mayor, balances, libros electrónicos.\n\nNo es que tu contador vea \"más\": es que ve **otra cosa**, la que él necesita. Tú dejas de recibir un balance de ocho columnas que no querías leer, y él deja de recibir preguntas por WhatsApp sobre cuánta plata hay.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Por qué a tu contador le conviene",
+      "cuerpo": "La conversación que muchos temen —\"le voy a decir que cambiamos de sistema\"— suele terminar bien, porque para él significa:\n\n- Los documentos del SII entran solos, no hay que digitarlos.\n- Los movimientos del banco llegan conectados.\n- Deja de pedirte carpetas, cartolas y archivos por correo.\n- Puede cerrar el período sin esperar que tú le mandes cosas.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Qué hacer ahora",
+      "cuerpo": "Si estás evaluando Niutax, **manda este artículo a tu contador**. Es la forma más rápida de tener la conversación, y le sirve más leerlo a él que a ti.\n\nSi ya tienes cuenta, la invitación se envía desde la configuración de la empresa. [VERIFICAR: ruta exacta del menú para invitar al contador]",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿Mi contador tiene que pagar por entrar a Niutax?",
+      "respuesta": "No. Se enrola gratis, con su propia cuenta, y no ocupa un cupo del plan pagado de tu empresa."
+    },
+    {
+      "pregunta": "¿El contador ve lo mismo que yo?",
+      "respuesta": "Ve todo lo que ves tú más la capa contable: comprobantes, libro mayor, balances y libros electrónicos. Tú ves finanzas sin lenguaje contable."
+    },
+    {
+      "pregunta": "¿Puedo seguir con mi estudio contable actual?",
+      "respuesta": "Sí. El estudio se enrola gratis y trabaja dentro de Niutax con las herramientas contables completas."
+    }
+  ],
+  "relacionados": [
+    "cuanto-cuesta-y-con-que-comparar",
+    "que-necesito-para-empezar-la-prueba",
+    "usuarios-y-permisos-niudata"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [
+    "Ruta exacta del menú para invitar al contador"
+  ],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

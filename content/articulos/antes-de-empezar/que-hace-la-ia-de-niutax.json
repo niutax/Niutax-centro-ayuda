@@ -1,0 +1,75 @@
+{
+  "slug": "que-hace-la-ia-de-niutax",
+  "titulo": "¿Qué hace la inteligencia artificial de Niutax y qué NO hace?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "La IA propone, tú apruebas. Los límites, dichos claro.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 8,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**La regla es una sola y no tiene excepciones: la inteligencia artificial propone, una persona aprueba.** Nada se contabiliza solo. Ninguna propuesta entra a tus libros sin que alguien la revise y la apruebe en pantalla.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Qué sí hace",
+      "cuerpo": "Niutax expone tu contabilidad y tus finanzas a un asistente de IA que puede:\n\n- **Consultar** tus balances, estado de resultados, flujo de caja, libro mayor, cuentas por cobrar y por pagar, libros de compras, ventas y honorarios.\n- **Proponer** la clasificación contable de documentos: qué cuenta y qué centro de costo corresponde a cada factura.\n- **Proponer** comprobantes contables a partir de hechos reales.\n- **Responder preguntas en lenguaje normal** sobre tus números: \"¿cuánto me deben a más de 60 días?\", \"¿cómo va el gasto de este mes contra el presupuesto?\".",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Qué NO hace",
+      "cuerpo": "- **No contabiliza sin aprobación.** Toda escritura queda como propuesta pendiente en el panel de aprobaciones. Recién cuando una persona la aprueba, ocurre.\n- **No hace tributación.** No declara, no calcula tus impuestos ni presenta formularios. Cubre contabilidad y finanzas. Lo tributario sigue siendo trabajo de tu contador, con las herramientas del módulo de impuestos.\n- **No reemplaza a tu contador.** Le quita la digitación, no el criterio.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Por qué está diseñada así",
+      "cuerpo": "Porque en contabilidad la responsabilidad no es delegable. Una IA que contabiliza sola es un problema esperando ocurrir: la firma sigue siendo de una persona y los libros los revisa el SII, no un modelo. El diseño con aprobación explícita es lo que hace que esto sea usable en producción y no una demostración entretenida.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Dónde se ve",
+      "cuerpo": "Las propuestas pendientes están en **Ingreso Contable → Aprobaciones IA**. Ahí revisas, editas o rechazas antes de que nada quede registrado.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿La IA de Niutax contabiliza sola?",
+      "respuesta": "No. Toda escritura queda como propuesta pendiente y solo ocurre cuando una persona la aprueba en el panel de aprobaciones."
+    },
+    {
+      "pregunta": "¿La IA declara impuestos?",
+      "respuesta": "No. No declara, no calcula impuestos ni presenta formularios; cubre contabilidad y finanzas. Lo tributario sigue siendo trabajo de tu contador."
+    },
+    {
+      "pregunta": "¿Dónde reviso lo que propone la IA?",
+      "respuesta": "En Ingreso Contable → Aprobaciones IA, donde revisas, editas o rechazas cada propuesta."
+    }
+  ],
+  "relacionados": [
+    "mcp-consultar-contabilidad-con-ia",
+    "comprobantes-recibidos",
+    "tengo-que-cambiar-de-contador"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

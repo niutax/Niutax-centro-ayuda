@@ -1,12 +1,36 @@
 [
   {
+    "id": "antes-de-empezar",
+    "nombre": "Antes de empezar",
+    "subtitulo": "Para quien evalúa Niutax",
+    "producto": "Niutax",
+    "esModulo": false,
+    "icono": "inicio",
+    "color": "#22874f",
+    "colorRgb": "34, 135, 79",
+    "tagline": "Las preguntas que todos hacen antes de probar Niutax",
+    "descripcion": "Las preguntas que todos hacen antes de probar Niutax, respondidas sin rodeos.",
+    "secciones": [
+      "Preguntas antes de probar"
+    ],
+    "articulos": [
+      "tengo-que-cambiar-de-contador",
+      "cuanto-me-demoro-en-implementar",
+      "como-migro-desde-otro-sistema",
+      "cuanto-cuesta-y-con-que-comparar",
+      "que-necesito-para-empezar-la-prueba",
+      "varias-sociedades-como-funciona",
+      "que-hace-la-ia-de-niutax"
+    ]
+  },
+  {
     "id": "niudata",
     "nombre": "Contabilidad y Finanzas",
     "producto": "Niudata",
     "icono": "contabilidad",
     "color": "#0d9488",
     "colorRgb": "13, 148, 136",
-    "tagline": "Libros, tesorería, balances e informes de gestión",
+    "tagline": "Contabilidad automática, tesorería, balances e informes de gestión",
     "descripcion": "Niudata es el módulo de contabilidad y finanzas: sincroniza los libros de compras, ventas y honorarios desde el SII, controla tesorería y conciliación bancaria, y emite balances, estados financieros e informes de gestión.",
     "secciones": [
       "Primeros pasos",
@@ -73,16 +97,17 @@
       "retenciones-niudata",
       "usuarios-y-permisos-niudata",
       "vouchers"
-    ]
+    ],
+    "subtitulo": "Módulo Niudata"
   },
   {
     "id": "niuhr",
-    "nombre": "Gestión de RRHH",
+    "nombre": "Remuneraciones y Personas",
     "producto": "NiuHR",
     "icono": "rrhh",
     "color": "#65a30d",
     "colorRgb": "101, 163, 13",
-    "tagline": "Personal, liquidaciones, vacaciones e informes laborales",
+    "tagline": "Personal, liquidaciones de sueldo, vacaciones e informes laborales",
     "descripcion": "NiuHR gestiona a las personas: ficha de cada colaborador, liquidaciones de sueldo, vacaciones y permisos, control de horas por proyecto e informes laborales, con los indicadores previsionales siempre al día.",
     "secciones": [
       "Primeros pasos",
@@ -114,16 +139,17 @@
       "usuarios-y-roles-niuhr",
       "vacaciones-tomadas",
       "variables-del-mes"
-    ]
+    ],
+    "subtitulo": "Módulo NiuHR"
   },
   {
     "id": "niupos",
-    "nombre": "Gestión Comercial",
+    "nombre": "Ventas y Facturación",
     "producto": "Niupos",
     "icono": "comercial",
     "color": "#0284c7",
     "colorRgb": "2, 132, 199",
-    "tagline": "Documentos electrónicos, punto de venta, inventario e informes",
+    "tagline": "Facturación electrónica, punto de venta, inventario e informes de venta",
     "descripcion": "Niupos emite documentos tributarios electrónicos ante el SII —facturas, boletas, notas de crédito, guías y cotizaciones—, controla el inventario por bodega y entrega los informes de venta, costo y margen. Es multiempresa y se organiza en cuatro menús: Administración, Configuración, Doc. electrónicos e Informes.",
     "secciones": [
       "Primeros pasos",
@@ -169,11 +195,12 @@
       "ubicaciones-y-bodegas",
       "usuarios-y-accesos",
       "vendedores"
-    ]
+    ],
+    "subtitulo": "Módulo Niupos"
   },
   {
     "id": "niutax",
-    "nombre": "Gestión Tributaria",
+    "nombre": "Impuestos y Cumplimiento SII",
     "producto": "Niutax",
     "icono": "tributaria",
     "color": "#16a34a",
@@ -215,6 +242,7 @@
       "cpt-municipal",
       "observaciones-de-renta",
       "base-de-conocimiento-normativa"
-    ]
+    ],
+    "subtitulo": "Módulo Niutax"
   }
 ]

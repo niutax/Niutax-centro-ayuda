@@ -1,0 +1,82 @@
+{
+  "slug": "que-necesito-para-empezar-la-prueba",
+  "titulo": "¿Qué necesito tener a mano para empezar la prueba gratis?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "Checklist de 4 cosas para aprovechar los 7 días de prueba desde el primer minuto.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 6,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**La prueba dura 7 días. Con estas cuatro cosas a mano, el primer día ya ves tu propia contabilidad y no una demo genérica.**",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "1. Tus credenciales del SII",
+      "cuerpo": "Es lo más importante. Con ellas Niutax trae tus documentos tributarios electrónicos —facturas emitidas, recibidas, boletas de honorarios— y deja de ser un sistema vacío para pasar a mostrar **tus** datos.\n\nSin esto la prueba pierde casi todo su valor: estarías evaluando pantallas en blanco.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "2. Acceso a tu banco, o una cartola",
+      "cuerpo": "Puedes conectar la cuenta directamente o cargar una cartola descargada del banco. Con los movimientos adentro puedes conciliar y ver flujo de caja real.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "3. Tu plan de cuentas, si tienes uno",
+      "cuerpo": "Si vienes de otro sistema, exporta el plan de cuentas y el libro mayor. Si no tienes o prefieres partir limpio, hay un plan genérico listo.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "4. El correo de tu contador",
+      "cuerpo": "Invítalo el primer día, no el último. Si él entra durante la prueba, tu evaluación pasa de \"¿me gusta esta pantalla?\" a \"¿esto nos sirve a los dos?\", que es la pregunta real. Entra gratis.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Cómo aprovechar los 7 días",
+      "cuerpo": "- **Día 1:** conecta el SII y el banco. Mira tus documentos entrando.\n- **Día 2:** revisa la clasificación contable propuesta y corrige lo que no calce.\n- **Día 3:** invita a tu contador y pídele que mire.\n- **Días 4 a 7:** intenta cerrar el mes pasado y mira tu estado de resultados.\n\nSi al día 7 pudiste ver un estado de resultados con tus números reales, tienes la información que necesitas para decidir.\n\n**[Empezar la prueba →](https://central.niu.tax/planes?utm_source=docs&utm_medium=centro_ayuda&utm_campaign=articulo_checklist)**",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿Cuánto dura la prueba gratis de Niutax?",
+      "respuesta": "7 días, sin tarjeta."
+    },
+    {
+      "pregunta": "¿Qué es lo más importante para aprovechar la prueba?",
+      "respuesta": "Tus credenciales del SII: con ellas el sistema muestra tus documentos reales en vez de pantallas en blanco."
+    },
+    {
+      "pregunta": "¿Puedo invitar a mi contador durante la prueba?",
+      "respuesta": "Sí, y conviene hacerlo el primer día. Entra gratis y así evalúan juntos si el sistema les sirve a los dos."
+    }
+  ],
+  "relacionados": [
+    "tengo-que-cambiar-de-contador",
+    "cuanto-me-demoro-en-implementar",
+    "ingresar-a-niupos"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

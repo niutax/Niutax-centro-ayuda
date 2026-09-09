@@ -4,11 +4,11 @@
   "categoria": "niudata",
   "seccion": "Configuración",
   "tipo": "procedimiento",
-  "resumen": "Conectar Niudata con otros sistemas, con el banco y con asistentes de IA.",
+  "resumen": "Conectar Contabilidad y Finanzas con otros sistemas, con el banco y con asistentes de IA.",
   "tiempoLectura": "4 min",
   "estado": "revisado",
   "orden": 4,
-  "actualizado": "2026-09-07",
+  "actualizado": "2026-09-09",
   "publicoObjetivo": [
     "Administrador de la cuenta",
     "Contador"

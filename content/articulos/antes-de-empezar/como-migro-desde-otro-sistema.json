@@ -1,0 +1,83 @@
+{
+  "slug": "como-migro-desde-otro-sistema",
+  "titulo": "¿Cómo migro mi contabilidad desde otro sistema?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "Qué archivos necesitas, cuánto demora el migrador y qué pasa con tu historia contable.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 3,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**Traer tu historia contable no es un proyecto: es un archivo y un proceso que corre.**",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "Qué necesitas exportar del sistema actual",
+      "cuerpo": "- **Plan de cuentas** completo.\n- **Libro mayor** del período o los períodos que quieras traer.\n\n[VERIFICAR: sistemas soportados, formatos aceptados (Excel, CSV, XML), y si el migrador toma también saldos de apertura y auxiliares]",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Qué hace el migrador",
+      "cuerpo": "Procesa **aproximadamente 10 minutos por año de datos**. Reconstruye tu plan de cuentas dentro de Niutax y carga los movimientos, de modo que tus saldos y tus informes históricos quedan disponibles desde el primer momento.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Qué pasa con tus documentos del SII",
+      "cuerpo": "Los documentos tributarios electrónicos **no dependen de la migración**: se traen directo desde el SII con tus credenciales. Aunque no migres nada, tienes tus facturas emitidas y recibidas adentro.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Cuánta historia conviene traer",
+      "cuerpo": "Depende de para qué la quieres:\n\n- **Solo el ejercicio en curso:** suficiente si buscas operar hacia adelante.\n- **El ejercicio en curso más el anterior:** lo recomendable si quieres estados financieros comparativos desde el día uno.\n- **Todo lo que tengas:** si necesitas análisis de tendencia o vas a una auditoría.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 5,
+      "titulo": "Si no vas a migrar nada",
+      "cuerpo": "Es una opción válida. Partes con un plan de cuentas genérico y los saldos de apertura del período, y dejas el sistema anterior como archivo de consulta. Muchas empresas hacen esto en el cambio de año y es lo más limpio.",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿Qué archivos necesito para migrar?",
+      "respuesta": "El plan de cuentas completo y el libro mayor de los períodos que quieras traer, exportados del sistema anterior."
+    },
+    {
+      "pregunta": "¿Tengo que migrar para tener mis facturas?",
+      "respuesta": "No. Los documentos tributarios electrónicos se traen directo desde el SII con tus credenciales, migres o no la contabilidad."
+    },
+    {
+      "pregunta": "¿Cuánta historia conviene traer?",
+      "respuesta": "El ejercicio en curso más el anterior es lo recomendable para tener estados financieros comparativos desde el primer día; toda la historia solo si necesitas análisis de tendencia o una auditoría."
+    }
+  ],
+  "relacionados": [
+    "cuanto-me-demoro-en-implementar",
+    "apertura-contable"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [
+    "Sistemas soportados, formatos aceptados (Excel, CSV, XML) y si el migrador toma también saldos de apertura y auxiliares"
+  ],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "slug": "que-es-niudata",
-  "titulo": "¿Qué es Niudata y para qué sirve?",
+  "titulo": "¿Qué es Contabilidad y Finanzas y para qué sirve?",
   "categoria": "niudata",
   "seccion": "Primeros pasos",
   "tipo": "concepto",
@@ -8,13 +8,13 @@
   "tiempoLectura": "4 min",
   "estado": "borrador",
   "orden": 1,
-  "actualizado": "2026-09-07",
+  "actualizado": "2026-09-09",
   "publicoObjetivo": [
     "Contador",
     "Jefe de administración y finanzas",
     "Dueño de PyME"
   ],
-  "proposito": "Niudata es el módulo contable y financiero de Niutax ERP. Toma los documentos tributarios de la empresa (los que emites en Niupos y los que recibes desde el SII), genera los asientos contables y entrega los reportes financieros del período: balance de 8 columnas, estado de resultados, libros diario y mayor foliados, cuentas por cobrar y por pagar, y flujo de caja.",
+  "proposito": "Contabilidad y Finanzas (el módulo Niudata) es el módulo contable y financiero de Niutax ERP. Toma los documentos tributarios de la empresa (los que emites en Niupos y los que recibes desde el SII), genera los asientos contables y entrega los reportes financieros del período: balance de 8 columnas, estado de resultados, libros diario y mayor foliados, cuentas por cobrar y por pagar, y flujo de caja.",
   "requisitos": [
     "Empresa creada en Niutax ERP",
     "Conexión al SII activa"

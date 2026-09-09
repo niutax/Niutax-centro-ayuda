@@ -1,0 +1,77 @@
+{
+  "slug": "varias-sociedades-como-funciona",
+  "titulo": "Tengo varias sociedades. ¿Cómo funciona Niutax?",
+  "categoria": "antes-de-empezar",
+  "seccion": "Preguntas antes de probar",
+  "tipo": "concepto",
+  "resumen": "Holdings, grupos y empresas con más de un RUT: cómo se manejan todas desde una sola cuenta.",
+  "tiempoLectura": "3 min",
+  "estado": "publicado",
+  "orden": 7,
+  "creado": "2026-09-09",
+  "actualizado": "2026-09-09",
+  "publicoObjetivo": [
+    "Empresas que evalúan Niutax",
+    "Contadores externos"
+  ],
+  "proposito": "**Si tienes más de un RUT, este es probablemente el motivo por el que Niutax te va a servir.** Muchas empresas medianas chilenas no son *una* empresa: son un grupo. La operativa y la inmobiliaria. La matriz y la agencia. La sociedad de inversiones que nadie mira hasta abril. El socio como persona natural.",
+  "requisitos": [],
+  "pasos": [
+    {
+      "n": 1,
+      "titulo": "El problema conocido",
+      "cuerpo": "Cada sociedad se maneja por separado. Se entra y se sale de una en una. Nadie ve el conjunto sin armar un Excel a mano, y ese Excel siempre está desactualizado.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 2,
+      "titulo": "Cómo lo resuelve Niutax",
+      "cuerpo": "- **Una sola cuenta, todas tus sociedades.** Cambias de empresa sin cerrar sesión ni volver a autenticarte.\n- **Informes consolidados por holding**, además de los individuales de cada sociedad.\n- **Comparativos entre sociedades** en una misma vista.\n- **Un mismo usuario con acceso a varias**, con permisos definidos por empresa.",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 3,
+      "titulo": "Qué plan necesito",
+      "cuerpo": "Los planes se diferencian, entre otras cosas, por la cantidad de sociedades incluidas. Están en la [página de precios](https://niutax.cl/precio-empresas). Si tu grupo tiene más sociedades que el plan mayor, escríbenos a soporte@niutax.cl y lo vemos. [VERIFICAR: si existe una modalidad para holdings sobre el plan Full]",
+      "nota": null,
+      "captura": null
+    },
+    {
+      "n": 4,
+      "titulo": "Si tu contabilidad la lleva un estudio externo",
+      "cuerpo": "Funciona igual. El estudio se enrola gratis y ve todas las sociedades que le habilites. [Cómo funciona →](../a/tengo-que-cambiar-de-contador)",
+      "nota": null,
+      "captura": null
+    }
+  ],
+  "tips": [],
+  "faq": [
+    {
+      "pregunta": "¿Puedo manejar varias sociedades desde una sola cuenta?",
+      "respuesta": "Sí. Cambias de empresa sin cerrar sesión, con informes consolidados por holding y comparativos entre sociedades."
+    },
+    {
+      "pregunta": "¿Un mismo usuario puede acceder a varias sociedades?",
+      "respuesta": "Sí, con permisos definidos por empresa."
+    },
+    {
+      "pregunta": "¿Qué pasa si tengo más sociedades que el plan mayor?",
+      "respuesta": "Escríbenos a soporte@niutax.cl y lo vemos."
+    }
+  ],
+  "relacionados": [
+    "cuanto-cuesta-y-con-que-comparar",
+    "panel-de-control-niudata",
+    "administrar-mis-ruts"
+  ],
+  "esquema": "FAQPage",
+  "verificar": [
+    "Si existe una modalidad para holdings sobre el plan Full"
+  ],
+  "fuente": {
+    "url": "https://niutax.cl",
+    "capturadoEl": "2026-09-09"
+  }
+}

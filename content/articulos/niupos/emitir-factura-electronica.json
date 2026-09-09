@@ -8,7 +8,7 @@
   "tiempoLectura": "6 min",
   "estado": "revisado",
   "orden": 3,
-  "actualizado": "2026-08-16",
+  "actualizado": "2026-09-09",
   "publicoObjetivo": [
     "Vendedor",
     "Administración"
@@ -123,7 +123,7 @@
     },
     {
       "pregunta": "¿La factura llega sola a la contabilidad?",
-      "respuesta": "Sí, las ventas emitidas alimentan el libro de ventas y la contabilización en Niudata."
+      "respuesta": "Sí, las ventas emitidas alimentan el libro de ventas y la contabilización en Contabilidad y Finanzas."
     }
   ],
   "relacionados": [
